@@ -26,7 +26,7 @@
 .project-card__image--awure {
   background-image:
     linear-gradient(rgba(36, 26, 18, 0.18), rgba(36, 26, 18, 0.18)),
-    url("../../img/projetos/projeto1.JPEG");
+    url("../../img/projetos/projeto1.jpg");
   background-color: #d8b08a;
 }
 
@@ -40,16 +40,16 @@
 .project-card__image--territorios {
   background-image:
     linear-gradient(rgba(36, 26, 18, 0.18), rgba(36, 26, 18, 0.18)),
-    url("../../img/projetos/projeto3.jpg");
+    url("../../img/projetos/projeto3.png");
   background-color: #cfa37d;
 }
 
-.project-card__image--parcerias {
+/* .project-card__image--parcerias {
   background-image:
     linear-gradient(rgba(36, 26, 18, 0.18), rgba(36, 26, 18, 0.18)),
     url("../../img/projetos/projeto4.jpg");
   background-color: #c8b09a;
-}
+} */
 
 .project-card__body {
   padding: 24px;
