@@ -1,0 +1,160 @@
+/* ===== SEÇÕES ===== */
+
+.section {
+  padding: 88px 0;
+}
+
+.section--light {
+  background: transparent;
+}
+
+.section--cta {
+  padding-top: 0;
+}
+
+/* ===== HEADINGS ===== */
+
+.section-heading {
+  max-width: 780px;
+  margin: 0 auto 40px;
+  text-align: center;
+}
+
+.section-heading--center {
+  text-align: center;
+}
+
+.section-heading h2 {
+  margin: 10px 0 14px;
+  font-size: clamp(2rem, 3vw, 3.15rem);
+  line-height: 1.08;
+  letter-spacing: -0.04em;
+}
+
+.section-heading p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 1.05rem;
+}
+
+/* ===== EYEBROW (VOLTOU AO TAMANHO ORIGINAL GRANDE) ===== */
+
+.eyebrow {
+  display: inline-block;
+  margin-bottom: 6px;
+  color: var(--brand-strong);
+  font-size: 32px; /* 🔥 VOLTA AO ORIGINAL */
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+/* ===== CTA (CONTATO) ===== */
+
+.cta-box {
+  padding: 48px;
+  border-radius: var(--radius-lg);
+  background: linear-gradient(180deg, #fff8f1 0%, #f6e7d8 100%);
+  box-shadow: var(--shadow-soft);
+}
+
+/* 🔥 AQUI ESTAVA O PROBLEMA REAL DO FORM */
+.cta-box--form {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* 🔥 equilíbrio real */
+  gap: 48px;
+  align-items: start;
+}
+
+/* 🔥 REMOVE LIMITAÇÃO DE LARGURA DO TEXTO */
+.cta-box__content {
+  max-width: none;
+}
+
+.cta-box__content h2 {
+  margin: 12px 0 14px;
+  font-size: clamp(1.8rem, 2.5vw, 2.6rem);
+  line-height: 1.15;
+}
+
+.cta-box__content p {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.7;
+}
+
+/* link alternativo de email */
+
+.cta-email-link {
+  display: inline-block;
+  margin-top: 16px;
+  font-size: 0.95rem;
+  color: var(--muted);
+  text-decoration: underline;
+}
+
+/* ===== FORM ===== */
+
+.cta-form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  width: 100%; /* 🔥 garante ocupar tudo */
+}
+
+/* 🔥 FORÇA O FORM A OCUPAR TODO O GRID */
+.cta-box--form form {
+  width: 100%;
+}
+
+.cta-form__group input,
+.cta-form__group textarea {
+  width: 100%;
+  padding: 16px 18px;
+  border-radius: 14px;
+  border: 1px solid rgba(0,0,0,0.12);
+  font-family: inherit;
+  font-size: 1rem;
+  background: #ffffff;
+  transition: all 0.2s ease;
+}
+
+.cta-form__group textarea {
+  resize: vertical;
+  min-height: 140px;
+}
+
+.cta-form__group input:focus,
+.cta-form__group textarea:focus {
+  outline: none;
+  border-color: var(--brand-strong);
+  box-shadow: 0 0 0 3px rgba(201, 109, 42, 0.12);
+}
+
+.cta-form button {
+  margin-top: 10px;
+  align-self: center; /* 🔥 centraliza */
+  padding: 14px 22px;
+}
+
+/* ===== RESPONSIVO ===== */
+
+@media (max-width: 900px) {
+  .cta-box--form {
+    grid-template-columns: 1fr;
+  }
+
+  .cta-box {
+    padding: 36px;
+  }
+}
+
+@media (max-width: 640px) {
+  .section {
+    padding: 64px 0;
+  }
+
+  .cta-box {
+    padding: 28px;
+  }
+}

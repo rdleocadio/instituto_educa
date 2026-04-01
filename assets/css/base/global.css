@@ -1,0 +1,118 @@
+body {
+  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  color: var(--text);
+  background: var(--bg);
+  line-height: 1.5;
+}
+
+.container {
+  width: var(--container);
+  margin: 0 auto;
+}
+
+/* ===== ACESSIBILIDADE ===== */
+
+.skip-link {
+  position: absolute;
+  top: -48px;
+  left: 16px;
+  background: var(--brand-strong);
+  color: var(--white);
+  padding: 10px 14px;
+  border-radius: 10px;
+  z-index: 1000;
+  transition: top 0.2s ease;
+}
+
+.skip-link:focus {
+  top: 12px;
+}
+
+/* ===== SEÇÕES GLOBAIS ===== */
+
+.section {
+  padding: 88px 0;
+}
+
+.section--light {
+  background: transparent;
+}
+
+.section--cta {
+  padding-top: 0;
+}
+
+.section-heading {
+  max-width: 780px;
+  margin: 0 auto 40px;
+  text-align: center;
+}
+
+.section-heading--center {
+  text-align: center;
+}
+
+.section-heading h2 {
+  margin: 10px 0 14px;
+  font-size: clamp(2rem, 3vw, 3.15rem);
+  line-height: 1.08;
+  letter-spacing: -0.04em;
+}
+
+.section-heading p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 1.05rem;
+}
+
+.eyebrow {
+  display: inline-block;
+  margin-bottom: 6px;
+  color: var(--brand-strong);
+  font-size: 32px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+/* ===== ELEMENTOS UTILITÁRIOS GLOBAIS ===== */
+
+.text-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--brand-strong);
+  font-weight: 700;
+}
+
+.text-link::after {
+  content: "→";
+  transition: transform 0.2s ease;
+}
+
+.text-link:hover::after {
+  transform: translateX(2px);
+}
+
+/* ===== ANIMAÇÃO GLOBAL ===== */
+
+@keyframes fade {
+  from {
+    opacity: 0.35;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* ===== RESPONSIVO GLOBAL ===== */
+
+@media (max-width: 640px) {
+  :root {
+    --container: min(100% - 24px, 1280px);
+  }
+
+  .section {
+    padding: 64px 0;
+  }
+}

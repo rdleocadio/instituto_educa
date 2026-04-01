@@ -1,0 +1,63 @@
+/* ===== FOOTER ===== */
+
+.site-footer {
+  margin-top: 72px;
+  background: #1f140e;
+  color: rgba(255, 255, 255, 0.82);
+  padding: 34px 0 48px;
+}
+
+.footer__inner {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 28px;
+}
+
+.brand--footer {
+  color: var(--white);
+  margin-bottom: 14px;
+}
+
+.site-footer p {
+  margin: 0;
+  max-width: 520px;
+}
+
+.footer-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px 22px;
+}
+
+.footer-nav a {
+  color: rgba(255, 255, 255, 0.82);
+}
+
+.brand__logo {
+  height: 32px;
+  width: auto;
+}
+
+.back-to-top {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.85);
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.back-to-top:hover,
+.back-to-top:focus-visible {
+  transform: translateY(-2px);
+  opacity: 1;
+}
+
+/* ===== RESPONSIVO FOOTER ===== */
+
+@media (max-width: 640px) {
+  .footer__inner {
+    flex-direction: column;
+  }
+}

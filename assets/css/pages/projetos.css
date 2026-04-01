@@ -1,0 +1,46 @@
+.projetos-hero {
+  padding-bottom: 28px;
+}
+
+.projetos-section {
+  padding-top: 24px;
+}
+
+.project-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.project-card img {
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+  display: block;
+  margin-bottom: 16px;
+  border-radius: 0;
+}
+
+.project-card__content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.project-card__content h3 {
+  margin: 0;
+  font-size: 1.2rem;
+  line-height: 1.35;
+  color: var(--brand-strong);
+}
+
+.project-card__content p {
+  margin: 0;
+  color: var(--text);
+  line-height: 1.7;
+  font-size: 0.97rem;
+}
+
+.project-card__content .text-link {
+  margin-top: 2px;
+  align-self: flex-start;
+}

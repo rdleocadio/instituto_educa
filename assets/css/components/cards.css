@@ -1,0 +1,133 @@
+/* ===== CARD BASE ===== */
+
+.card {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-soft);
+  overflow: hidden;
+}
+
+/* ===== PROJETOS ===== */
+
+.project-card {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+.project-card__image {
+  height: 210px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.project-card__image--awure {
+  background-image:
+    linear-gradient(rgba(36, 26, 18, 0.18), rgba(36, 26, 18, 0.18)),
+    url("../../img/projetos/projeto1.JPEG");
+  background-color: #d8b08a;
+}
+
+.project-card__image--ead {
+  background-image:
+    linear-gradient(rgba(36, 26, 18, 0.18), rgba(36, 26, 18, 0.18)),
+    url("../../img/projetos/projeto2.jpg");
+  background-color: #d9c4ae;
+}
+
+.project-card__image--territorios {
+  background-image:
+    linear-gradient(rgba(36, 26, 18, 0.18), rgba(36, 26, 18, 0.18)),
+    url("../../img/projetos/projeto3.jpg");
+  background-color: #cfa37d;
+}
+
+.project-card__image--parcerias {
+  background-image:
+    linear-gradient(rgba(36, 26, 18, 0.18), rgba(36, 26, 18, 0.18)),
+    url("../../img/projetos/projeto4.jpg");
+  background-color: #c8b09a;
+}
+
+.project-card__body {
+  padding: 24px;
+}
+
+.project-card__body h3 {
+  margin: 0 0 12px;
+  font-size: 1.18rem;
+  line-height: 1.2;
+}
+
+.project-card__body p {
+  margin: 0 0 18px;
+  color: var(--muted);
+}
+
+/* ===== NOTÍCIAS ===== */
+
+.news-card {
+  padding: 24px;
+  min-height: 100%;
+}
+
+.news-card h3 {
+  margin: 0 0 12px;
+  font-size: 1.15rem;
+  line-height: 1.25;
+}
+
+.news-card p {
+  margin: 0 0 18px;
+  color: var(--muted);
+}
+
+.tag {
+  display: inline-flex;
+  align-items: center;
+  padding: 7px 12px;
+  border-radius: 999px;
+  background: var(--brand-soft);
+  color: var(--brand-strong);
+  font-size: 0.82rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  margin-bottom: 16px;
+}
+
+/* ===== PARCEIROS ===== */
+
+.partner-logo {
+  min-height: 130px;
+  border-radius: var(--radius-md);
+  border: none;
+  background: var(--surface);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  box-shadow: none;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.partner-logo:hover,
+.partner-logo:focus-visible {
+  transform: translateY(-2px);
+  box-shadow: 0 14px 30px rgba(37, 23, 14, 0.12);
+}
+
+.partner-logo img {
+  width: 100%;
+  height: 78px;
+  object-fit: contain;
+  object-position: center;
+}
+
+@media (max-width: 640px) {
+  .project-card__image {
+    height: 180px;
+  }
+}

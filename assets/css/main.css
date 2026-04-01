@@ -1,0 +1,21 @@
+@import url('./base/variables.css');
+@import url('./base/reset.css');
+@import url('./base/global.css');
+
+@import url('./layout/header.css');
+@import url('./layout/footer.css');
+@import url('./layout/sections.css');
+@import url('./layout/grid.css');
+
+@import url('./components/buttons.css');
+@import url('./components/cards.css');
+@import url('./components/slider.css');
+@import url('./components/docs.css');
+@import url('./components/testimonials.css');
+@import url('./components/team.css');
+
+@import url('./pages/home.css');
+@import url('./pages/documentos.css');
+@import url('./pages/quem-somos.css');
+@import url('./pages/projetos.css');
+@import url('./pages/projeto-detalhe.css');

@@ -1,0 +1,47 @@
+/* ===== DEPOIMENTOS ===== */
+
+.testimonial-card {
+  padding: 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  min-height: 100%;
+}
+
+.testimonial-card__top {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.testimonial-card__avatar {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+  border: 3px solid rgba(201, 109, 42, 0.18);
+  box-shadow: 0 8px 18px rgba(37, 23, 14, 0.12);
+}
+
+.testimonial-card__meta {
+  display: flex;
+  flex-direction: column;
+}
+
+.testimonial-card p {
+  margin: 0;
+  font-size: 1.03rem;
+  color: #3d2b20;
+}
+
+.testimonial-card strong {
+  display: block;
+  margin-bottom: 4px;
+  font-size: 1rem;
+}
+
+.testimonial-card span {
+  color: var(--muted);
+  font-size: 0.95rem;
+}
