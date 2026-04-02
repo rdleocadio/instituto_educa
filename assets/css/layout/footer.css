@@ -54,6 +54,10 @@
   opacity: 1;
 }
 
+.site-footer {
+  margin-top: 0;
+}
+
 /* ===== RESPONSIVO FOOTER ===== */
 
 @media (max-width: 640px) {

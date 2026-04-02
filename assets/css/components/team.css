@@ -1,19 +1,17 @@
 .team-list--circles {
-  display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* 👈 centraliza a última linha */
   gap: 36px 24px;
   margin-top: 44px;
 }
 
 .team-card--vertical {
+  width: calc(25% - 18px); /* 👈 4 por linha */
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
-  background: transparent;
-  border: 0;
-  box-shadow: none;
-  padding: 0;
 }
 
 .team-photo-circle {
@@ -22,8 +20,8 @@
   border-radius: 50%;
   overflow: hidden;
   background: #e7dfcf;
-  border: 6px solid #ffffff;
-  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.08);
+  border: none;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12); /* ✅ sombra mais bonita */
   margin-bottom: 18px;
 }
 
@@ -80,4 +78,8 @@
     width: 160px;
     height: 160px;
   }
+}
+
+.team-section {
+  padding-bottom: 24px; /* ou 16px */
 }
