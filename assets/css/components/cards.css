@@ -17,7 +17,7 @@
 }
 
 .project-card__image {
-  height: 210px;
+  height: 160px;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -52,7 +52,7 @@
 } */
 
 .project-card__body {
-  padding: 24px;
+  padding: 16px;
 }
 
 .project-card__body h3 {
@@ -62,8 +62,18 @@
 }
 
 .project-card__body p {
-  margin: 0 0 18px;
+  margin: 0 0 14px;
   color: var(--muted);
+  font-size: 0.95rem;
+  line-height: 1.4;
+
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+
+  -webkit-line-clamp: 3; /* principal (funciona hoje) */
+  line-clamp: 3; /* padrão moderno */
+
+  overflow: hidden;
 }
 
 @media (max-width: 640px) {

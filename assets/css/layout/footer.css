@@ -1,7 +1,7 @@
 /* ===== FOOTER ===== */
 
 .site-footer {
-  margin-top: 72px;
+  margin-top: 0;
   background: #1f140e;
   color: rgba(255, 255, 255, 0.82);
   padding: 34px 0 48px;
@@ -54,14 +54,22 @@
   opacity: 1;
 }
 
-.site-footer {
-  margin-top: 0;
-}
-
 /* ===== RESPONSIVO FOOTER ===== */
 
 @media (max-width: 640px) {
   .footer__inner {
     flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .footer-nav {
+    width: 100%;
+    justify-content: flex-start;
+  }
+
+  .back-to-top {
+    display: inline-flex;
+    width: auto;
+    margin-top: 4px;
   }
 }

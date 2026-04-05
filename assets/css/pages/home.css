@@ -56,13 +56,7 @@
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 16px;
-}
-
-.impacto-dados .dado:last-child:nth-child(odd) {
-  grid-column: 1 / -1;
-  width: 280px;
-  height: 140px;
-  margin: 0 auto;
+  justify-items: center;
 }
 
 .dado {
@@ -70,7 +64,8 @@
   border: 1px solid rgba(74, 42, 20, 0.12);
   border-radius: var(--radius-md);
   padding: 20px 18px;
-  width: 280px;
+  width: 100%;
+  max-width: 280px;
   height: 140px;
 
   display: flex;
@@ -80,6 +75,7 @@
 
   text-align: center;
   box-shadow: var(--shadow-soft);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
 
 .dado:hover {
@@ -88,7 +84,7 @@
 }
 
 .numero {
-  font-size: 2.0rem;
+  font-size: 2rem;
   line-height: 1.05;
   font-weight: 800;
   color: var(--brand-strong);
@@ -117,33 +113,28 @@
   display: flex;
   flex-direction: column;
   overflow: hidden;
-
-  border-radius: var(--radius-md); /* 🔥 aplica no card inteiro */
+  border-radius: var(--radius-md);
   background: linear-gradient(180deg, #fff8f1 0%, #f6e7d8 100%);
   box-shadow: var(--shadow-soft);
   padding: 0;
 }
 
-/* container da imagem */
 .instagram-media {
   width: 100%;
   aspect-ratio: 4 / 3;
   overflow: hidden;
-
-  border-top-left-radius: var(--radius-md);   /* 🔥 resolve o topo */
+  border-top-left-radius: var(--radius-md);
   border-top-right-radius: var(--radius-md);
 }
 
-/* imagem */
 .instagram-media img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: center; /* 🔥 evita colar no topo */
+  object-position: center;
   display: block;
 }
 
-/* conteúdo */
 .instagram-content {
   padding: 20px;
   display: flex;
@@ -193,6 +184,8 @@
   border-color: rgba(255, 255, 255, 0.25);
 }
 
+/* ===== RESPONSIVO ===== */
+
 @media (max-width: 1180px) {
   .news-layout {
     grid-template-columns: 1fr;
@@ -212,9 +205,14 @@
   }
 }
 
-@media (max-width: 980px) {
+@media (max-width: 768px) {
   .impacto-dados {
     grid-template-columns: 1fr;
+    justify-items: center;
+  }
+
+  .dado {
+    max-width: 320px;
   }
 }
 

@@ -145,16 +145,29 @@
     padding-bottom: 28px;
   }
 
+  .docs-section-header {
+    margin: 0 auto 28px;
+    text-align: center;
+  }
+
   .document-card {
     grid-template-columns: 1fr;
     gap: 14px;
+    text-align: center;
+    justify-items: center;
+  }
+
+  .document-card__info {
+    text-align: center;
   }
 
   .document-download {
     width: 100%;
+    max-width: 220px;
+    justify-self: center;
   }
 
   .docs-anchor-nav {
-    justify-content: flex-start;
+    justify-content: center;
   }
 }
