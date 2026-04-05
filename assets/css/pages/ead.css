@@ -1,0 +1,39 @@
+/* ===== EAD HERO ===== */
+
+.ead-hero {
+  padding-top: 40px;
+}
+
+.ead-hero img {
+  width: 100%;
+  border-radius: 16px;
+  object-fit: cover;
+}
+
+
+/* ===== EAD INTRO ===== */
+
+.ead-intro {
+  padding: 80px 0;
+}
+
+.ead-intro__content {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.ead-intro__text h1 {
+  margin: 12px 0 20px;
+  font-size: clamp(2rem, 3vw, 2.8rem);
+}
+
+.ead-intro__text p {
+  margin-bottom: 16px;
+  font-size: 1.05rem;
+  line-height: 1.6;
+}
+
+.ead-intro .btn {
+  margin-top: 24px;
+}

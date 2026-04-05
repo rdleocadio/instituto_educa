@@ -72,6 +72,27 @@
   }
 }
 
+/* ===== ODS CARD HEADER ===== */
+
+.project-ods-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.ods-icon {
+  width: 60px;   /* reduz um pouco (140 é muito grande pra header) */
+  height: 60px;
+  object-fit: contain;
+  flex-shrink: 0; /* impede a imagem de "empurrar" o texto */
+}
+
+.project-ods-header .eyebrow {
+  font-size: 1.60rem;   /* diminui um pouco */
+  line-height: 1.2;
+}
+
 /* ===== NOTÍCIAS ===== */
 
 .news-card {
