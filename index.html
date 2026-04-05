@@ -463,7 +463,13 @@
           <p>gestao@institutoeduca.org</p>
         </div>
 
-        <form class="cta-form" action="#" method="POST">
+        <form
+          class="cta-form"
+          action="https://formspree.io/f/xaqlanyo"
+          method="POST"
+        >
+          <input type="hidden" name="_subject" value="Novo contato pelo site - Instituto Educa">
+
           <div class="cta-form__group">
             <input type="text" name="nome" placeholder="Seu nome" required>
           </div>
@@ -479,6 +485,12 @@
           <div class="cta-form__group">
             <textarea name="mensagem" rows="4" placeholder="Como podemos construir juntos?" required></textarea>
           </div>
+
+          <!-- opcional: evita spam -->
+          <input type="text" name="_gotcha" style="display:none">
+
+          <!-- redirecionamento após envio -->
+          <input type="hidden" name="_next" value="https://institutoeduca.org/">
 
           <button class="btn btn--primary" type="submit">
             Enviar
