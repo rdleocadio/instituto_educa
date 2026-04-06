@@ -14,7 +14,7 @@
 .project-card img {
   width: 100%;
   aspect-ratio: 16 / 10;
-  object-fit: cover;
+  object-fit: auto;
   display: block;
   margin-bottom: 16px;
   border-radius: 0;

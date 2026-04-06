@@ -30,80 +30,35 @@
   color: var(--muted);
 }
 
-/* galeria */
+/* ===== GALERIA LIMPA (SEM CARD) ===== */
 
 .project-gallery-section {
   padding-top: 20px;
 }
 
-.project-gallery {
-  position: relative;
+.project-gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
 }
 
-.project-gallery__track {
-  position: relative;
-  min-height: 520px;
-}
-
-.project-gallery__slide {
-  display: none;
-}
-
-.project-gallery__slide.is-active {
-  display: block;
-}
-
-.project-gallery__slide img {
+/* container neutro */
+.project-gallery-grid__item {
   width: 100%;
-  height: 520px;
-  object-fit: cover;
+  height: 260px;
+  overflow: hidden;
+}
+
+/* 🔥 IMAGENS PADRONIZADAS */
+.project-gallery-grid__item img {
+  width: 100%;
+  height: 100%;
+  object-fit: auto;
   display: block;
+  border-radius: 10px;
 }
 
-.project-gallery__arrow {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 46px;
-  height: 46px;
-  border: 0;
-  border-radius: 50%;
-  background: rgba(255, 255, 255, 0.92);
-  color: var(--brand-strong);
-  cursor: pointer;
-  box-shadow: var(--shadow-soft);
-  z-index: 2;
-}
-
-.project-gallery__arrow--prev {
-  left: 18px;
-}
-
-.project-gallery__arrow--next {
-  right: 18px;
-}
-
-.project-gallery__dots {
-  display: flex;
-  justify-content: center;
-  gap: 10px;
-  margin-top: 18px;
-}
-
-.project-gallery__dots button {
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  border: 0;
-  background: rgba(0, 0, 0, 0.18);
-  cursor: pointer;
-}
-
-.project-gallery__dots button.is-active {
-  background: var(--brand-strong);
-}
-
-/* ficha */
+/* ===== FICHA ===== */
 
 .project-meta-section {
   padding-top: 32px;
@@ -179,7 +134,7 @@
   line-height: 1.6;
 }
 
-/* texto */
+/* ===== TEXTO ===== */
 
 .project-text-section {
   padding-top: 8px;
@@ -214,19 +169,15 @@
   color: var(--text);
 }
 
-/* responsivo */
+/* ===== RESPONSIVO ===== */
 
 @media (max-width: 980px) {
   .project-meta-grid {
     grid-template-columns: 1fr;
   }
 
-  .project-gallery__track {
-    min-height: 420px;
-  }
-
-  .project-gallery__slide img {
-    height: 420px;
+  .project-gallery-grid {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
@@ -237,16 +188,11 @@
     padding: 24px;
   }
 
-  .project-gallery__track {
-    min-height: 280px;
+  .project-gallery-grid {
+    grid-template-columns: 1fr;
   }
 
-  .project-gallery__slide img {
-    height: 280px;
-  }
-
-  .project-gallery__arrow {
-    width: 40px;
-    height: 40px;
+  .project-gallery-grid__item {
+    min-height: 220px;
   }
 }

@@ -158,3 +158,45 @@
     padding: 28px;
   }
 }
+
+/* ===== PERFIL GRID INLINE ===== */
+
+.perfil-inline-grid {
+  display: grid;
+  grid-template-columns: repeat(5, max-content);
+  justify-content: center; /* 🔥 centraliza igual texto */
+  gap: 12px 16px;
+  margin: 20px 0 28px;
+}
+
+/* cards */
+.perfil-item {
+  background: rgb(251, 243, 240);
+  border: 1px solid #e4dcc6;
+  border-radius: 999px;
+  padding: 10px 14px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: rgb(143, 71, 15);
+  text-align: center;
+  white-space: nowrap;
+}
+
+/* destaque número */
+.perfil-item strong {
+  margin-right: 4px;
+  font-weight: 700;
+}
+
+/* RESPONSIVO */
+@media (max-width: 1024px) {
+  .perfil-inline-grid {
+    grid-template-columns: repeat(3, max-content);
+  }
+}
+
+@media (max-width: 640px) {
+  .perfil-inline-grid {
+    grid-template-columns: repeat(2, max-content);
+  }
+}
