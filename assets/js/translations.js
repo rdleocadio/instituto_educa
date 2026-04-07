@@ -663,20 +663,9 @@ const translations = {
         objective: "Promover el fortalecimiento territorial de la comunidad quilombola Ilha de São Vicente, la producción de energía limpia, sin grandes impactos ambientales, y mejores condiciones para la producción agroecológica y sostenible."
       },
       ods: {
-        item1: "ODS 1 – Fin de la Pobreza",
         item2: "ODS 2 – Hambre Cero y Agricultura Sostenible",
-        item3: "ODS 3 – Salud y Bienestar",
-        item4: "ODS 5 – Igualdad de Género",
         item5: "ODS 7 – Energía Asequible y No Contaminante",
-        item6: "ODS 8 – Trabajo Decente y Crecimiento Económico",
-        item7: "ODS 9 – Industria, Innovación e Infraestructura",
-        item8: "ODS 10 – Reducción de las Desigualdades",
-        item9: "ODS 11 – Ciudades y Comunidades Sostenibles",
-        item10: "ODS 12 – Producción y Consumo Responsables",
         item11: "ODS 13 – Acción por el Clima",
-        item12: "ODS 14 – Vida Submarina",
-        item13: "ODS 15 – Vida de Ecosistemas Terrestres",
-        item14: "ODS 17 – Alianzas para Lograr los Objetivos"
       }
     },
 
@@ -1584,20 +1573,9 @@ const translations = {
         objective: "Promote the territorial strengthening of the quilombola community of Ilha de São Vicente, the production of clean energy, without major environmental impacts, and better conditions for agroecological and sustainable production."
       },
       ods: {
-        item1: "SDG 1 – No Poverty",
         item2: "SDG 2 – Zero Hunger and Sustainable Agriculture",
-        item3: "SDG 3 – Good Health and Well-being",
-        item4: "SDG 5 – Gender Equality",
         item5: "SDG 7 – Affordable and Clean Energy",
-        item6: "SDG 8 – Decent Work and Economic Growth",
-        item7: "SDG 9 – Industry, Innovation and Infrastructure",
-        item8: "SDG 10 – Reduced Inequalities",
-        item9: "SDG 11 – Sustainable Cities and Communities",
-        item10: "SDG 12 – Responsible Consumption and Production",
         item11: "SDG 13 – Climate Action",
-        item12: "SDG 14 – Life Below Water",
-        item13: "SDG 15 – Life on Land",
-        item14: "SDG 17 – Partnerships for the Goals"
       }
     },
 
