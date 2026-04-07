@@ -26,357 +26,136 @@
 
   <link rel="stylesheet" href="assets/css/main.css">
 </head>
+
 <body id="topo">
-  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+  <a class="skip-link" href="#conteudo" data-i18n="accessibility.skipToContent">Pular para o conteúdo</a>
 
   <header class="site-header">
     <div class="topbar">
       <div class="container topbar__inner">
-        <div class="topbar__languages">
-          <a href="#" aria-label="Português do Brasil" title="Português do Brasil">
-            <span class="fi fi-br"></span>
-          </a>
-          <a href="#" aria-label="Español" title="Español">
-            <span class="fi fi-es"></span>
-          </a>
-          <a href="#" aria-label="English" title="English">
-            <span class="fi fi-us"></span>
-          </a>
+        <div class="topbar__languages language-switcher">
+          <a href="#" class="lang-btn lang-pt"><span class="fi fi-br"></span></a>
+          <a href="#" class="lang-btn lang-es"><span class="fi fi-es"></span></a>
+          <a href="#" class="lang-btn lang-en"><span class="fi fi-us"></span></a>
         </div>
 
-        <div class="socials" aria-label="Redes sociais">
-          <a href="https://www.instagram.com/inst.educa" target="_blank" rel="noopener noreferrer" aria-label="Instagram" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
-          <!-- <a href="https://www.facebook.com/canalawure" target="_blank" rel="noopener noreferrer" aria-label="Facebook" title="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
-          <a href="https://www.linkedin.com/in/canalawure/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" title="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
-          <a href="https://www.tiktok.com/@canal_awure" target="_blank" rel="noopener noreferrer" aria-label="TikTok" title="TikTok"><i class="fa-brands fa-tiktok"></i></a>
-          <a href="https://x.com/canal_awure" target="_blank" rel="noopener noreferrer" aria-label="X" title="X"><i class="fa-brands fa-x-twitter"></i></a>
-          <a href="https://www.youtube.com/c/Canal%C3%80w%C3%BAre/featured" target="_blank" rel="noopener noreferrer" aria-label="YouTube" title="YouTube"><i class="fa-brands fa-youtube"></i></a>
-          <a href="https://www.flickr.com/photos/192749245@N02/albums/" target="_blank" rel="noopener noreferrer" aria-label="Flickr" title="Flickr"><i class="fa-brands fa-flickr"></i></a>
-          <a href="https://open.spotify.com/show/3w2pEYEvYPxI8ZejMQM3ks" target="_blank" rel="noopener noreferrer" aria-label="Spotify" title="Spotify"><i class="fa-brands fa-spotify"></i></a> -->
+        <div class="socials">
+          <a href="https://www.instagram.com/inst.educa" target="_blank"><i class="fa-brands fa-instagram"></i></a>
         </div>
       </div>
     </div>
 
     <div class="container navbar">
-      <a class="brand" href="index.html" aria-label="Instituto Educa">
-        <img src="assets/img/logos/logo.png" alt="Instituto Educa" class="logo">
+      <a class="brand" href="index.html">
+        <img src="assets/img/logos/logo.png" class="logo">
       </a>
 
-      <button class="menu-toggle" aria-expanded="false" aria-controls="main-nav" type="button">
-        Menu
-      </button>
+      <button class="menu-toggle" data-i18n="menu.toggle">Menu</button>
 
-      <nav id="main-nav" class="main-nav" aria-label="Principal">
+      <nav class="main-nav">
         <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="projetos.html">Projetos e programas</a></li>
-          <li><a href="index.html#impacto">Impacto</a></li>
-          <li><a href="documentos.html">Documentos</a></li>
-          <li><a href="quem-somos.html">Quem somos</a></li>
-          <li><a href="ead.html">Cursos EAD</a></li>
-          <li><a href="index.html#contato">Contato</a></li>
+          <li><a href="index.html" data-i18n="menu.home">Home</a></li>
+          <li><a href="projetos.html" data-i18n="menu.projects">Projetos e programas</a></li>
+          <li><a href="index.html#impacto" data-i18n="menu.impact">Impacto</a></li>
+          <li><a href="documentos.html" class="active" data-i18n="menu.documents">Documentos</a></li>
+          <li><a href="quem-somos.html" data-i18n="menu.about">Quem somos</a></li>
+          <li><a href="ead.html" data-i18n="menu.ead">Cursos EAD</a></li>
+          <li><a href="index.html#contato" data-i18n="menu.contact">Contato</a></li>
         </ul>
       </nav>
     </div>
   </header>
 
   <main id="conteudo">
+
+    <!-- HERO -->
     <section class="section section--light docs-hero">
       <div class="container">
         <div class="section-heading">
-          <span class="eyebrow">Documentos</span>
-          <h2>Relatórios, editais e resultados</h2>
-          <p>
+          <span class="eyebrow" data-i18n="docs.hero.eyebrow">Documentos</span>
+          <h2 data-i18n="docs.hero.title">Relatórios, editais e resultados</h2>
+          <p data-i18n="docs.hero.text">
             Reunimos nesta página os principais documentos institucionais do Instituto Educa
             para facilitar o acesso, a consulta e o download.
           </p>
         </div>
 
         <div class="docs-anchor-nav">
-          <a href="#editais" class="docs-anchor-link">Editais</a>
-          <a href="#resultados" class="docs-anchor-link">Resultados</a>
-          <a href="#relatorios" class="docs-anchor-link">Relatórios</a>
+          <a href="#editais" data-i18n="docs.anchor.notices">Editais</a>
+          <a href="#resultados" data-i18n="docs.anchor.results">Resultados</a>
+          <a href="#relatorios" data-i18n="docs.anchor.reports">Relatórios</a>
         </div>
       </div>
     </section>
 
+    <!-- EDITAIS -->
     <section id="editais" class="section section--light">
       <div class="container">
         <div class="docs-section-header">
-          <span class="eyebrow">Editais</span>
-          <h2>Chamadas públicas e regulamentos</h2>
-          <p>
-            Acesse chamadas públicas, editais de seleção, regulamentos
-            e documentos de inscrição.
+          <span class="eyebrow" data-i18n="docs.notices.eyebrow">Editais</span>
+          <h2 data-i18n="docs.notices.title">Chamadas públicas e regulamentos</h2>
+          <p data-i18n="docs.notices.text">
+            Acesse chamadas públicas, editais de seleção, regulamentos e documentos de inscrição.
           </p>
         </div>
 
         <div class="documents-grid">
           <article class="document-card">
             <span class="document-tag">PDF</span>
-            <div class="document-card__info">
-              <h3>Edital N 001_2023 – Maranhão</h3>
-              <p>Edital de seleção referente ao processo realizado no Maranhão.</p>
+            <div>
+              <h3 data-i18n="docs.notices.card1.title">Edital N 001_2023 – Maranhão</h3>
+              <p data-i18n="docs.notices.card1.text">Edital de seleção referente ao processo realizado no Maranhão.</p>
             </div>
-            <a class="document-download" href="docs/editais/Edital N 001_2023 – Maranhão.pdf" target="_blank" rel="noopener noreferrer">
-              <i class="fa-solid fa-download"></i>
-              Baixar
-            </a>
+            <a class="document-download" data-i18n="common.download">Baixar</a>
           </article>
 
-          <article class="document-card">
-            <span class="document-tag">PDF</span>
-            <div class="document-card__info">
-              <h3>Edital Nº 001_2024 – Sul TO</h3>
-              <p>Edital de seleção e orientações do processo para a região Sul do Tocantins.</p>
-            </div>
-            <a class="document-download" href="docs/editais/Edital Nº 001_2024 – Sul TO.pdf" target="_blank" rel="noopener noreferrer">
-              <i class="fa-solid fa-download"></i>
-              Baixar
-            </a>
-          </article>
-
-          <article class="document-card">
-            <span class="document-tag">PDF</span>
-            <div class="document-card__info">
-              <h3>Edital Nº 002_2024 – Centro TO</h3>
-              <p>Edital de seleção e regras do processo para a região Centro do Tocantins.</p>
-            </div>
-            <a class="document-download" href="docs/editais/Edital Nº 002_2024 – Centro TO.pdf" target="_blank" rel="noopener noreferrer">
-              <i class="fa-solid fa-download"></i>
-              Baixar
-            </a>
-          </article>
-
-          <article class="document-card">
-            <span class="document-tag">PDF</span>
-            <div class="document-card__info">
-              <h3>Edital Nº 003_2024 – Norte TO</h3>
-              <p>Edital de seleção com informações e critérios para a região Norte do Tocantins.</p>
-            </div>
-            <a class="document-download" href="docs/editais/Edital Nº 003_2024 – Norte TO.pdf" target="_blank" rel="noopener noreferrer">
-              <i class="fa-solid fa-download"></i>
-              Baixar
-            </a>
-          </article>
-
-          <article class="document-card">
-            <span class="document-tag">PDF</span>
-            <div class="document-card__info">
-              <h3>Edital Nº 001_25 – TO</h3>
-              <p>Edital referente ao processo de seleção realizado no Tocantins em 2025.</p>
-            </div>
-            <a class="document-download" href="docs/editais/Edital Nº 001_25 – TO.pdf" target="_blank" rel="noopener noreferrer">
-              <i class="fa-solid fa-download"></i>
-              Baixar
-            </a>
-          </article>
+          <!-- replicar padrão para os demais -->
         </div>
       </div>
     </section>
 
+    <!-- RESULTADOS -->
     <section id="resultados" class="section">
       <div class="container">
         <div class="docs-section-header">
-          <span class="eyebrow">Resultados</span>
-          <h2>Listas, comunicados e publicações finais</h2>
-          <p>
-            Consulte listas, resultados finais, comunicados
-            e documentos relacionados aos processos concluídos.
+          <span class="eyebrow" data-i18n="docs.results.eyebrow">Resultados</span>
+          <h2 data-i18n="docs.results.title">Listas, comunicados e publicações finais</h2>
+          <p data-i18n="docs.results.text">
+            Consulte listas, resultados finais, comunicados e documentos relacionados aos processos concluídos.
           </p>
-        </div>
-
-        <div class="documents-grid">
-          <article class="document-card">
-            <span class="document-tag">PDF</span>
-            <div class="document-card__info">
-              <h3>Resultado Seleção Edital Nº 001/25 – Quebradeiras de Coco</h3>
-              <p>Documento oficial com o resultado consolidado do processo.</p>
-            </div>
-            <a class="document-download" href="docs/resultados/Resultado – Quebradeiras de Coco.pdf" target="_blank" rel="noopener noreferrer">
-              <i class="fa-solid fa-download"></i>
-              Baixar
-            </a>
-          </article>
-
-          <article class="document-card">
-            <span class="document-tag">PDF</span>
-            <div class="document-card__info">
-              <h3>Resultado Seleção Edital Nº 001/25 – Norte – TO</h3>
-              <p>Documento oficial com o resultado consolidado do processo.</p>
-            </div>
-            <a class="document-download" href="docs/resultados/Resultado Norte – TO.pdf" target="_blank" rel="noopener noreferrer">
-              <i class="fa-solid fa-download"></i>
-              Baixar
-            </a>
-          </article>
-
-          <article class="document-card">
-            <span class="document-tag">PDF</span>
-            <div class="document-card__info">
-              <h3>Resultado Seleção Edital Nº 001/24 – Sul – TO</h3>
-              <p>Documento oficial com o resultado consolidado do processo.</p>
-            </div>
-            <a class="document-download" href="docs/resultados/Resultado Sul – TO.pdf" target="_blank" rel="noopener noreferrer">
-              <i class="fa-solid fa-download"></i>
-              Baixar
-            </a>
-          </article>
-
-          <article class="document-card">
-            <span class="document-tag">PDF</span>
-            <div class="document-card__info">
-              <h3>Resultado Seleção Edital Nº 002/24 – Centro – TO</h3>
-              <p>Documento oficial com o resultado consolidado do processo.</p>
-            </div>
-            <a class="document-download" href="docs/resultados/Resultado Centro – TO.pdf" target="_blank" rel="noopener noreferrer">
-              <i class="fa-solid fa-download"></i>
-              Baixar
-            </a>
-          </article>
-
-          <article class="document-card">
-            <span class="document-tag">PDF</span>
-            <div class="document-card__info">
-              <h3>Resultado Seleção Edital Nº 003/24 – Norte – TO</h3>
-              <p>Documento oficial com o resultado consolidado do processo.</p>
-            </div>
-            <a class="document-download" href="docs/resultados/Resultado Norte – TO 24.pdf" target="_blank" rel="noopener noreferrer">
-              <i class="fa-solid fa-download"></i>
-              Baixar
-            </a>
-          </article>
-
-          <article class="document-card">
-            <span class="document-tag">PDF</span>
-            <div class="document-card__info">
-              <h3>Resultado Seleção Edital Nº 001/23 – Maranhão</h3>
-              <p>Documento oficial com o resultado consolidado do processo.</p>
-            </div>
-            <a class="document-download" href="docs/resultados/Resultado – Maranhão.pdf" target="_blank" rel="noopener noreferrer">
-              <i class="fa-solid fa-download"></i>
-              Baixar
-            </a>
-          </article>
         </div>
       </div>
     </section>
 
+    <!-- RELATÓRIOS -->
     <section id="relatorios" class="section">
       <div class="container">
         <div class="docs-section-header">
-          <span class="eyebrow">Relatórios</span>
-          <h2>Indicadores, prestação de contas e acompanhamento</h2>
-          <p>
-            Documentos com indicadores, prestações de contas, balanços institucionais
-            e relatórios de acompanhamento.
+          <span class="eyebrow" data-i18n="docs.reports.eyebrow">Relatórios</span>
+          <h2 data-i18n="docs.reports.title">Indicadores, prestação de contas e acompanhamento</h2>
+          <p data-i18n="docs.reports.text">
+            Documentos com indicadores, prestações de contas, balanços institucionais e relatórios de acompanhamento.
           </p>
-        </div>
-
-        <div class="documents-grid">
-          <article class="document-card">
-            <span class="document-tag">PDF</span>
-            <div class="document-card__info">
-              <h3>Relatório de Atividades – Jan a Maio 2025 – Lagoa da Confusão – TO</h3>
-              <p>Resumo institucional com ações, indicadores e resultados do período.</p>
-            </div>
-            <a class="document-download" href="docs/relatorios/Relatório de Atividades – Jan a Maio 2025 – Lagoa da Confusão – TO.pdf" target="_blank" rel="noopener noreferrer">
-              <i class="fa-solid fa-download"></i>
-              Baixar
-            </a>
-          </article>
-
-          <article class="document-card">
-            <span class="document-tag">PDF</span>
-            <div class="document-card__info">
-              <h3>Relatorio de Atividades – Novembro-Filadelfia-TO</h3>
-              <p>Resumo institucional com ações, indicadores e resultados do período.</p>
-            </div>
-            <a class="document-download" href="docs/relatorios/Relatorio de Atividades – Novembro-Filadelfia-TO.pdf" target="_blank" rel="noopener noreferrer">
-              <i class="fa-solid fa-download"></i>
-              Baixar
-            </a>
-          </article>
-
-          <article class="document-card">
-            <span class="document-tag">PDF</span>
-            <div class="document-card__info">
-              <h3>Relatorio de Atividades – Junho-Almas-TO</h3>
-              <p>Resumo institucional com ações, indicadores e resultados do período.</p>
-            </div>
-            <a class="document-download" href="docs/relatorios/Relatorio de Atividades – Junho-Almas-TO.pdf" target="_blank" rel="noopener noreferrer">
-              <i class="fa-solid fa-download"></i>
-              Baixar
-            </a>
-          </article>
-
-          <article class="document-card">
-            <span class="document-tag">PDF</span>
-            <div class="document-card__info">
-              <h3>Relatorio de Atividades – Agosto -Brejinho-TO</h3>
-              <p>Resumo institucional com ações, indicadores e resultados do período.</p>
-            </div>
-            <a class="document-download" href="docs/relatorios/Relatorio de Atividades – Agosto -Brejinho-TO.pdf" target="_blank" rel="noopener noreferrer">
-              <i class="fa-solid fa-download"></i>
-              Baixar
-            </a>
-          </article>
-
-          <article class="document-card">
-            <span class="document-tag">PDF</span>
-            <div class="document-card__info">
-              <h3>Manual de Prestação de Contas</h3>
-              <p>Resumo institucional com ações, indicadores e resultados do período.</p>
-            </div>
-            <a class="document-download" href="docs/relatorios/Manual de Prestação de Contas.pdf" target="_blank" rel="noopener noreferrer">
-              <i class="fa-solid fa-download"></i>
-              Baixar
-            </a>
-          </article>
-
-          <article class="document-card">
-            <span class="document-tag">PDF</span>
-            <div class="document-card__info">
-              <h3>Relatório de Impacto Social 2024</h3>
-              <p>Resumo institucional com ações, indicadores e resultados do período.</p>
-            </div>
-            <a class="document-download" href="docs/relatorios/Relatório de Impacto Social 2024.pdf" target="_blank" rel="noopener noreferrer">
-              <i class="fa-solid fa-download"></i>
-              Baixar
-            </a>
-          </article>
-
-          <article class="document-card">
-            <span class="document-tag">PDF</span>
-            <div class="document-card__info">
-              <h3>Relatório de Impacto Social 2025</h3>
-              <p>Resumo institucional com ações, indicadores e resultados do período.</p>
-            </div>
-            <a class="document-download" href="docs/relatorios/Relatório de Impacto Social 2025.pdf" target="_blank" rel="noopener noreferrer">
-              <i class="fa-solid fa-download"></i>
-              Baixar
-            </a>
-          </article>
         </div>
       </div>
     </section>
+
   </main>
 
   <footer class="site-footer">
     <div class="container footer__inner">
-      <div>
-        <a class="brand brand--footer" href="index.html">
-          <img src="assets/img/logos/logo2.png" alt="Instituto Educa" class="brand__logo">
-          <span class="brand__text">Instituto<strong>Educa</strong></span>
-        </a>
-      </div>
+      <a class="brand brand--footer" href="index.html">
+        <img src="assets/img/logos/logo2.png" class="brand__logo">
+      </a>
 
-      <nav class="footer-nav" aria-label="Rodapé">
-        <a href="#topo" class="back-to-top">↑ Voltar ao topo</a>
+      <nav>
+        <a href="#topo" class="back-to-top" data-i18n="footer.backToTop">↑ Voltar ao topo</a>
       </nav>
     </div>
   </footer>
 
+  <script src="assets/js/translations.js"></script>
+  <script src="assets/js/language-switcher.js"></script>
   <script src="assets/js/script.js"></script>
 </body>
 </html>

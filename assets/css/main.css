@@ -20,3 +20,19 @@
 @import url('./pages/projetos.css');
 @import url('./pages/projeto-detalhe.css');
 @import url('./pages/ead.css');
+
+
+.language-switcher .lang-btn {
+  opacity: 0.6;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.language-switcher .lang-btn:hover {
+  opacity: 1;
+  transform: translateY(-1px);
+}
+
+.language-switcher .lang-btn.is-active {
+  opacity: 1;
+  pointer-events: none;
+}

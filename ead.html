@@ -21,24 +21,42 @@
   <link
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
   >
 
   <link rel="stylesheet" href="assets/css/main.css">
 </head>
 
 <body id="topo">
+  <a class="skip-link" href="#conteudo" data-i18n="accessibility.skipToContent">Pular para o conteúdo</a>
 
   <header class="site-header">
     <div class="topbar">
       <div class="container topbar__inner">
-        <div class="topbar__languages">
-          <a href="#" aria-label="Português do Brasil" title="Português do Brasil">
+        <div class="topbar__languages language-switcher">
+          <a
+            href="#"
+            class="lang-btn lang-pt"
+            aria-label="Português do Brasil"
+            title="Português do Brasil"
+          >
             <span class="fi fi-br"></span>
           </a>
-          <a href="#" aria-label="Español" title="Español">
+          <a
+            href="#"
+            class="lang-btn lang-es"
+            aria-label="Español"
+            title="Español"
+          >
             <span class="fi fi-es"></span>
           </a>
-          <a href="#" aria-label="English" title="English">
+          <a
+            href="#"
+            class="lang-btn lang-en"
+            aria-label="English"
+            title="English"
+          >
             <span class="fi fi-us"></span>
           </a>
         </div>
@@ -61,79 +79,82 @@
         <img src="assets/img/logos/logo.png" alt="Instituto Educa" class="logo">
       </a>
 
-      <button class="menu-toggle" aria-expanded="false" aria-controls="main-nav" type="button">
+      <button
+        class="menu-toggle"
+        aria-expanded="false"
+        aria-controls="main-nav"
+        type="button"
+        data-i18n="menu.toggle"
+      >
         Menu
       </button>
 
       <nav id="main-nav" class="main-nav" aria-label="Principal">
         <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="projetos.html">Projetos e programas</a></li>
-          <li><a href="index.html#impacto">Impacto</a></li>
-          <li><a href="documentos.html">Documentos</a></li>
-          <li><a href="quem-somos.html">Quem somos</a></li>
-          <li><a href="ead.html">Cursos EAD</a></li>
-          <li><a href="index.html#contato">Contato</a></li>
+          <li><a href="index.html" data-i18n="menu.home">Home</a></li>
+          <li><a href="projetos.html" data-i18n="menu.projects">Projetos e programas</a></li>
+          <li><a href="index.html#impacto" data-i18n="menu.impact">Impacto</a></li>
+          <li><a href="documentos.html" data-i18n="menu.documents">Documentos</a></li>
+          <li><a href="quem-somos.html" data-i18n="menu.about">Quem somos</a></li>
+          <li><a href="ead.html" class="active" data-i18n="menu.ead">Cursos EAD</a></li>
+          <li><a href="index.html#contato" data-i18n="menu.contact">Contato</a></li>
         </ul>
       </nav>
     </div>
   </header>
 
   <main id="conteudo">
-
-    <!-- HERO -->
     <section class="ead-hero">
       <div class="container">
         <img src="assets/img/banners/banner2.png" alt="Plataforma EAD Instituto Educa">
       </div>
     </section>
 
-    <!-- INTRO -->
     <section class="ead-intro section">
       <div class="container ead-intro__content">
-
         <div class="ead-intro__text">
-          <span class="eyebrow">Plataforma EAD</span>
+          <span class="eyebrow" data-i18n="ead.hero.eyebrow">Plataforma EAD</span>
 
-          <h1>Educação que transforma territórios</h1>
+          <h1 data-i18n="ead.hero.title">Educação que transforma territórios</h1>
 
-          <p>
+          <p data-i18n="ead.hero.paragraph1">
             A Plataforma Àwúre Educa é um ambiente formativo online que amplia o acesso ao conhecimento, promovendo autonomia, fortalecimento institucional e desenvolvimento territorial.
           </p>
 
-          <p>
+          <p data-i18n="ead.hero.paragraph2">
             Nossos cursos são construídos a partir das realidades e saberes dos territórios, com foco em direitos humanos, gestão social e fortalecimento de Povos e Comunidades Tradicionais.
           </p>
 
-          <p>
+          <p data-i18n="ead.hero.paragraph3">
             Aqui, a educação é ferramenta de transformação — conectando pessoas, fortalecendo iniciativas locais e ampliando oportunidades de desenvolvimento.
           </p>
 
-          <h3>Conheça o perfil dos nossos alunos:</h3>
+          <h3 data-i18n="ead.profile.title">Conheça o perfil dos nossos alunos:</h3>
 
           <div class="perfil-inline-grid">
-          <div class="perfil-item"><strong>13%</strong> Centro-Oeste</div>
-          <div class="perfil-item"><strong>30%</strong> Nordeste</div>
-          <div class="perfil-item"><strong>7%</strong> Norte</div>
-          <div class="perfil-item"><strong>31%</strong> Sudeste</div>
-          <div class="perfil-item"><strong>19%</strong> Sul</div>
+            <div class="perfil-item"><strong>13%</strong> <span data-i18n="ead.profile.region1">Centro-Oeste</span></div>
+            <div class="perfil-item"><strong>30%</strong> <span data-i18n="ead.profile.region2">Nordeste</span></div>
+            <div class="perfil-item"><strong>7%</strong> <span data-i18n="ead.profile.region3">Norte</span></div>
+            <div class="perfil-item"><strong>31%</strong> <span data-i18n="ead.profile.region4">Sudeste</span></div>
+            <div class="perfil-item"><strong>19%</strong> <span data-i18n="ead.profile.region5">Sul</span></div>
 
-          <div class="perfil-item"><strong>33%</strong> Entre 30 e 39 anos</div>
-          <div class="perfil-item"><strong>63%</strong> Pretos e pardos</div>
-          <div class="perfil-item"><strong>70%</strong> Mulheres</div>
-          <div class="perfil-item"><strong>90%</strong> Zona urbana</div>
-          <div class="perfil-item"><strong>37%</strong> Graduandos</div>
+            <div class="perfil-item"><strong>33%</strong> <span data-i18n="ead.profile.demographic1">Entre 30 e 39 anos</span></div>
+            <div class="perfil-item"><strong>63%</strong> <span data-i18n="ead.profile.demographic2">Pretos e pardos</span></div>
+            <div class="perfil-item"><strong>70%</strong> <span data-i18n="ead.profile.demographic3">Mulheres</span></div>
+            <div class="perfil-item"><strong>90%</strong> <span data-i18n="ead.profile.demographic4">Zona urbana</span></div>
+            <div class="perfil-item"><strong>37%</strong> <span data-i18n="ead.profile.demographic5">Graduandos</span></div>
           </div>
 
           <a
             href="https://awure.eadplataforma.app/"
             target="_blank"
+            rel="noopener noreferrer"
             class="btn btn--primary"
+            data-i18n="ead.hero.button"
           >
             Acesse a plataforma
           </a>
         </div>
-
       </div>
     </section>
   </main>
@@ -148,12 +169,13 @@
       </div>
 
       <nav class="footer-nav" aria-label="Rodapé">
-        <a href="#topo" class="back-to-top">↑ Voltar ao topo</a>
+        <a href="#topo" class="back-to-top" data-i18n="footer.backToTop">↑ Voltar ao topo</a>
       </nav>
     </div>
   </footer>
 
+  <script src="assets/js/translations.js"></script>
+  <script src="assets/js/language-switcher.js"></script>
   <script src="assets/js/script.js"></script>
-
 </body>
 </html>
