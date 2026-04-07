@@ -27,19 +27,34 @@
   <link rel="stylesheet" href="assets/css/main.css">
 </head>
 <body id="topo">
-  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+  <a class="skip-link" href="#conteudo" data-i18n="accessibility.skipToContent">Pular para o conteúdo</a>
 
   <header class="site-header">
     <div class="topbar">
       <div class="container topbar__inner">
-        <div class="topbar__languages">
-          <a href="#" aria-label="Português do Brasil" title="Português do Brasil">
+        <div class="topbar__languages language-switcher">
+          <a
+            href="#"
+            class="lang-btn lang-pt"
+            aria-label="Português do Brasil"
+            title="Português do Brasil"
+          >
             <span class="fi fi-br"></span>
           </a>
-          <a href="#" aria-label="Español" title="Español">
+          <a
+            href="#"
+            class="lang-btn lang-es"
+            aria-label="Español"
+            title="Español"
+          >
             <span class="fi fi-es"></span>
           </a>
-          <a href="#" aria-label="English" title="English">
+          <a
+            href="#"
+            class="lang-btn lang-en"
+            aria-label="English"
+            title="English"
+          >
             <span class="fi fi-us"></span>
           </a>
         </div>
@@ -62,19 +77,25 @@
         <img src="assets/img/logos/logo.png" alt="Instituto Educa" class="logo">
       </a>
 
-      <button class="menu-toggle" aria-expanded="false" aria-controls="main-nav" type="button">
+      <button
+        class="menu-toggle"
+        aria-expanded="false"
+        aria-controls="main-nav"
+        type="button"
+        data-i18n="menu.toggle"
+      >
         Menu
       </button>
 
       <nav id="main-nav" class="main-nav" aria-label="Principal">
         <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="projetos.html">Projetos e programas</a></li>
-          <li><a href="index.html#impacto">Impacto</a></li>
-          <li><a href="documentos.html">Documentos</a></li>
-          <li><a href="quem-somos.html">Quem somos</a></li>
-          <li><a href="ead.html">Cursos EAD</a></li>
-          <li><a href="index.html#contato">Contato</a></li>
+          <li><a href="index.html" data-i18n="menu.home">Home</a></li>
+          <li><a href="projetos.html" data-i18n="menu.projects">Projetos e programas</a></li>
+          <li><a href="index.html#impacto" data-i18n="menu.impact">Impacto</a></li>
+          <li><a href="documentos.html" data-i18n="menu.documents">Documentos</a></li>
+          <li><a href="quem-somos.html" data-i18n="menu.about">Quem somos</a></li>
+          <li><a href="ead.html" data-i18n="menu.ead">Cursos EAD</a></li>
+          <li><a href="index.html#contato" data-i18n="menu.contact">Contato</a></li>
         </ul>
       </nav>
     </div>
@@ -84,9 +105,9 @@
     <section class="section section--light projetos-hero">
       <div class="container">
         <div class="section-heading">
-          <span class="eyebrow">Projetos e programas</span>
-          <h2>Iniciativas que fortalecem territórios, trajetórias e direitos</h2>
-          <p>
+          <span class="eyebrow" data-i18n="projects.hero.eyebrow">Projetos e programas</span>
+          <h2 data-i18n="projects.hero.title">Iniciativas que fortalecem territórios, trajetórias e direitos</h2>
+          <p data-i18n="projects.hero.description">
             Conheça os projetos que foram desenvolvidos pelas comunidades que
             participaram do curso de Elaboração de Projetos Sociais
           </p>
@@ -100,212 +121,209 @@
           <article class="project-card">
             <img src="assets/img/projetos/projeto-1.jpg" alt="Imagem do Projeto 1">
             <div class="project-card__content">
-              <h3>Reestruturação da Sede da Comunidade</h3>
-              <p>Iniciativa voltada ao fortalecimento da estrutura comunitária e da participação cidadã na Comunidade Quilombola de Lajeado, em Dianópolis (TO)</p>
-              <a class="text-link" href="./pages/projeto-1.html">Conheça mais</a>
+              <h3 data-i18n="projects.card1.title">Reestruturação da Sede da Comunidade</h3>
+              <p data-i18n="projects.card1.text">Iniciativa voltada ao fortalecimento da estrutura comunitária e da participação cidadã na Comunidade Quilombola de Lajeado, em Dianópolis (TO)</p>
+              <a class="text-link" href="./pages/projeto-1.html" data-i18n="common.learnMore">Conheça mais</a>
             </div>
           </article>
 
           <article class="project-card">
             <img src="assets/img/projetos/projeto-2.jpg" alt="Imagem do Projeto 2">
             <div class="project-card__content">
-              <h3>Reestruturação da sede da Comunidade Quilombola Matão</h3>
-              <p>Iniciativa voltada ao fortalecimento da estrutura comunitária e da participação cidadã na Comunidade Quilombola de Matão, em Conceição do Tocantis (TO).</p>
-              <a class="text-link" href="./pages/projeto-2.html">Conheça mais</a>
+              <h3 data-i18n="projects.card2.title">Reestruturação da sede da Comunidade Quilombola Matão</h3>
+              <p data-i18n="projects.card2.text">Iniciativa voltada ao fortalecimento da estrutura comunitária e da participação cidadã na Comunidade Quilombola de Matão, em Conceição do Tocantins (TO).</p>
+              <a class="text-link" href="./pages/projeto-2.html" data-i18n="common.learnMore">Conheça mais</a>
             </div>
           </article>
 
           <article class="project-card">
             <img src="assets/img/projetos/projeto-3.jpg" alt="Imagem do Projeto 3">
             <div class="project-card__content">
-              <h3>Aquisição de Materiais Tecnológicos</h3>
-              <p>Associação Comunitária dos Quilombolas “Visão de Águia” da cidade de Chapada da Natividade - TO</p>
-              <a class="text-link" href="./pages/projeto-3.html">Conheça mais</a>
+              <h3 data-i18n="projects.card3.title">Aquisição de Materiais Tecnológicos</h3>
+              <p data-i18n="projects.card3.text">Associação Comunitária dos Quilombolas “Visão de Águia” da cidade de Chapada da Natividade - TO</p>
+              <a class="text-link" href="./pages/projeto-3.html" data-i18n="common.learnMore">Conheça mais</a>
             </div>
           </article>
 
           <article class="project-card">
             <img src="assets/img/projetos/projeto-4.jpg" alt="Imagem do Projeto 4">
             <div class="project-card__content">
-              <h3>Psicultura</h3>
-              <p>Associação da Comunidade Remanescente de Quilombolas Água Branca</p>
-              <a class="text-link" href="./pages/projeto-4.html">Conheça mais</a>
+              <h3 data-i18n="projects.card4.title">Psicultura</h3>
+              <p data-i18n="projects.card4.text">Associação da Comunidade Remanescente de Quilombolas Água Branca</p>
+              <a class="text-link" href="./pages/projeto-4.html" data-i18n="common.learnMore">Conheça mais</a>
             </div>
           </article>
 
           <article class="project-card">
             <img src="assets/img/projetos/projeto-5.jpg" alt="Imagem do Projeto 5">
             <div class="project-card__content">
-              <h3>Resgatando a Dança da Sussia</h3>
-              <p>Associação dos Remanescentes de Quilombola da Comunidade do Baião</p>
-              <a class="text-link" href="./pages/projeto-5.html">Conheça mais</a>
+              <h3 data-i18n="projects.card5.title">Resgatando a Dança da Sussia</h3>
+              <p data-i18n="projects.card5.text">Associação dos Remanescentes de Quilombola da Comunidade do Baião</p>
+              <a class="text-link" href="./pages/projeto-5.html" data-i18n="common.learnMore">Conheça mais</a>
             </div>
           </article>
 
           <article class="project-card">
             <img src="assets/img/projetos/projeto-6.jpg" alt="Imagem do Projeto 6">
             <div class="project-card__content">
-              <h3>Apicultura Sustentável</h3>
-              <p>Associação Remanescente de Quilombo da Comunidade São Joaquim    </p>
-              <a class="text-link" href="./pages/projeto-6.html">Conheça mais</a>
+              <h3 data-i18n="projects.card6.title">Apicultura Sustentável</h3>
+              <p data-i18n="projects.card6.text">Associação Remanescente de Quilombo da Comunidade São Joaquim</p>
+              <a class="text-link" href="./pages/projeto-6.html" data-i18n="common.learnMore">Conheça mais</a>
             </div>
           </article>
 
           <article class="project-card">
             <img src="assets/img/projetos/projeto-7.jpg" alt="Imagem do Projeto 7">
             <div class="project-card__content">
-              <h3>Cuidar e zelar é dever de todos nós</h3>
-              <p>Associação dos Remanescentes Quilombolas da Comunidade Manoel João</p>
-              <a class="text-link" href="./pages/projeto-7.html">Conheça mais</a>
+              <h3 data-i18n="projects.card7.title">Cuidar e zelar é dever de todos nós</h3>
+              <p data-i18n="projects.card7.text">Associação dos Remanescentes Quilombolas da Comunidade Manoel João</p>
+              <a class="text-link" href="./pages/projeto-7.html" data-i18n="common.learnMore">Conheça mais</a>
             </div>
           </article>
 
           <article class="project-card">
             <img src="assets/img/projetos/projeto-8.jpg" alt="Imagem do Projeto 8">
             <div class="project-card__content">
-              <h3>Festival do Baru</h3>
-              <p>Associação Comunitária dos Quilombos de Barra de Aroeira</p>
-              <a class="text-link" href="./pages/projeto-8.html">Conheça mais</a>
+              <h3 data-i18n="projects.card8.title">Festival do Baru</h3>
+              <p data-i18n="projects.card8.text">Associação Comunitária dos Quilombos de Barra de Aroeira</p>
+              <a class="text-link" href="./pages/projeto-8.html" data-i18n="common.learnMore">Conheça mais</a>
             </div>
           </article>
 
           <article class="project-card">
             <img src="assets/img/projetos/projeto-9.jpg" alt="Imagem do Projeto 9">
             <div class="project-card__content">
-              <h3>Dança Lundu e sua importância</h3>
-              <p>Associação da Comunidade Quilombola Rio Preto</p>
-              <a class="text-link" href="./pages/projeto-9.html">Conheça mais</a>
+              <h3 data-i18n="projects.card9.title">Dança Lundu e sua importância</h3>
+              <p data-i18n="projects.card9.text">Associação da Comunidade Quilombola Rio Preto</p>
+              <a class="text-link" href="./pages/projeto-9.html" data-i18n="common.learnMore">Conheça mais</a>
             </div>
           </article>
 
           <article class="project-card">
             <img src="assets/img/projetos/projeto-10.jpg" alt="Imagem do Projeto 10">
             <div class="project-card__content">
-              <h3>Atividade Física para Todos</h3>
-              <p>Associação dos Mini e pequenos produtores da Malhadinha</p>
-              <a class="text-link" href="./pages/projeto-10.html">Conheça mais</a>
+              <h3 data-i18n="projects.card10.title">Atividade Física para Todos</h3>
+              <p data-i18n="projects.card10.text">Associação dos Mini e pequenos produtores da Malhadinha</p>
+              <a class="text-link" href="./pages/projeto-10.html" data-i18n="common.learnMore">Conheça mais</a>
             </div>
           </article>
 
           <article class="project-card">
             <img src="assets/img/projetos/projeto-11.jpg" alt="Imagem do Projeto 11">
             <div class="project-card__content">
-              <h3>Bem estar social da comunidade</h3>
-              <p>Associação Remanescente Quilombola do Córrego Fundo</p>
-              <a class="text-link" href="./pages/projeto-11.html">Conheça mais</a>
+              <h3 data-i18n="projects.card11.title">Bem-estar social da comunidade</h3>
+              <p data-i18n="projects.card11.text">Associação Remanescente Quilombola do Córrego Fundo</p>
+              <a class="text-link" href="./pages/projeto-11.html" data-i18n="common.learnMore">Conheça mais</a>
             </div>
           </article>
 
           <article class="project-card">
             <img src="assets/img/projetos/projeto-12.jpg" alt="Imagem do Projeto 12">
             <div class="project-card__content">
-              <h3>Reestruturação da sede</h3>
-              <p>Disponibilizar um espaço para a promoção da educação e
-                socialização da comunidade, com a reestruturação da sede e
-                construção de uma biblioteca.
+              <h3 data-i18n="projects.card12.title">Reestruturação da sede</h3>
+              <p data-i18n="projects.card12.text">
+                Disponibilizar um espaço para a promoção da educação e socialização da comunidade, com a reestruturação da sede e construção de uma biblioteca.
               </p>
-              <a class="text-link" href="./pages/projeto-12.html">Conheça mais</a>
+              <a class="text-link" href="./pages/projeto-12.html" data-i18n="common.learnMore">Conheça mais</a>
             </div>
           </article>
 
           <article class="project-card">
             <img src="assets/img/projetos/projeto-13.jpg" alt="Imagem do Projeto 13">
             <div class="project-card__content">
-              <h3>Luz de produção agroecológica</h3>
-              <p>Promover o fortalecimento territorial da comunidade quilombola Ilha de São Vicente</p>
-              <a class="text-link" href="./pages/projeto-13.html">Conheça mais</a>
+              <h3 data-i18n="projects.card13.title">Luz de produção agroecológica</h3>
+              <p data-i18n="projects.card13.text">Promover o fortalecimento territorial da comunidade quilombola Ilha de São Vicente</p>
+              <a class="text-link" href="./pages/projeto-13.html" data-i18n="common.learnMore">Conheça mais</a>
             </div>
           </article>
 
           <article class="project-card">
             <img src="assets/img/projetos/projeto-14.jpg" alt="Imagem do Projeto 14">
             <div class="project-card__content">
-              <h3>Território de Sabores: Reforma e Equipação da Casa de Farinha do Quilombo Grotão</h3>
-              <p>Promover a reforma, ampliação estrutural e equipação da Casa de Farinha da Comunidade Quilombola Grotão</p>
-              <a class="text-link" href="./pages/projeto-14.html">Conheça mais</a>
+              <h3 data-i18n="projects.card14.title">Território de Sabores: Reforma e Equipação da Casa de Farinha do Quilombo Grotão</h3>
+              <p data-i18n="projects.card14.text">Promover a reforma, ampliação estrutural e equipação da Casa de Farinha da Comunidade Quilombola Grotão</p>
+              <a class="text-link" href="./pages/projeto-14.html" data-i18n="common.learnMore">Conheça mais</a>
             </div>
           </article>
 
           <article class="project-card">
-            <img src="assets/img/projetos/projeto-15.jpg" alt="Imagem do Projeto 14">
+            <img src="assets/img/projetos/projeto-15.jpg" alt="Imagem do Projeto 15">
             <div class="project-card__content">
-              <h3>Finalização da Construção da Cozinha Comunitária do Memorial
-                Dona Juscelina, na Comunidade Quilombola Dona Juscelina
-              </h3>
-              <p>Associação da Comunidade Quilombola Dona Juscelina - ACQDJ</p>
-              <a class="text-link" href="./pages/projeto-15.html">Conheça mais</a>
+              <h3 data-i18n="projects.card15.title">Finalização da Construção da Cozinha Comunitária do Memorial Dona Juscelina, na Comunidade Quilombola Dona Juscelina</h3>
+              <p data-i18n="projects.card15.text">Associação da Comunidade Quilombola Dona Juscelina - ACQDJ</p>
+              <a class="text-link" href="./pages/projeto-15.html" data-i18n="common.learnMore">Conheça mais</a>
             </div>
           </article>
 
           <article class="project-card">
-            <img src="assets/img/projetos/projeto-16.jpg" alt="Imagem do Projeto 14">
+            <img src="assets/img/projetos/projeto-16.jpg" alt="Imagem do Projeto 16">
             <div class="project-card__content">
-              <h3>Cozinha do Quilombo Pé do Morro</h3>
-              <p>Construção da cozinha comunitária da Comunidade Quilombola Pé do Morro.</p>
-              <a class="text-link" href="./pages/projeto-16.html">Conheça mais</a>
+              <h3 data-i18n="projects.card16.title">Cozinha do Quilombo Pé do Morro</h3>
+              <p data-i18n="projects.card16.text">Construção da cozinha comunitária da Comunidade Quilombola Pé do Morro.</p>
+              <a class="text-link" href="./pages/projeto-16.html" data-i18n="common.learnMore">Conheça mais</a>
             </div>
           </article>
 
           <article class="project-card">
-            <img src="assets/img/projetos/projeto-17.jpg" alt="Imagem do Projeto 14">
+            <img src="assets/img/projetos/projeto-17.jpg" alt="Imagem do Projeto 17">
             <div class="project-card__content">
-              <h3>Fortalecimento e Organização da Comunidade Quilombola Ciriáco</h3>
-              <p>Associação da Comunidade Remanescente de Quilombolas Prachata</p>
-              <a class="text-link" href="./pages/projeto-17.html">Conheça mais</a>
+              <h3 data-i18n="projects.card17.title">Fortalecimento e Organização da Comunidade Quilombola Ciriáco</h3>
+              <p data-i18n="projects.card17.text">Associação da Comunidade Remanescente de Quilombolas Prachata</p>
+              <a class="text-link" href="./pages/projeto-17.html" data-i18n="common.learnMore">Conheça mais</a>
             </div>
           </article>
 
           <article class="project-card">
-            <img src="assets/img/projetos/projeto-18.jpg" alt="Imagem do Projeto 14">
+            <img src="assets/img/projetos/projeto-18.jpg" alt="Imagem do Projeto 18">
             <div class="project-card__content">
-              <h3>Saberes e Protagonismo</h3>
-              <p>Associação das Mulheres Indígenas - AMIX</p>
-              <a class="text-link" href="./pages/projeto-18.html">Conheça mais</a>
+              <h3 data-i18n="projects.card18.title">Saberes e Protagonismo</h3>
+              <p data-i18n="projects.card18.text">Associação das Mulheres Indígenas - AMIX</p>
+              <a class="text-link" href="./pages/projeto-18.html" data-i18n="common.learnMore">Conheça mais</a>
             </div>
           </article>
 
           <article class="project-card">
-            <img src="assets/img/projetos/projeto-19.jpg" alt="Imagem do Projeto 14">
+            <img src="assets/img/projetos/projeto-19.jpg" alt="Imagem do Projeto 19">
             <div class="project-card__content">
-              <h3>Cerca para a Escola Indígena Tutawa Ãwa e aquisição de materiais</h3>
-              <p>Construir uma cerca de ferro (tela) ao redor da Escola Indígena Tutawa Ãwa</p>
-              <a class="text-link" href="./pages/projeto-19.html">Conheça mais</a>
+              <h3 data-i18n="projects.card19.title">Cerca para a Escola Indígena Tutawa Ãwa e aquisição de materiais</h3>
+              <p data-i18n="projects.card19.text">Construir uma cerca de ferro (tela) ao redor da Escola Indígena Tutawa Ãwa</p>
+              <a class="text-link" href="./pages/projeto-19.html" data-i18n="common.learnMore">Conheça mais</a>
             </div>
           </article>
 
           <article class="project-card">
-            <img src="assets/img/projetos/projeto-20.jpg" alt="Imagem do Projeto 14">
+            <img src="assets/img/projetos/projeto-20.jpg" alt="Imagem do Projeto 20">
             <div class="project-card__content">
-              <h3>Projeto de Monitoramento e Fiscalização em Território Indígena</h3>
-              <p>Definir um sistema de monitoramento e fiscalização utilizando placas solares e câmeras</p>
-              <a class="text-link" href="./pages/projeto-20.html">Conheça mais</a>
+              <h3 data-i18n="projects.card20.title">Projeto de Monitoramento e Fiscalização em Território Indígena</h3>
+              <p data-i18n="projects.card20.text">Definir um sistema de monitoramento e fiscalização utilizando placas solares e câmeras</p>
+              <a class="text-link" href="./pages/projeto-20.html" data-i18n="common.learnMore">Conheça mais</a>
             </div>
           </article>
 
           <article class="project-card">
-            <img src="assets/img/projetos/projeto-21.jpg" alt="Imagem do Projeto 14">
+            <img src="assets/img/projetos/projeto-21.jpg" alt="Imagem do Projeto 21">
             <div class="project-card__content">
-              <h3>Fortalecimento cultural e do povo Krahô-kanela na Aldeia Catàmjê</h3>
-              <p>Associação do povo indígena Krahô-kanela - APOINKK</p>
-              <a class="text-link" href="./pages/projeto-21.html">Conheça mais</a>
+              <h3 data-i18n="projects.card21.title">Fortalecimento cultural e do povo Krahô-kanela na Aldeia Catàmjê</h3>
+              <p data-i18n="projects.card21.text">Associação do povo indígena Krahô-kanela - APOINKK</p>
+              <a class="text-link" href="./pages/projeto-21.html" data-i18n="common.learnMore">Conheça mais</a>
             </div>
           </article>
 
           <article class="project-card">
-            <img src="assets/img/projetos/projeto-22.jpg" alt="Imagem do Projeto 14">
+            <img src="assets/img/projetos/projeto-22.jpg" alt="Imagem do Projeto 22">
             <div class="project-card__content">
-              <h3>Me Amji Jahkrepej to ipicamen xà / Fazendo e aprendendo</h3>
-              <p>Realizar o resgate e a revitalização cultural do povo Krahô da Takaywrá</p>
-              <a class="text-link" href="./pages/projeto-22.html">Conheça mais</a>
+              <h3 data-i18n="projects.card22.title">Me Amji Jahkrepej to ipicamen xà / Fazendo e aprendendo</h3>
+              <p data-i18n="projects.card22.text">Realizar o resgate e a revitalização cultural do povo Krahô da Takaywrá</p>
+              <a class="text-link" href="./pages/projeto-22.html" data-i18n="common.learnMore">Conheça mais</a>
             </div>
           </article>
 
           <article class="project-card">
-            <img src="assets/img/projetos/projeto-23.jpg" alt="Imagem do Projeto 14">
+            <img src="assets/img/projetos/projeto-23.jpg" alt="Imagem do Projeto 23">
             <div class="project-card__content">
-              <h3>Raizes Javaé: Quintais Agroflorestais Wari wari</h3>
-              <p>Aldeia Wari Wari – Ilha do Bananal - TO</p>
-              <a class="text-link" href="./pages/projeto-23.html">Conheça mais</a>
+              <h3 data-i18n="projects.card23.title">Raízes Javaé: Quintais Agroflorestais Wari wari</h3>
+              <p data-i18n="projects.card23.text">Aldeia Wari Wari – Ilha do Bananal - TO</p>
+              <a class="text-link" href="./pages/projeto-23.html" data-i18n="common.learnMore">Conheça mais</a>
             </div>
           </article>
         </div>
@@ -323,11 +341,13 @@
       </div>
 
       <nav class="footer-nav" aria-label="Rodapé">
-        <a href="#topo" class="back-to-top">↑ Voltar ao topo</a>
+        <a href="#topo" class="back-to-top" data-i18n="footer.backToTop">↑ Voltar ao topo</a>
       </nav>
     </div>
   </footer>
 
+  <script src="assets/js/translations.js"></script>
+  <script src="assets/js/language-switcher.js"></script>
   <script src="assets/js/script.js"></script>
 </body>
 </html>

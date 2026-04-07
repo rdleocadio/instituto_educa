@@ -27,19 +27,36 @@
   <link rel="stylesheet" href="assets/css/main.css">
 </head>
 <body id="topo">
-  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+  <a class="skip-link" href="#conteudo" data-i18n="accessibility.skipToContent">Pular para o conteúdo</a>
 
   <header class="site-header">
     <div class="topbar">
       <div class="container topbar__inner">
-        <div class="topbar__languages">
-          <a href="#" aria-label="Português do Brasil" title="Português do Brasil">
+        <div class="topbar__languages language-switcher">
+          <a
+            href="#"
+            class="lang-btn lang-pt"
+            aria-label="Português do Brasil"
+            title="Português do Brasil"
+          >
             <span class="fi fi-br"></span>
           </a>
-          <a href="#" aria-label="Español" title="Español">
+
+          <a
+            href="#"
+            class="lang-btn lang-es"
+            aria-label="Español"
+            title="Español"
+          >
             <span class="fi fi-es"></span>
           </a>
-          <a href="#" aria-label="English" title="English">
+
+          <a
+            href="#"
+            class="lang-btn lang-en"
+            aria-label="English"
+            title="English"
+          >
             <span class="fi fi-us"></span>
           </a>
         </div>
@@ -62,19 +79,25 @@
         <img src="assets/img/logos/logo.png" alt="Instituto Educa" class="logo">
       </a>
 
-      <button class="menu-toggle" aria-expanded="false" aria-controls="main-nav" type="button">
+      <button
+        class="menu-toggle"
+        aria-expanded="false"
+        aria-controls="main-nav"
+        type="button"
+        data-i18n="menu.toggle"
+      >
         Menu
       </button>
 
       <nav id="main-nav" class="main-nav" aria-label="Principal">
         <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="projetos.html">Projetos e programas</a></li>
-          <li><a href="#impacto">Impacto</a></li>
-          <li><a href="documentos.html">Documentos</a></li>
-          <li><a href="quem-somos.html">Quem somos</a></li>
-          <li><a href="ead.html">Cursos EAD</a></li>
-          <li><a href="#contato">Contato</a></li>
+          <li><a href="index.html" data-i18n="menu.home">Home</a></li>
+          <li><a href="projetos.html" data-i18n="menu.projects">Projetos e programas</a></li>
+          <li><a href="#impacto" data-i18n="menu.impact">Impacto</a></li>
+          <li><a href="documentos.html" data-i18n="menu.documents">Documentos</a></li>
+          <li><a href="quem-somos.html" data-i18n="menu.about">Quem somos</a></li>
+          <li><a href="ead.html" data-i18n="menu.ead">Cursos EAD</a></li>
+          <li><a href="#contato" data-i18n="menu.contact">Contato</a></li>
         </ul>
       </nav>
     </div>
@@ -85,26 +108,26 @@
       <div class="container">
         <div class="hero-slider">
           <div class="slide active">
-            <a>
-            <img src="assets/img/banners/banner1.jpeg" alt="Jovens participando de formação educacional">
+            <a href="#">
+              <img src="assets/img/banners/banner1.jpeg" alt="Jovens participando de formação educacional">
             </a>
           </div>
 
           <div class="slide">
-            <a href="ead.html" target="blank">
-            <img src="assets/img/banners/banner2.jpeg" alt="Atividade comunitária promovida pelo instituto">
+            <a href="ead.html" target="_blank" rel="noopener noreferrer">
+              <img src="assets/img/banners/banner2.jpeg" alt="Atividade comunitária promovida pelo instituto">
             </a>
           </div>
 
           <div class="slide">
             <a href="projetos.html">
-            <img src="assets/img/banners/banner3.JPEG" alt="Ação de parceria e impacto social">
+              <img src="assets/img/banners/banner3.JPEG" alt="Ação de parceria e impacto social">
             </a>
           </div>
 
           <div class="slide">
-            <a>
-            <img src="assets/img/banners/banner4.jpeg" alt="Ação de parceria e impacto social">
+            <a href="#">
+              <img src="assets/img/banners/banner4.jpeg" alt="Ação de parceria e impacto social">
             </a>
           </div>
 
@@ -119,49 +142,43 @@
     <section id="projetos" class="section section--light">
       <div class="container">
         <div class="section-heading">
-          <span class="eyebrow">Projetos e programas</span>
-          <p>Conheça nossos projetos e programas e seus impactos nas comunidades</p>
+          <span class="eyebrow" data-i18n="home.projects.eyebrow">Projetos e programas</span>
+          <p data-i18n="home.projects.description">Conheça nossos projetos e programas e seus impactos nas comunidades</p>
         </div>
 
         <div class="cards-grid cards-grid--4">
           <article class="card project-card">
             <div class="project-card__image project-card__image--awure"></div>
             <div class="project-card__body">
-              <h3>Elaboração de Projetos Sociais</h3>
-              <p>Formação para PCTs, promovendo autonomia na elaboração e gestão de projetos sociais, com protagonismo, valorização dos saberes locais e fortalecimento dos territórios.</p>
-              <a class="text-link" href="projetos.html">Ver mais</a>
+              <h3 data-i18n="home.projects.card1.title">Elaboração de Projetos Sociais</h3>
+              <p data-i18n="home.projects.card1.text">
+                Formação para PCTs, promovendo autonomia na elaboração e gestão de projetos sociais, com protagonismo, valorização dos saberes locais e fortalecimento dos territórios.
+              </p>
+              <a class="text-link" href="projetos.html" data-i18n="common.seeMore">Ver mais</a>
             </div>
           </article>
 
           <article class="card project-card">
             <div class="project-card__image project-card__image--ead"></div>
             <div class="project-card__body">
-              <h3>Ogunhê: caminhos da institucionalização das Casas de Axé</h3>
-              <p>Formação para institucionalização das Casas de Axé com foco na autonomia, gestão e sustentabilidade, valorizando saberes ancestrais e fortalecimento dos territórios tradicionais.</p>
-              <a class="text-link" href="./pages/ogunhe.html">Ver mais</a>
+              <h3 data-i18n="home.projects.card2.title">Ogunhê: caminhos da institucionalização das Casas de Axé</h3>
+              <p data-i18n="home.projects.card2.text">
+                Formação para institucionalização das Casas de Axé com foco na autonomia, gestão e sustentabilidade, valorizando saberes ancestrais e fortalecimento dos territórios tradicionais.
+              </p>
+              <a class="text-link" href="./pages/ogunhe.html" data-i18n="common.seeMore">Ver mais</a>
             </div>
           </article>
 
           <article class="card project-card">
             <div class="project-card__image project-card__image--territorios"></div>
             <div class="project-card__body">
-              <h3>Plataforma Àwúre Educa</h3>
-              <p>Cursos gratuitos em direitos humanos que fortalecem a autonomia, o acesso ao conhecimento e o protagonismo de comunidades tradicionais e grupos vulnerabilizados.</p>
-              <a class="text-link" href="ead.html">Ver mais</a>
+              <h3 data-i18n="home.projects.card3.title">Plataforma Àwúre Educa</h3>
+              <p data-i18n="home.projects.card3.text">
+                Cursos gratuitos em direitos humanos que fortalecem a autonomia, o acesso ao conhecimento e o protagonismo de comunidades tradicionais e grupos vulnerabilizados.
+              </p>
+              <a class="text-link" href="ead.html" data-i18n="common.seeMore">Ver mais</a>
             </div>
           </article>
-
-          <!-- <article class="card project-card">
-            <div class="project-card__image project-card__image--parcerias"></div>
-            <div class="project-card__body">
-              <h3>Captação e Parcerias</h3>
-              <p>
-                Espaço para empresas, organizações e apoiadores conhecerem formas
-                de parceria institucional e entrarem em contato.
-              </p>
-              <a class="text-link" href="projeto-1.html">Ver mais</a>
-            </div>
-          </article> -->
         </div>
       </div>
     </section>
@@ -175,8 +192,8 @@
 
           <div class="impacto-conteudo">
             <div class="impacto-heading">
-              <span class="eyebrow">Números e impacto</span>
-              <p>
+              <span class="eyebrow" data-i18n="home.impact.eyebrow">Números e impacto</span>
+              <p data-i18n="home.impact.text">
                 Não são apenas sob a perspectiva dos números e indicadores, mas, sobretudo, a partir das vidas, histórias e comunidades que foram impactadas. Cada dado representa pessoas reais, processos formativos construídos com respeito às especificidades culturais e iniciativas que avançam na institucionalização e na gestão autônoma de projetos nos próprios territórios.
               </p>
             </div>
@@ -184,27 +201,27 @@
             <div class="impacto-dados">
               <div class="dado">
                 <span class="numero">61</span>
-                <span class="label">Comunidades beneficiadas</span>
+                <span class="label" data-i18n="home.impact.stats.communities">Comunidades beneficiadas</span>
               </div>
 
               <div class="dado">
                 <span class="numero">7</span>
-                <span class="label">Estados</span>
+                <span class="label" data-i18n="home.impact.stats.states">Estados</span>
               </div>
 
               <div class="dado">
                 <span class="numero">2.300</span>
-                <span class="label">Pessoas impactadas</span>
+                <span class="label" data-i18n="home.impact.stats.people">Pessoas impactadas</span>
               </div>
 
               <div class="dado">
                 <span class="numero">143</span>
-                <span class="label">Associações capacitadas</span>
+                <span class="label" data-i18n="home.impact.stats.associations">Associações capacitadas</span>
               </div>
 
               <div class="dado">
                 <span class="numero">R$ 3.600.000</span>
-                <span class="label">Recursos geridos e distribuídos</span>
+                <span class="label" data-i18n="home.impact.stats.resources">Recursos geridos e distribuídos</span>
               </div>
             </div>
           </div>
@@ -212,79 +229,11 @@
       </div>
     </section>
 
-    <!-- <section id="depoimentos" class="section section--light">
-      <div class="container">
-        <div class="section-heading">
-          <span class="eyebrow">Depoimentos</span>
-          <p>Veja alguns depoimentos de quem já participou ou apoia nossa causa</p>
-        </div>
-
-        <div class="cards-grid cards-grid--3">
-          <article class="card testimonial-card">
-            <div class="testimonial-card__top">
-              <img
-                src="assets/img/depoimentos/depoimento1.jpg"
-                alt="Foto de liderança comunitária"
-                class="testimonial-card__avatar"
-              >
-              <div class="testimonial-card__meta">
-                <strong>Liderança comunitária</strong>
-                <span>Território atendido</span>
-              </div>
-            </div>
-
-            <p>
-              “O projeto trouxe formação prática e abriu novas possibilidades
-              de organização para a nossa comunidade.”
-            </p>
-          </article>
-
-          <article class="card testimonial-card">
-            <div class="testimonial-card__top">
-              <img
-                src="assets/img/depoimentos/depoimento2.jpg"
-                alt="Foto de parceiro institucional"
-                class="testimonial-card__avatar"
-              >
-              <div class="testimonial-card__meta">
-                <strong>Parceiro institucional</strong>
-                <span>Rede de apoio</span>
-              </div>
-            </div>
-
-            <p>
-              “A nova estrutura do site deixa mais claro o impacto do instituto
-              e facilita o acesso às informações relevantes.”
-            </p>
-          </article>
-
-          <article class="card testimonial-card">
-            <div class="testimonial-card__top">
-              <img
-                src="assets/img/depoimentos/depoimento3.jpg"
-                alt="Foto de participante de curso"
-                class="testimonial-card__avatar"
-              >
-              <div class="testimonial-card__meta">
-                <strong>Participante de curso</strong>
-                <span>Plataforma EAD</span>
-              </div>
-            </div>
-
-            <p>
-              “A plataforma formativa amplia o alcance das ações e cria um ponto
-              de entrada acessível para novos públicos.”
-            </p>
-          </article>
-        </div>
-      </div>
-    </section> -->
-
     <section id="noticias" class="section">
       <div class="container">
         <div class="section-heading">
-          <span class="eyebrow">Notícias e redes</span>
-          <p>Fique por dentro do que está acontecendo no mundo e nas nossas redes sociais</p>
+          <span class="eyebrow" data-i18n="home.news.eyebrow">Notícias e redes</span>
+          <p data-i18n="home.news.description">Fique por dentro do que está acontecendo no mundo e nas nossas redes sociais</p>
         </div>
 
         <div class="news-layout">
@@ -302,10 +251,10 @@
 
               <div class="news-content">
                 <span class="news-date">01 abr 2026</span>
-                <h3>
+                <h3 data-i18n="home.news.card1.title">
                   Plataforma MROSC lança edital que apoiará projetos de organizações de pequeno e médio porte.
                 </h3>
-                <p>
+                <p data-i18n="home.news.card1.text">
                   O edital é destinado a organizações signatárias da Plataforma MROSC e busca fortalecer iniciativas de impacto social.
                 </p>
                 <a
@@ -313,6 +262,7 @@
                   href="https://caritas.org.br/noticias/plataforma-mrosc-lanca-edital-que-apoiara-projetos-de-organizacoes-de-pequeno-e-medio-porte"
                   target="_blank"
                   rel="noopener noreferrer"
+                  data-i18n="common.readArticle"
                 >
                   Ler matéria
                 </a>
@@ -332,10 +282,10 @@
 
               <div class="news-content">
                 <span class="news-date">25 mar 2026</span>
-                <h3>
+                <h3 data-i18n="home.news.card2.title">
                   Mulheres do Cerrado se reúnem no Oeste da Bahia e reafirmam: “Tudo é político quando você é mulher”.
                 </h3>
-                <p>
+                <p data-i18n="home.news.card2.text">
                   Entre os dias 20 e 22 de março, a Aldeia Kiriri, em Barreiras (BA), foi território de encontro, resistência e celebração.
                 </p>
                 <a
@@ -343,6 +293,7 @@
                   href="https://cptnacional.org.br/2026/03/25/mulheres-do-cerrado-se-reunem-no-oeste-da-bahia-e-reafirmam-tudo-e-politico-quando-voce-e-mulher/"
                   target="_blank"
                   rel="noopener noreferrer"
+                  data-i18n="common.readArticle"
                 >
                   Ler matéria
                 </a>
@@ -362,10 +313,10 @@
 
               <div class="news-content">
                 <span class="news-date">20 mar 2026</span>
-                <h3>
+                <h3 data-i18n="home.news.card3.title">
                   Quebradeiras de Coco Babaçu promovem diálogo sobre território, alimentação e enfrentamento à violência em Pedro do Rosário (MA).
                 </h3>
-                <p>
+                <p data-i18n="home.news.card3.text">
                   Atividade reuniu cerca de 250 estudantes em Pedro do Rosário e destacou o papel das mulheres na defesa do território e dos direitos.
                 </p>
                 <a
@@ -373,6 +324,7 @@
                   href="https://miqcb.org.br/quebradeiras-de-coco-babacu-promovem-dialogo-sobre-territorio-alimentacao-e-enfrentamento-a-violencia-em-pedro-do-rosario-ma/"
                   target="_blank"
                   rel="noopener noreferrer"
+                  data-i18n="common.readArticle"
                 >
                   Ler matéria
                 </a>
@@ -393,15 +345,20 @@
             </div>
 
             <div class="instagram-content">
-              <h3>Combate à violência contra mulheres indígenas</h3>
-              <p>
+              <h3 data-i18n="home.instagram.title">Combate à violência contra mulheres indígenas</h3>
+              <p data-i18n="home.instagram.text">
                 O Senado aprovou o Dia Nacional de Proteção e Combate à Violência contra Mulheres e Meninas Indígenas (05 de setembro).
               </p>
 
-              <a class="btn btn--primary" href="https://www.instagram.com/p/DVJV70_jUpc/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+              <a
+                class="btn btn--primary"
+                href="https://www.instagram.com/p/DVJV70_jUpc/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
                 target="_blank"
                 rel="noopener noreferrer"
-                aria-label="Abrir instagram">Acompanhe no Instagram
+                aria-label="Abrir instagram"
+                data-i18n="home.instagram.button"
+              >
+                Acompanhe no Instagram
               </a>
             </div>
           </aside>
@@ -412,7 +369,7 @@
     <section id="parceiros" class="section section--light">
       <div class="container">
         <div class="section-heading section-heading--center">
-          <span class="eyebrow">Apoiadores e parceiros</span>
+          <span class="eyebrow" data-i18n="home.partners.eyebrow">Apoiadores e parceiros</span>
         </div>
 
         <div class="partners-grid">
@@ -436,15 +393,15 @@
             <img src="assets/img/parceiros/parceiro5.jpg" alt="Logo da Cáritas Brasileira">
           </a>
 
-          <a class="partner-logo" href="https://cptnacional.org.br/" target="_blank" rel="noopener noreferrer" aria-label="Cáritas Brasileira">
+          <a class="partner-logo" href="https://cptnacional.org.br/" target="_blank" rel="noopener noreferrer" aria-label="Comissão Pastoral da Terra">
             <img src="assets/img/parceiros/parceiro6.jpg" alt="Logo da Comissão Pastoral da Terra">
           </a>
 
-          <a class="partner-logo" href="https://portosinformatica.com.br/" target="_blank" rel="noopener noreferrer" aria-label="Cáritas Brasileira">
+          <a class="partner-logo" href="https://portosinformatica.com.br/" target="_blank" rel="noopener noreferrer" aria-label="Portos Informática">
             <img src="assets/img/parceiros/parceiro7.png" alt="Logo Portos Informática">
           </a>
 
-          <a class="partner-logo" aria-label="Cáritas Brasileira">
+          <a class="partner-logo" aria-label="Pankararu">
             <img src="assets/img/parceiros/parceiro8.png" alt="Logo da Pankararu">
           </a>
         </div>
@@ -454,11 +411,11 @@
     <section id="contato" class="section section--cta">
       <div class="container cta-box cta-box--form">
         <div class="cta-box__content">
-          <h2>Quer nos apoiar, construir uma parceria ou ser voluntário?</h2><br>
+          <h2 data-i18n="home.contact.title">Quer nos apoiar, construir uma parceria ou ser voluntário?</h2>
 
-          <p>
+          <p data-i18n="home.contact.text">
             Estamos abertos a parcerias que fortaleçam nosso impacto. Conecte-se ao Instituto Educa e construa iniciativas que gerem transformação real nos territórios onde atuamos.
-          </p><br>
+          </p>
 
           <p>gestao@institutoeduca.org</p>
         </div>
@@ -471,32 +428,51 @@
           <input type="hidden" name="_subject" value="Novo contato pelo site - Instituto Educa">
 
           <div class="cta-form__group">
-            <input type="text" name="nome" placeholder="Seu nome" required>
+            <input
+              type="text"
+              name="nome"
+              placeholder="Seu nome"
+              data-i18n-placeholder="form.name"
+              required
+            >
           </div>
 
           <div class="cta-form__group">
-            <input type="email" name="email" placeholder="Seu e-mail" required>
+            <input
+              type="email"
+              name="email"
+              placeholder="Seu e-mail"
+              data-i18n-placeholder="form.email"
+              required
+            >
           </div>
 
           <div class="cta-form__group">
-            <input type="text" name="telefone" placeholder="Telefone (opcional)">
+            <input
+              type="text"
+              name="telefone"
+              placeholder="Telefone (opcional)"
+              data-i18n-placeholder="form.phone"
+            >
           </div>
 
           <div class="cta-form__group">
-            <textarea name="mensagem" rows="4" placeholder="Como podemos construir juntos?" required></textarea>
+            <textarea
+              name="mensagem"
+              rows="4"
+              placeholder="Como podemos construir juntos?"
+              data-i18n-placeholder="form.message"
+              required
+            ></textarea>
           </div>
 
-          <!-- opcional: evita spam -->
           <input type="text" name="_gotcha" style="display:none">
-
-          <!-- redirecionamento após envio -->
           <input type="hidden" name="_next" value="index.html">
 
-          <button class="btn btn--primary" type="submit">
+          <button class="btn btn--primary" type="submit" data-i18n="form.submit">
             Enviar
           </button>
         </form>
-
       </div>
     </section>
   </main>
@@ -511,11 +487,13 @@
       </div>
 
       <nav class="footer-nav" aria-label="Rodapé">
-        <a href="#topo" class="back-to-top">↑ Voltar ao topo</a>
+        <a href="#topo" class="back-to-top" data-i18n="footer.backToTop">↑ Voltar ao topo</a>
       </nav>
     </div>
   </footer>
 
+  <script src="assets/js/translations.js"></script>
+  <script src="assets/js/language-switcher.js"></script>
   <script src="assets/js/script.js"></script>
 </body>
 </html>
