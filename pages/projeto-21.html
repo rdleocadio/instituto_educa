@@ -27,39 +27,55 @@
   <link rel="stylesheet" href="../assets/css/main.css">
 </head>
 <body id="topo">
-  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+  <a class="skip-link" href="#conteudo" data-i18n="accessibility.skipToContent">Pular para o conteúdo</a>
 
   <header class="site-header">
     <div class="topbar">
       <div class="container topbar__inner">
-        <div class="topbar__languages">
-          <a href="#"><span class="fi fi-br"></span></a>
-          <a href="#"><span class="fi fi-es"></span></a>
-          <a href="#"><span class="fi fi-us"></span></a>
+        <div class="topbar__languages language-switcher">
+          <a href="#" class="lang-btn lang-pt" aria-label="Português do Brasil" title="Português do Brasil">
+            <span class="fi fi-br"></span>
+          </a>
+          <a href="#" class="lang-btn lang-es" aria-label="Español" title="Español">
+            <span class="fi fi-es"></span>
+          </a>
+          <a href="#" class="lang-btn lang-en" aria-label="English" title="English">
+            <span class="fi fi-us"></span>
+          </a>
         </div>
 
-        <div class="socials">
-          <a href="https://www.instagram.com/inst.educa" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        <div class="socials" aria-label="Redes sociais">
+          <a href="https://www.instagram.com/inst.educa" target="_blank" rel="noopener noreferrer" aria-label="Instagram" title="Instagram">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
         </div>
       </div>
     </div>
 
     <div class="container navbar">
-      <a class="brand" href="../index.html">
+      <a class="brand" href="../index.html" aria-label="Instituto Educa">
         <img src="../assets/img/logos/logo.png" alt="Instituto Educa" class="logo">
       </a>
 
-      <button class="menu-toggle" type="button">Menu</button>
+      <button
+        class="menu-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="main-nav"
+        data-i18n="menu.toggle"
+      >
+        Menu
+      </button>
 
-      <nav class="main-nav">
+      <nav id="main-nav" class="main-nav" aria-label="Principal">
         <ul>
-          <li><a href="../index.html">Home</a></li>
-          <li><a href="../projetos.html" class="active">Projetos e programas</a></li>
-          <li><a href="../index.html#impacto">Impacto</a></li>
-          <li><a href="../documentos.html">Documentos</a></li>
-          <li><a href="../quem-somos.html">Quem somos</a></li>
-          <li><a href="../ead.html">Cursos EAD</a></li>
-          <li><a href="../index.html#contato">Contato</a></li>
+          <li><a href="../index.html" data-i18n="menu.home">Home</a></li>
+          <li><a href="../projetos.html" class="active" data-i18n="menu.projects">Projetos e programas</a></li>
+          <li><a href="../index.html#impacto" data-i18n="menu.impact">Impacto</a></li>
+          <li><a href="../documentos.html" data-i18n="menu.documents">Documentos</a></li>
+          <li><a href="../quem-somos.html" data-i18n="menu.about">Quem somos</a></li>
+          <li><a href="../ead.html" data-i18n="menu.ead">Cursos EAD</a></li>
+          <li><a href="../index.html#contato" data-i18n="menu.contact">Contato</a></li>
         </ul>
       </nav>
     </div>
@@ -69,9 +85,9 @@
     <section class="section section--light project-detail-hero">
       <div class="container">
         <div class="project-detail-heading">
-          <a class="project-back-link" href="../projetos.html">← Voltar para projetos</a>
-          <h1>Fortalecimento cultural e do povo Krahô-kanela na Aldeia Catàmjê</h1>
-          <p>
+          <a class="project-back-link" href="../projetos.html" data-i18n="projectDetail.back">← Voltar para projetos</a>
+          <h1 data-i18n="project21.title">Fortalecimento cultural e do povo Krahô-kanela na Aldeia Catàmjê</h1>
+          <p data-i18n="project21.subtitle">
             Fortalecer as práticas culturais do povo Krahô-kanela por meio de festas culturais, pintura corporal, canto, festa da laranja, wyty, além de dar visibilidade à participação das mulheres Krahô-kanela em espaços de luta, como a Marcha das Mulheres Indígenas de 2025, envolvendo jovens, anciãos, mulheres e homens da comunidade.
           </p>
         </div>
@@ -82,57 +98,57 @@
       <div class="container">
         <div class="project-meta-grid">
           <div class="project-meta-card">
-            <h2>Ficha do projeto</h2>
+            <h2 data-i18n="projectDetail.sheetTitle">Ficha do projeto</h2>
 
             <dl class="project-meta-list">
               <div class="project-meta-item">
-                <dt>Nome do projeto</dt>
-                <dd>Fortalecimento cultural e do povo Krahô-kanela na Aldeia Catàmjê</dd>
+                <dt data-i18n="projectDetail.labels.projectName">Nome do projeto</dt>
+                <dd data-i18n="project21.meta.projectName">Fortalecimento cultural e do povo Krahô-kanela na Aldeia Catàmjê</dd>
               </div>
 
               <div class="project-meta-item">
-                <dt>Proponente</dt>
-                <dd>Associação do povo indígena Krahô-kanela - APOINKK</dd>
+                <dt data-i18n="projectDetail.labels.proponent">Proponente</dt>
+                <dd data-i18n="project21.meta.proponent">Associação do povo indígena Krahô-kanela - APOINKK</dd>
               </div>
 
               <div class="project-meta-item">
-                <dt>Município</dt>
-                <dd>Lagoa da Confusão - TO</dd>
+                <dt data-i18n="projectDetail.labels.city">Município</dt>
+                <dd data-i18n="project21.meta.city">Lagoa da Confusão - TO</dd>
               </div>
 
               <div class="project-meta-item">
-                <dt>Localidade</dt>
-                <dd>Aldeia Catàmjê, Terra Indígena Krahô-kanela</dd>
+                <dt data-i18n="projectDetail.labels.location">Localidade</dt>
+                <dd data-i18n="project21.meta.location">Aldeia Catàmjê, Terra Indígena Krahô-kanela</dd>
               </div>
 
               <div class="project-meta-item">
-                <dt>Ano de Execução</dt>
-                <dd>2025</dd>
+                <dt data-i18n="projectDetail.labels.executionYear">Ano de Execução</dt>
+                <dd data-i18n="project21.meta.executionYear">2025</dd>
               </div>
 
               <div class="project-meta-item">
-                <dt>Período de execução</dt>
-                <dd>Junho a agosto de 2025</dd>
+                <dt data-i18n="projectDetail.labels.executionPeriod">Período de execução</dt>
+                <dd data-i18n="project21.meta.executionPeriod">Junho a agosto de 2025</dd>
               </div>
 
               <div class="project-meta-item">
-                <dt>Valor Financiado</dt>
-                <dd>R$ 10.000,00</dd>
+                <dt data-i18n="projectDetail.labels.fundedAmount">Valor Financiado</dt>
+                <dd data-i18n="project21.meta.fundedAmount">R$ 10.000,00</dd>
               </div>
 
               <div class="project-meta-item">
-                <dt>Beneficiados direto</dt>
-                <dd>Entre 44 e 60 pessoas da Aldeia Catàmjê</dd>
+                <dt data-i18n="projectDetail.labels.directBeneficiaries">Beneficiados direto</dt>
+                <dd data-i18n="project21.meta.directBeneficiaries">Entre 44 e 60 pessoas da Aldeia Catàmjê</dd>
               </div>
 
               <div class="project-meta-item">
-                <dt>Segmento PCTs</dt>
-                <dd>Povos indígenas</dd>
+                <dt data-i18n="projectDetail.labels.segment">Segmento PCTs</dt>
+                <dd data-i18n="project21.meta.segment">Povos indígenas</dd>
               </div>
 
               <div class="project-meta-item">
-                <dt>Objetivo do projeto</dt>
-                <dd>
+                <dt data-i18n="projectDetail.labels.objective">Objetivo do projeto</dt>
+                <dd data-i18n="project21.meta.objective">
                   Fortalecer as práticas culturais do povo Krahô-kanela por meio de festas culturais, pintura corporal, canto, festa da laranja, wyty, além de dar visibilidade à participação das mulheres Krahô-kanela em espaços de luta, como a Marcha das Mulheres Indígenas de 2025, envolvendo jovens, anciãos, mulheres e homens da comunidade.
                 </dd>
               </div>
@@ -142,12 +158,12 @@
           <aside class="project-ods-card">
             <div class="project-ods-header">
               <img src="../assets/img/ods/ods.png" alt="ODS" class="ods-icon">
-              <span class="eyebrow">ODS relacionados</span>
+              <span class="eyebrow" data-i18n="projectDetail.odsTitle">ODS relacionados</span>
             </div>
 
             <ul class="project-ods-list">
-              <li>ODS 5 – Igualdade de Gênero</li>
-              <li>ODS 8 – Trabalho Decente e Crescimento Econômico</li>
+              <li data-i18n="project21.ods.item1">ODS 5 – Igualdade de Gênero</li>
+              <li data-i18n="project21.ods.item2">ODS 8 – Trabalho Decente e Crescimento Econômico</li>
             </ul>
           </aside>
         </div>
@@ -164,7 +180,6 @@
           <div class="project-gallery-grid__item">
             <img src="../assets/img/projetos/projeto-21-2.jpg" alt="Imagem 2 do projeto Fortalecimento cultural do povo Krahô-kanela">
           </div>
-
         </div>
       </div>
     </section>
@@ -173,17 +188,19 @@
   <footer class="site-footer">
     <div class="container footer__inner">
       <div>
-        <a class="brand brand--footer" href="index.html">
+        <a class="brand brand--footer" href="../index.html">
           <img src="../assets/img/logos/logo2.png" alt="Instituto Educa" class="brand__logo">
         </a>
       </div>
 
-      <nav class="footer-nav">
-        <a href="#topo" class="back-to-top">↑ Voltar ao topo</a>
+      <nav class="footer-nav" aria-label="Rodapé">
+        <a href="#topo" class="back-to-top" data-i18n="footer.backToTop">↑ Voltar ao topo</a>
       </nav>
     </div>
   </footer>
 
+  <script src="../assets/js/translations.js"></script>
+  <script src="../assets/js/language-switcher.js"></script>
   <script src="../assets/js/script.js"></script>
 </body>
 </html>

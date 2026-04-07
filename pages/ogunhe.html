@@ -28,113 +28,139 @@
   <link rel="stylesheet" href="../assets/css/pages/ogunhe.css">
 </head>
 
-<body>
+<body id="topo">
+
+  <!-- HEADER -->
   <header class="site-header">
     <div class="topbar">
       <div class="container topbar__inner">
-        <div class="topbar__languages">
-          <a href="#" aria-label="Português do Brasil" title="Português do Brasil">
+
+        <!-- LANG -->
+        <div class="topbar__languages language-switcher">
+          <a href="#" class="lang-btn lang-pt">
             <span class="fi fi-br"></span>
           </a>
-          <a href="#" aria-label="Español" title="Español">
+          <a href="#" class="lang-btn lang-es">
             <span class="fi fi-es"></span>
           </a>
-          <a href="#" aria-label="English" title="English">
+          <a href="#" class="lang-btn lang-en">
             <span class="fi fi-us"></span>
           </a>
         </div>
 
-        <div class="socials" aria-label="Redes sociais">
-          <a href="https://www.instagram.com/inst.educa" target="_blank" rel="noopener noreferrer" aria-label="Instagram" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
+        <div class="socials">
+          <a href="https://www.instagram.com/inst.educa" target="_blank">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
         </div>
       </div>
     </div>
 
     <div class="container navbar">
-      <a class="brand" href="../index.html" aria-label="Instituto Educa">
-        <img src="../assets/img/logos/logo.png" alt="Instituto Educa" class="logo">
+      <a class="brand" href="../index.html">
+        <img src="../assets/img/logos/logo.png" class="logo">
       </a>
 
-      <button class="menu-toggle" aria-expanded="false" aria-controls="main-nav" type="button">
-        Menu
-      </button>
+      <button class="menu-toggle" data-i18n="menu.toggle">Menu</button>
 
-      <nav id="main-nav" class="main-nav" aria-label="Principal">
+      <nav class="main-nav">
         <ul>
-          <li><a href="../index.html">Home</a></li>
-          <li><a href="../projetos.html" class="active">Projetos e programas</a></li>
-          <li><a href="../index.html#impacto">Impacto</a></li>
-          <li><a href="../documentos.html">Documentos</a></li>
-          <li><a href="../quem-somos.html">Quem somos</a></li>
-          <li><a href="../ead.html">Cursos EAD</a></li>
-          <li><a href="../index.html#contato">Contato</a></li>
+          <li><a href="../index.html" data-i18n="menu.home">Home</a></li>
+          <li><a href="../projetos.html" class="active" data-i18n="menu.projects">Projetos e programas</a></li>
+          <li><a href="../index.html#impacto" data-i18n="menu.impact">Impacto</a></li>
+          <li><a href="../documentos.html" data-i18n="menu.documents">Documentos</a></li>
+          <li><a href="../quem-somos.html" data-i18n="menu.about">Quem somos</a></li>
+          <li><a href="../ead.html" data-i18n="menu.ead">Cursos EAD</a></li>
+          <li><a href="../index.html#contato" data-i18n="menu.contact">Contato</a></li>
         </ul>
       </nav>
     </div>
   </header>
 
+  <!-- MAIN -->
   <main>
+
+    <!-- HERO -->
     <section class="ogunhe-hero">
       <div class="container">
-        <a class="ogunhe-back-link" href="../projetos.html">← Voltar para projetos e programas</a>
+
+        <a class="ogunhe-back-link" href="../projetos.html" data-i18n="ogunhe.back">
+          ← Voltar para projetos e programas
+        </a>
 
         <div class="ogunhe-hero__content">
-          <h1>Ogunhê: caminhos da institucionalização das Casas de Axé</h1>
+          <h1 data-i18n="ogunhe.title">
+            Ogunhê: caminhos da institucionalização das Casas de Axé
+          </h1>
         </div>
+
       </div>
     </section>
 
+    <!-- TEXTO -->
     <section class="ogunhe-content-section">
       <div class="container">
         <div class="ogunhe-content">
           <div class="ogunhe-text">
-            <p>
-              O projeto <strong>Ogunhê: Caminhos para a institucionalização das Casas de Axé</strong> tem como objetivo fortalecer as comunidades de matriz africana por meio da sua formalização jurídica e do desenvolvimento de capacidades de gestão. A iniciativa busca apoiar terreiros e lideranças na criação de associações, elaboração de estatutos, organização administrativa e obtenção de CNPJ, garantindo que essas casas possam acessar políticas públicas, editais e parcerias institucionais.
+
+            <p data-i18n="ogunhe.paragraph1">
+              O projeto Ogunhê: Caminhos para a institucionalização das Casas de Axé tem como objetivo fortalecer as comunidades de matriz africana por meio da sua formalização jurídica e do desenvolvimento de capacidades de gestão. A iniciativa busca apoiar terreiros e lideranças na criação de associações, elaboração de estatutos, organização administrativa e obtenção de CNPJ, garantindo que essas casas possam acessar políticas públicas, editais e parcerias institucionais.
             </p>
 
-            <p>
-              Sua importância reside no reconhecimento das Casas de Axé como espaços fundamentais de resistência cultural, espiritual e comunitária. Ao promover sua institucionalização, o projeto contribui para a proteção de seus direitos, a valorização de seus saberes tradicionais e o fortalecimento de sua autonomia. Além disso, possibilita melhores condições para captação de recursos, execução de projetos sociais e ampliação do impacto dessas comunidades em seus territórios, consolidando-as como protagonistas no desenvolvimento social e na promoção da diversidade e da justiça social.
+            <p data-i18n="ogunhe.paragraph2">
+              Sua importância reside no reconhecimento das Casas de Axé como espaços fundamentais de resistência cultural, espiritual e comunitária. Ao promover sua institucionalização, o projeto contribui para a proteção de seus direitos, a valorização de seus saberes tradicionais e o fortalecimento de sua autonomia. Além disso, possibilita melhores condições para captação de recursos, execução de projetos sociais e ampliação do impacto dessas comunidades em seus territórios.
             </p>
 
-            <p>
-              A primeira edição do curso foi realizada em Palmas - TO com a participação de <strong>20 Casas de Axé</strong>, e destas, <strong>14 casas tiveram seus estatutos protocolados</strong> para sua institucionalização.
+            <p data-i18n="ogunhe.paragraph3">
+              A primeira edição do curso foi realizada em Palmas - TO com a participação de 20 Casas de Axé, e destas, 14 casas tiveram seus estatutos protocolados para sua institucionalização.
             </p>
+
           </div>
         </div>
       </div>
     </section>
 
+    <!-- GALERIA -->
     <section class="ogunhe-gallery-section">
       <div class="container">
+
         <div class="section-heading ogunhe-gallery-heading">
-          <h2>Imagens do projeto</h2>
+          <h2 data-i18n="ogunhe.galleryTitle">Imagens do projeto</h2>
         </div>
 
         <div class="ogunhe-gallery">
-          <img src="../assets/img/projetos/ogunhe-1.jpg" alt="Participantes do projeto Ogunhê">
-          <img src="../assets/img/projetos/ogunhe-2.jpg" alt="Atividade do projeto Ogunhê">
-          <img src="../assets/img/projetos/ogunhe-3.jpg" alt="Encontro formativo do projeto Ogunhê">
-          <img src="../assets/img/projetos/ogunhe-4.jpg" alt="Registro do projeto Ogunhê">
+          <img src="../assets/img/projetos/ogunhe-1.jpg">
+          <img src="../assets/img/projetos/ogunhe-2.jpg">
+          <img src="../assets/img/projetos/ogunhe-3.jpg">
+          <img src="../assets/img/projetos/ogunhe-4.jpg">
         </div>
+
       </div>
     </section>
+
   </main>
 
+  <!-- FOOTER -->
   <footer class="site-footer">
     <div class="container footer__inner">
-      <div>
-        <a class="brand brand--footer" href="../index.html">
-          <img src="../assets/img/logos/logo2.png" alt="Instituto Educa" class="brand__logo">
-          <span class="brand__text">Instituto<strong>Educa</strong></span>
-        </a>
-      </div>
 
-      <nav class="footer-nav" aria-label="Rodapé">
-        <a href="#topo" class="back-to-top">↑ Voltar ao topo</a>
+      <a class="brand brand--footer" href="../index.html">
+        <img src="../assets/img/logos/logo2.png" class="brand__logo">
+      </a>
+
+      <nav>
+        <a href="#topo" class="back-to-top" data-i18n="footer.backToTop">
+          ↑ Voltar ao topo
+        </a>
       </nav>
+
     </div>
   </footer>
 
+  <!-- SCRIPTS -->
+  <script src="../assets/js/translations.js"></script>
+  <script src="../assets/js/language-switcher.js"></script>
   <script src="../assets/js/script.js"></script>
+
 </body>
 </html>
