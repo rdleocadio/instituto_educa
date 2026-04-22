@@ -6,10 +6,10 @@
 }
 
 .cards-grid--4 {
-  grid-template-columns: repeat(3, minmax(280px, 1fr)); /* 🔥 agora 3 colunas */
-  justify-content: center; /* 🔥 centraliza o grid */
-  max-width: 980px;       /* 🔥 limita largura */
-  margin: 0 auto;         /* 🔥 centraliza na página */
+  grid-template-columns: repeat(3, minmax(240px, 1fr));
+  justify-content: center;
+  max-width: 980px;
+  margin: 0 auto;
 }
 
 .cards-grid--3 {
@@ -72,6 +72,11 @@
 @media (max-width: 980px) {
   .cards-grid--3 {
     grid-template-columns: 1fr;
+  }
+
+  .cards-grid--4 {
+    grid-template-columns: 1fr;
+    max-width: 100%;
   }
 
   .news-grid {
