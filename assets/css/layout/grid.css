@@ -13,7 +13,7 @@
 }
 
 .cards-grid--3 {
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
 /* ===== NEWS GRID ===== */
@@ -27,7 +27,7 @@
 
 .news-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 24px;
 }
 
@@ -52,11 +52,19 @@
   gap: 14px;
 }
 
+/* ===== PROJECTS GRID ===== */
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 32px 24px;
+}
+
 /* ===== RESPONSIVO ===== */
 
 @media (max-width: 1180px) {
   .cards-grid--4 {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .news-layout {
@@ -70,6 +78,10 @@
 }
 
 @media (max-width: 980px) {
+  .cards-grid {
+    gap: 20px;
+  }
+
   .cards-grid--3 {
     grid-template-columns: 1fr;
   }
@@ -80,7 +92,11 @@
   }
 
   .news-grid {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .projects-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
 
@@ -92,6 +108,12 @@
 }
 
 @media (max-width: 640px) {
+  .cards-grid,
+  .news-grid,
+  .projects-grid {
+    gap: 16px;
+  }
+
   .news-grid {
     grid-template-columns: 1fr;
   }
@@ -100,37 +122,37 @@
     grid-template-columns: 1fr;
     gap: 24px;
   }
+
+  .cards-grid--4 {
+    grid-template-columns: 1fr;
+    max-width: 100%;
+  }
+
+  .projetos-section .projects-grid {
+    display: grid !important;
+    grid-template-columns: 1fr !important;
+    gap: 18px !important;
+  }
+
+  .projetos-section .projects-grid > * {
+    width: 100%;
+    min-width: 0;
+  }
 }
+
+/* ===== NEWS THUMB ===== */
 
 .news-thumb {
   display: block;
   overflow: hidden;
   border-radius: 18px;
   margin-bottom: 16px;
-  aspect-ratio: 16 / 10; /* 🔥 DEFINE TAMANHO PADRÃO */
+  aspect-ratio: 16 / 10;
 }
 
 .news-thumb img {
   width: 100%;
-  height: 100%;          /* 🔥 ocupa todo o container */
-  object-fit: cover;     /* 🔥 corta proporcionalmente */
+  height: 100%;
+  object-fit: cover;
   display: block;
-}
-
-.projects-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 32px 24px;
-}
-
-@media (max-width: 980px) {
-  .projects-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-@media (max-width: 640px) {
-  .projects-grid {
-    grid-template-columns: 1fr;
-  }
 }
