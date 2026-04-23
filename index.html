@@ -35,8 +35,51 @@
   >
 
   <link rel="stylesheet" href="assets/css/main.css?v=101">
-</head>
 
+  <style>
+    @media (max-width: 980px) {
+      .home-projects-grid {
+        display: grid !important;
+        grid-template-columns: 1fr !important;
+        gap: 18px !important;
+        width: 100% !important;
+        max-width: 100% !important;
+      }
+
+      .home-projects-grid > .project-card,
+      .home-projects-grid > .card.project-card {
+        width: 100% !important;
+        max-width: 100% !important;
+        min-width: 0 !important;
+        min-height: auto !important;
+        margin: 0 !important;
+      }
+
+      .home-projects-grid .project-card__image {
+        height: 220px !important;
+      }
+
+      .home-projects-grid .project-card__body {
+        padding: 20px 18px !important;
+      }
+
+      .home-projects-grid .project-card__body h3 {
+        font-size: 1.1rem !important;
+        line-height: 1.3 !important;
+        margin-bottom: 10px !important;
+        word-break: break-word;
+      }
+
+      .home-projects-grid .project-card__body p {
+        font-size: 0.98rem !important;
+        line-height: 1.5 !important;
+        -webkit-line-clamp: 4;
+        line-clamp: 4;
+        overflow: hidden;
+      }
+    }
+  </style>
+</head>
 <body id="topo">
   <a class="skip-link" href="#conteudo" data-i18n="accessibility.skipToContent">Pular para o conteúdo</a>
 
