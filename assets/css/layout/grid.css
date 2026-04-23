@@ -64,6 +64,10 @@
 /* ===== RESPONSIVO ===== */
 
 @media (max-width: 1180px) {
+  .cards-grid--4 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    max-width: 100%;
+  }
 
   .news-layout {
     grid-template-columns: 1fr;
@@ -82,6 +86,16 @@
 
   .cards-grid--3 {
     grid-template-columns: 1fr;
+  }
+
+  .cards-grid--4 {
+    grid-template-columns: 1fr !important;
+    max-width: 100%;
+  }
+
+  .cards-grid--4 > * {
+    width: 100%;
+    min-width: 0;
   }
 
   .news-grid {
@@ -114,6 +128,16 @@
   .partners-grid {
     grid-template-columns: 1fr;
     gap: 24px;
+  }
+
+  .cards-grid--4 {
+    grid-template-columns: 1fr !important;
+    max-width: 100%;
+  }
+
+  .cards-grid--4 > * {
+    width: 100%;
+    min-width: 0;
   }
 
   .projects-grid {
