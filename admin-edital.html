@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Edital | Instituto Educa</title>
+
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="assets/css/pages/admin-edital.css">
+</head>
+
+<body>
+  <main class="admin-page">
+    <section class="admin-login" id="admin-login">
+      <div class="admin-login__card">
+        <h1>Gestão do Edital</h1>
+        <p>Digite a senha para visualizar as inscrições.</p>
+
+        <form id="admin-login-form">
+          <input type="password" id="admin-password" placeholder="Senha de acesso" required>
+          <button type="submit">Entrar</button>
+        </form>
+
+        <p id="admin-message"></p>
+      </div>
+    </section>
+
+    <section class="admin-content is-hidden" id="admin-content">
+      <div class="admin-header">
+        <div>
+          <h1>Inscrições recebidas</h1>
+          <p>Dados consolidados do formulário de inscrição.</p>
+        </div>
+
+        <button id="export-csv" type="button">Exportar CSV</button>
+      </div>
+
+      <div class="admin-table-wrap">
+        <table class="admin-table">
+          <thead>
+            <tr>
+              <th>Edital</th>
+              <th>Data</th>
+              <th>Instituição</th>
+              <th>CNPJ</th>
+              <th>Projeto</th>
+              <th>Responsável</th>
+              <th>Email</th>
+              <th>Telefone</th>
+              <th>Segmento</th>
+              <th>ODS</th>
+              <th>Documentos</th>
+              <th>Ações</th>
+            </tr>
+          </thead>
+
+          <tbody id="applications-table-body"></tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+
+  <script src="assets/js/admin-edital.js"></script>
+</body>
+</html>
