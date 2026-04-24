@@ -105,7 +105,7 @@
 .edital-form select {
   width: 100%;
   padding: 14px 16px;
-  margin-bottom: 16px;
+  margin-bottom: 8px;
   border: 1px solid #d9cfc2;
   border-radius: 14px;
   background: #fffdf9;
@@ -260,7 +260,6 @@
 #form-message {
   margin-top: 18px;
   text-align: center;
-  color: #5f5143;
   font-weight: 600;
 }
 
@@ -308,4 +307,72 @@
     width: 100%;
     min-width: 0;
   }
+}
+
+/* =========================
+   VALIDAÇÃO DE FORMULÁRIO
+========================= */
+
+/* Wrapper controla espaçamento perfeito */
+.field-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+/* Remove espaçamento excessivo dos campos */
+.field-wrapper input,
+.field-wrapper select,
+.field-wrapper textarea {
+  margin-bottom: 0 !important;
+}
+
+/* Estado de erro do campo */
+.field-error {
+  border-color: #b42318 !important;
+  background: #fff7f7 !important;
+  box-shadow: 0 0 0 3px rgba(180, 35, 24, 0.12) !important;
+}
+
+/* Mensagem de erro */
+.field-error-message {
+  margin: 0;
+  font-size: 0.78rem;
+  line-height: 1.25;
+  color: #b42318;
+  font-weight: 600;
+
+  /* aparência mais suave */
+  opacity: 0;
+  transform: translateY(-2px);
+  animation: fadeInError 0.2s ease forwards;
+}
+
+/* Animação suave */
+@keyframes fadeInError {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Mensagem geral */
+.form-message--error {
+  color: #b42318;
+}
+
+.form-message--success {
+  color: #2f6b3f;
+}
+
+.ods-error-message {
+  display: none;
+  margin: -8px 0 16px;
+  color: #b42318;
+  font-size: 0.875rem;
+  font-weight: 700;
+}
+
+.ods-error-message.is-visible {
+  display: block;
 }

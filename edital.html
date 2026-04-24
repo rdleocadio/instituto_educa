@@ -124,7 +124,7 @@
           </p>
         </div>
 
-        <form id="project-application-form" class="edital-form">
+        <form id="project-application-form" class="edital-form" novalidate>
           <div class="form-section">
             <h2>Edital</h2>
 
@@ -347,6 +347,25 @@
               Neste campo deverá ser descrito um breve histórico da comunidade contendo informações sobre o tempo de existência, quantidade de famílias pertencentes, se já teve financiamento anterior de outras instituições e demais informações que julgar necessárias.
             </p>
             <textarea name="community_history" placeholder="" required></textarea>
+            <div class="form-grid form-grid--2">
+              <p>Quantas famílias vivem na comunidade:</p><br>
+              <input
+                type="number"
+                name="families_count"
+                placeholder="0"
+                min="0"
+                required
+              ><br>
+
+              <p>Quantas famílias vivem na comunidade:</p><br>
+              <input
+                type="number"
+                name="people_count"
+                placeholder="0"
+                min="0"
+                required
+              >
+            </div>
           </div>
 
           <!-- 6. OBJETIVO -->
@@ -403,9 +422,14 @@
           <!-- 11. ODS -->
           <div class="form-section">
             <h2>11. ODS (Objetivos de Desenvolvimento Sustentável)</h2>
+            <span id="ods-error-message" class="ods-error-message"></span>
 
             <div class="checkbox-group checkbox-group--vertical">
-              <label><input type="checkbox" name="ods" value="01"> <span>01 – Erradicação da pobreza</span></label>
+              <label>
+                <input type="checkbox" name="ods" value="01" required>
+                <span>01 – Erradicação da pobreza</span>
+              </label>
+
               <label><input type="checkbox" name="ods" value="02"> <span>02 – Fome zero</span></label>
               <label><input type="checkbox" name="ods" value="03"> <span>03 – Saúde e bem-estar</span></label>
               <label><input type="checkbox" name="ods" value="04"> <span>04 – Educação de qualidade</span></label>
