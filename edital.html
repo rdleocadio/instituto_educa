@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q96JVVTTQX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-Q96JVVTTQX');
+  </script>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inscrição de Projetos | Instituto Educa</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  >
+
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.5.0/css/flag-icons.min.css"
+  >
+
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  >
+
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="assets/css/pages/edital.css">
+</head>
+
+<body id="topo">
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+  <header class="site-header">
+    <div class="topbar">
+      <div class="container topbar__inner">
+        <div class="topbar__languages language-switcher">
+          <a
+            href="#"
+            class="lang-btn lang-pt"
+            aria-label="Português do Brasil"
+            title="Português do Brasil"
+          >
+            <span class="fi fi-br"></span>
+          </a>
+          <a
+            href="#"
+            class="lang-btn lang-es"
+            aria-label="Español"
+            title="Español"
+          >
+            <span class="fi fi-es"></span>
+          </a>
+          <a
+            href="#"
+            class="lang-btn lang-en"
+            aria-label="English"
+            title="English"
+          >
+            <span class="fi fi-us"></span>
+          </a>
+        </div>
+
+        <div class="socials" aria-label="Redes sociais">
+          <a href="https://www.instagram.com/inst.educa" target="_blank" rel="noopener noreferrer" aria-label="Instagram" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="container navbar">
+      <a class="brand" href="index.html" aria-label="Instituto Educa">
+        <img src="assets/img/logos/logo.png" alt="Instituto Educa" class="logo">
+      </a>
+
+      <button
+        class="menu-toggle"
+        aria-expanded="false"
+        aria-controls="main-nav"
+        type="button"
+      >
+        Menu
+      </button>
+
+      <nav id="main-nav" class="main-nav" aria-label="Principal">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="projetos.html">Projetos e programas</a></li>
+          <li><a href="index.html#impacto">Impacto</a></li>
+          <li><a href="documentos.html">Documentos</a></li>
+          <li><a href="quem-somos.html">Quem somos</a></li>
+          <li><a href="ead.html">Cursos EAD</a></li>
+          <li><a href="index.html#contato">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="conteudo">
+    <section class="section section--light edital-hero">
+      <div class="container">
+        <div class="section-heading">
+          <span class="eyebrow">Edital</span>
+          <h1>Inscrição de Projetos</h1>
+          <p>Preencha o formulário abaixo para participar do edital do Instituto Educa.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section edital-form-section">
+      <div class="container">
+        <div class="edital-intro-card">
+          <p>
+            Preencha todos os campos com atenção e anexe os documentos solicitados.
+            Após o envio, sua inscrição seguirá para análise.
+          </p>
+        </div>
+
+        <form id="project-application-form" class="edital-form">
+          <div class="form-section">
+            <h2>Edital</h2>
+
+            <label class="form-label">Selecione o edital que você está se inscrevendo.</label>
+
+            <select name="edital_name" required>
+              <option value="">Selecionar</option>
+              <option value="Edital 2026 - Povos Tradicionais">Edital N 001_2023 – Maranhão</option>
+              <option value="Edital 2026 - Educação Ambiental">Edital Nº 001_2024 – Sul TO</option>
+              <option value="Edital 2026 - Cultura">Edital Nº 002_2024 – Centro TO</option>
+            </select>
+          </div>
+
+          <!-- 1. INSTITUIÇÃO -->
+          <div class="form-section">
+            <h2>1. Dados da Instituição</h2>
+
+            <div class="form-grid form-grid--2">
+              <input type="text" name="institution_name" placeholder="Nome da Instituição" required>
+              <input type="text" name="cnpj" placeholder="CNPJ" required>
+            </div>
+
+            <input type="text" name="institution_address" placeholder="Endereço" required>
+
+            <div class="form-grid form-grid--2">
+              <input type="text" name="institution_city" placeholder="Cidade" required>
+
+              <select name="institution_state" required>
+                <option value="">UF</option>
+                <option>AC</option>
+                <option>AL</option>
+                <option>AP</option>
+                <option>AM</option>
+                <option>BA</option>
+                <option>CE</option>
+                <option>DF</option>
+                <option>ES</option>
+                <option>GO</option>
+                <option>MA</option>
+                <option>MT</option>
+                <option>MS</option>
+                <option>MG</option>
+                <option>PA</option>
+                <option>PB</option>
+                <option>PR</option>
+                <option>PE</option>
+                <option>PI</option>
+                <option>RJ</option>
+                <option>RN</option>
+                <option>RS</option>
+                <option>RO</option>
+                <option>RR</option>
+                <option>SC</option>
+                <option>SP</option>
+                <option>SE</option>
+                <option>TO</option>
+              </select>
+            </div>
+
+            <label class="form-label">Qual segmento de Povos e Comunidades Tradicionais sua instituição faz parte?</label>
+            <select name="segment" required>
+              <option value="Povos Indígenas">Povos Indígenas</option>
+              <option value="Comunidades Quilombolas">Comunidades Quilombolas</option>
+              <option value="Povos de Terreiro">Povos de Terreiro</option>
+              <option value="Ribeirinhos">Ribeirinhos</option>
+              <option value="Pescadores Artesanais">Pescadores Artesanais</option>
+              <option value="Extrativistas">Extrativistas</option>
+              <option value="Seringueiros">Seringueiros</option>
+              <option value="Castanheiros">Castanheiros</option>
+              <option value="Quebradeiras de Coco Babaçu">Quebradeiras de Coco Babaçu</option>
+              <option value="Catadores de Mangaba">Catadores de Mangaba</option>
+              <option value="Apanhadores de Flores Sempre-vivas">Apanhadores de Flores Sempre-vivas</option>
+              <option value="Geraizeiros">Geraizeiros</option>
+              <option value="Caatingueiros">Caatingueiros</option>
+              <option value="Vazanteiros">Vazanteiros</option>
+              <option value="Pantaneiros">Pantaneiros</option>
+              <option value="Caiçaras">Caiçaras</option>
+              <option value="Ilhéus">Ilhéus</option>
+              <option value="Faxinalenses">Faxinalenses</option>
+              <option value="Fundos e Fechos de Pasto">Fundos e Fechos de Pasto</option>
+              <option value="Retireiros do Araguaia">Retireiros do Araguaia</option>
+              <option value="Povos Ciganos">Povos Ciganos</option>
+              <option value="Andirobeiras">Andirobeiras</option>
+              <option value="Piaçabeiros">Piaçabeiros</option>
+              <option value="Marisqueiras">Marisqueiras</option>
+              <option value="Varzeiros">Varzeiros</option>
+              <option value="Beiradeiros">Beiradeiros</option>
+              <option value="Moradores de Unidades de Conservação de Uso Sustentável">
+                Moradores de Unidades de Conservação de Uso Sustentável
+              </option>
+              <option value="Comunidades Tradicionais Urbanas">
+                Comunidades Tradicionais Urbanas
+              </option>
+            </select>
+
+            <input type="text" name="indigenous_ethnicity" placeholder="Etnia (se indígena)">
+
+            <div class="attachments-block">
+              <h3>Anexos:</h3>
+
+              <div class="attachment-item">
+                <p>Anexe o Cartão CNPJ da instituição:</p>
+                <a href="https://solucoes.receita.fazenda.gov.br/servicos/cnpjreva/cnpjreva_solicitacao.asp" target="_blank" rel="noopener noreferrer">Consulte aqui</a>
+                <input type="file" name="cartao_cnpj" required>
+              </div>
+
+              <div class="attachment-item">
+                <p>Anexe o Estatuto da instituição:</p>
+                <input type="file" name="estatuto" required>
+              </div>
+
+              <div class="attachment-item">
+                <p>Anexe a Ata da última eleição:</p>
+                <input type="file" name="ata_eleicao" required>
+              </div>
+
+              <div class="attachment-item">
+                <p>Anexe a CND do FGTS:</p>
+                <a href="https://consulta-crf.caixa.gov.br/consultacrf/pages/consultaEmpregador.jsf" target="_blank" rel="noopener noreferrer">Consulte aqui</a>
+                <input type="file" name="cnd_fgts" required>
+              </div>
+
+              <div class="attachment-item">
+                <p>Anexe a CND Trabalhista:</p>
+                <a href="https://cndt-certidao.tst.jus.br/inicio.faces" target="_blank" rel="noopener noreferrer">Consulte aqui</a>
+                <input type="file" name="cnd_trabalhista" required>
+              </div>
+
+              <div class="attachment-item">
+                <p>Anexe a CND da Receita Federal:</p>
+                <a href="https://servicos.receitafederal.gov.br/servico/certidoes/#/home" target="_blank" rel="noopener noreferrer">Consulte aqui</a>
+                <input type="file" name="cnd_receita_federal" required>
+              </div>
+            </div>
+          </div>
+
+          <!-- 2. REPRESENTANTE -->
+          <div class="form-section">
+            <h2>2. Representante Legal</h2>
+
+            <div class="form-grid form-grid--2">
+              <input type="text" name="legal_name" placeholder="Nome completo" required>
+              <input type="text" name="legal_cpf" placeholder="CPF" required>
+            </div>
+
+            <input type="text" name="legal_address" placeholder="Endereço" required>
+
+            <div class="form-grid form-grid--2">
+              <input type="text" name="legal_city" placeholder="Cidade" required>
+              <select name="legal_state" required>
+                <option value="">UF</option>
+                <option>AC</option>
+                <option>AL</option>
+                <option>AP</option>
+                <option>AM</option>
+                <option>BA</option>
+                <option>CE</option>
+                <option>DF</option>
+                <option>ES</option>
+                <option>GO</option>
+                <option>MA</option>
+                <option>MT</option>
+                <option>MS</option>
+                <option>MG</option>
+                <option>PA</option>
+                <option>PB</option>
+                <option>PR</option>
+                <option>PE</option>
+                <option>PI</option>
+                <option>RJ</option>
+                <option>RN</option>
+                <option>RS</option>
+                <option>RO</option>
+                <option>RR</option>
+                <option>SC</option>
+                <option>SP</option>
+                <option>SE</option>
+                <option>TO</option>
+              </select>
+            </div>
+          </div>
+
+          <!-- 3. PROJETO -->
+          <div class="form-section">
+            <h2>3. Dados do Projeto</h2>
+
+            <div class="form-grid form-grid--2">
+              <input type="text" name="project_name" placeholder="Nome do projeto" required>
+              <input type="text" name="execution_period" placeholder="Período de execução" required>
+            </div>
+
+            <input type="text" name="execution_location" placeholder="Local de execução" required>
+            <input type="text" name="project_lead_name" placeholder="Responsável pelo projeto" required>
+
+            <div class="form-grid form-grid--2">
+              <input type="text" name="project_phone" placeholder="Telefone" required>
+              <input type="email" name="project_email" placeholder="Email" required>
+            </div>
+          </div>
+
+          <!-- 4. BANCÁRIO -->
+          <div class="form-section">
+            <h2>4. Dados Bancários</h2>
+
+            <div class="form-grid form-grid--2">
+              <input type="text" name="bank_name" placeholder="Banco" required>
+              <input type="text" name="bank_branch" placeholder="Agência" required>
+            </div>
+
+            <div class="form-grid form-grid--2">
+              <input type="text" name="bank_account" placeholder="Conta Corrente" required>
+              <input type="text" name="pix_key" placeholder="Chave Pix" required>
+            </div>
+          </div>
+
+          <!-- 5. HISTÓRICO -->
+          <div class="form-section">
+            <h2>5. Histórico da Comunidade</h2>
+            <p>
+              Neste campo deverá ser descrito um breve histórico da comunidade contendo informações sobre o tempo de existência, quantidade de famílias pertencentes, se já teve financiamento anterior de outras instituições e demais informações que julgar necessárias.
+            </p>
+            <textarea name="community_history" placeholder="" required></textarea>
+          </div>
+
+          <!-- 6. OBJETIVO -->
+          <div class="form-section">
+            <h2>6. Objetivo Geral</h2>
+            <p>
+              O objetivo geral deve dizer o que o projeto quer fazer. Ele é o <strong>sonho que foi trabalhado na oficina prática,</strong> transformado em algo que pode ser realizado. Use verbos no infinitivo (como promover, fortalecer, desenvolver) e diga de forma direta o que se quer mudar ou melhorar com o projeto.
+            </p>
+            <textarea name="general_objective" placeholder="" required></textarea>
+          </div>
+
+          <!-- 7. OBJETIVOS ESPECÍFICOS -->
+          <div class="form-section">
+            <h2>7. Objetivos Específicos</h2>
+            <p>
+              Os objetivos específicos mostram os passos para alcançar o objetivo geral. Eles ajudam a sair do sonho e chegar na prática.  Devem ser escritos com verbos no infinitivo (como organizar, realizar, apoiar, construir) e indicar ações que serão feitas ao longo do projeto. <strong>No mínimo 03 objetivos específicos.</strong>
+            </p>
+            <textarea name="objective_1" placeholder="" required></textarea>
+          </div>
+
+          <!-- 8. JUSTIFICATIVA -->
+          <div class="form-section">
+            <h2>8. Justificativa</h2>
+            <p>
+              A justificativa é o espaço para explicar por que esse projeto é importante. É o momento de <strong>mostrar a realidade da comunidade</strong> e “vender o peixe”, ou seja, dizer com suas palavras por que esse projeto precisa acontecer.<br><br>
+              Aqui, conte qual é o problema ou dificuldade que a comunidade vive hoje, como isso afeta as pessoas e por que é importante mudar essa situação. Também explique como o projeto pode ajudar a melhorar a vida do coletivo.<br><br>
+              Use o conhecimento da própria comunidade, trazendo exemplos do dia a dia, para mostrar a importância do projeto e sua força para gerar transformação.
+            </p>
+            <textarea name="justification" placeholder="" required></textarea>
+          </div>
+
+          <!-- 9. METODOLOGIA -->
+          <div class="form-section">
+            <h2>9. Metodologia</h2>
+            <p>
+              A metodologia é o jeito de fazer o projeto acontecer. É aqui que você explica como o sonho vai sair do papel e virar ação.<br><br>
+              Descreva o que será feito na prática: encontros, oficinas, reuniões, mutirões, formações ou outras atividades. Diga também quem vai participar, onde vai acontecer e como a comunidade vai se envolver.<br><br>
+              Use palavras simples e conte passo a passo o que será realizado, mostrando como as ações vão ajudar a alcançar o objetivo do projeto.
+            </p>
+            <textarea name="methodology" placeholder="" required></textarea>
+          </div>
+
+          <!-- 10. RESULTADOS -->
+          <div class="form-section">
+            <h2>10. Resultados Esperados</h2>
+            <p>
+              Neste campo, você deve dizer quais mudanças o projeto quer alcançar ao final. Pense no que vai melhorar na comunidade depois que o projeto acontecer.<br><br>
+              Liste <strong>no mínimo 5 resultados,</strong> mostrando de forma simples o que as ações vão gerar na prática. Pode ser algo como melhoria na organização da comunidade, aumento de renda, fortalecimento cultural, acesso a direitos ou melhoria na qualidade de vida.<br><br>
+              Os resultados devem estar ligados ao objetivo do projeto e ao sonho construído na oficina, mostrando o que vai mudar de verdade para as pessoas e para o coletivo.
+            </p>
+            <textarea name="result_1" required></textarea>
+          </div>
+
+          <!-- 11. ODS -->
+          <div class="form-section">
+            <h2>11. ODS (Objetivos de Desenvolvimento Sustentável)</h2>
+
+            <div class="checkbox-group checkbox-group--vertical">
+              <label><input type="checkbox" name="ods" value="01"> <span>01 – Erradicação da pobreza</span></label>
+              <label><input type="checkbox" name="ods" value="02"> <span>02 – Fome zero</span></label>
+              <label><input type="checkbox" name="ods" value="03"> <span>03 – Saúde e bem-estar</span></label>
+              <label><input type="checkbox" name="ods" value="04"> <span>04 – Educação de qualidade</span></label>
+              <label><input type="checkbox" name="ods" value="05"> <span>05 – Igualdade de gênero</span></label>
+              <label><input type="checkbox" name="ods" value="06"> <span>06 – Água e saneamento</span></label>
+              <label><input type="checkbox" name="ods" value="07"> <span>07 – Energia limpa</span></label>
+              <label><input type="checkbox" name="ods" value="08"> <span>08 – Trabalho e crescimento</span></label>
+              <label><input type="checkbox" name="ods" value="09"> <span>09 – Inovação</span></label>
+              <label><input type="checkbox" name="ods" value="10"> <span>10 – Redução das desigualdades</span></label>
+              <label><input type="checkbox" name="ods" value="11"> <span>11 – Cidades sustentáveis</span></label>
+              <label><input type="checkbox" name="ods" value="12"> <span>12 – Consumo responsável</span></label>
+              <label><input type="checkbox" name="ods" value="13"> <span>13 – Ação climática</span></label>
+              <label><input type="checkbox" name="ods" value="14"> <span>14 – Vida na água</span></label>
+              <label><input type="checkbox" name="ods" value="15"> <span>15 – Vida terrestre</span></label>
+              <label><input type="checkbox" name="ods" value="16"> <span>16 – Paz e justiça</span></label>
+              <label><input type="checkbox" name="ods" value="17"> <span>17 – Parcerias</span></label>
+            </div>
+          </div>
+
+          <div class="form-submit">
+            <button type="submit">Enviar Inscrição</button>
+          </div>
+
+          <p id="form-message"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer__inner">
+      <div>
+        <a class="brand brand--footer" href="index.html">
+          <img src="assets/img/logos/logo2.png" alt="Instituto Educa" class="brand__logo">
+          <span class="brand__text">Instituto<strong>Educa</strong></span>
+        </a>
+      </div>
+
+      <nav class="footer-nav" aria-label="Rodapé">
+        <a href="#topo" class="back-to-top">↑ Voltar ao topo</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="assets/js/translations.js"></script>
+  <script src="assets/js/language-switcher.js"></script>
+  <script src="assets/js/script.js"></script>
+  <script src="assets/js/edital-form.js"></script>
+</body>
+</html>

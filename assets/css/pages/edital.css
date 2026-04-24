@@ -1,0 +1,311 @@
+.edital-hero {
+  padding-top: 56px;
+  padding-bottom: 56px;
+  background:
+    linear-gradient(180deg, rgba(244, 238, 223, 0.92) 0%, rgba(255, 255, 255, 0.96) 100%);
+}
+
+.edital-hero .section-heading {
+  max-width: 820px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.edital-hero .eyebrow {
+  display: inline-block;
+  margin-bottom: 14px;
+}
+
+.edital-hero h1 {
+  margin: 0 0 14px;
+  color: var(--text, #2f261d);
+  font-size: clamp(2rem, 4vw, 3rem);
+  line-height: 1.12;
+}
+
+.edital-hero p {
+  margin: 0 auto;
+  max-width: 720px;
+  color: var(--muted, #6f655a);
+  font-size: 1.05rem;
+  line-height: 1.7;
+}
+
+.edital-form-section {
+  padding-top: 0;
+}
+
+.edital-intro-card {
+  max-width: 980px;
+  margin: 0 auto 28px;
+  padding: 22px 24px;
+  background: #f7f1e6;
+  border: 1px solid rgba(136, 105, 67, 0.16);
+  border-radius: 20px;
+  box-shadow: 0 14px 36px rgba(62, 45, 25, 0.08);
+}
+
+.edital-intro-card p {
+  margin: 0;
+  color: #5f5143;
+  line-height: 1.7;
+}
+
+.edital-form {
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+.form-section {
+  margin-bottom: 28px;
+  padding: 28px;
+  background: #ffffff;
+  border: 1px solid rgba(136, 105, 67, 0.14);
+  border-radius: 24px;
+  box-shadow: 0 18px 44px rgba(62, 45, 25, 0.08);
+}
+
+.form-section h2 {
+  margin: 0 0 18px;
+  color: #2f261d;
+  font-size: clamp(1.2rem, 2vw, 1.55rem);
+  line-height: 1.25;
+}
+
+.form-section h3 {
+  margin: 0 0 12px;
+  color: #2f261d;
+  font-size: 1rem;
+}
+
+.form-section p {
+  margin: 0 0 16px;
+  color: #66594c;
+  line-height: 1.75;
+}
+
+.form-label {
+  display: block;
+  margin-bottom: 10px;
+  color: #3a2f24;
+  font-weight: 700;
+}
+
+.form-grid {
+  display: grid;
+  gap: 16px;
+}
+
+.form-grid--2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.edital-form input:not([type="checkbox"]):not([type="radio"]),
+.edital-form textarea,
+.edital-form select {
+  width: 100%;
+  padding: 14px 16px;
+  margin-bottom: 16px;
+  border: 1px solid #d9cfc2;
+  border-radius: 14px;
+  background: #fffdf9;
+  color: #2f261d;
+  font: inherit;
+  line-height: 1.4;
+  box-sizing: border-box;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease;
+  appearance: none;
+}
+
+.edital-form input:not([type="checkbox"]):not([type="radio"])::placeholder,
+.edital-form textarea::placeholder {
+  color: #9a8e81;
+}
+
+.edital-form input:not([type="checkbox"]):not([type="radio"]):focus,
+.edital-form textarea:focus,
+.edital-form select:focus {
+  outline: none;
+  border-color: #9c6c35;
+  box-shadow: 0 0 0 4px rgba(156, 108, 53, 0.12);
+  background: #ffffff;
+}
+
+.edital-form textarea {
+  min-height: 180px;
+  resize: vertical;
+}
+
+.edital-form select {
+  background-image:
+    linear-gradient(45deg, transparent 50%, #7f6b56 50%),
+    linear-gradient(135deg, #7f6b56 50%, transparent 50%);
+  background-position:
+    calc(100% - 22px) calc(50% - 3px),
+    calc(100% - 16px) calc(50% - 3px);
+  background-size: 6px 6px, 6px 6px;
+  background-repeat: no-repeat;
+  padding-right: 48px;
+}
+
+.attachments-block {
+  margin-top: 10px;
+  padding-top: 4px;
+}
+
+.attachment-item {
+  padding: 18px 18px 14px;
+  margin-bottom: 14px;
+  background: #fbf7f1;
+  border: 1px solid rgba(136, 105, 67, 0.12);
+  border-radius: 16px;
+}
+
+.attachment-item p {
+  margin-bottom: 6px;
+}
+
+.attachment-item a {
+  display: inline-block;
+  margin-bottom: 12px;
+  color: #9c6c35;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.attachment-item a:hover {
+  text-decoration: underline;
+}
+
+.edital-form input[type="file"] {
+  padding: 12px;
+  background: #fff;
+  border-style: dashed;
+  cursor: pointer;
+}
+
+.checkbox-group--vertical {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 8px;
+}
+
+.checkbox-group--vertical label {
+  display: grid;
+  grid-template-columns: 18px 1fr;
+  align-items: start;
+  column-gap: 12px;
+  padding: 12px 14px;
+  margin: 0;
+  background: #fbf7f1;
+  border: 1px solid rgba(136, 105, 67, 0.1);
+  border-radius: 14px;
+  cursor: pointer;
+  transition: background-color 0.2s ease, border-color 0.2s ease, transform 0.2s ease;
+}
+
+.checkbox-group--vertical label:hover {
+  background: #f5ede1;
+  border-color: rgba(156, 108, 53, 0.2);
+}
+
+.checkbox-group--vertical input[type="checkbox"] {
+  width: 18px !important;
+  height: 18px;
+  margin: 2px 0 0 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  flex-shrink: 0;
+  accent-color: #9c6c35;
+}
+
+.checkbox-group--vertical span {
+  color: #4b4034;
+  line-height: 1.5;
+}
+
+.form-submit {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.form-submit button {
+  min-width: 240px;
+  padding: 15px 28px;
+  border: none;
+  border-radius: 999px;
+  background: linear-gradient(135deg, #9c6c35 0%, #7e5428 100%);
+  color: #fff;
+  font: inherit;
+  font-weight: 700;
+  font-size: 1rem;
+  letter-spacing: 0.01em;
+  cursor: pointer;
+  box-shadow: 0 16px 36px rgba(126, 84, 40, 0.22);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, filter 0.2s ease;
+}
+
+.form-submit button:hover {
+  transform: translateY(-1px);
+  filter: brightness(1.03);
+  box-shadow: 0 20px 40px rgba(126, 84, 40, 0.26);
+}
+
+.form-submit button:active {
+  transform: translateY(0);
+}
+
+#form-message {
+  margin-top: 18px;
+  text-align: center;
+  color: #5f5143;
+  font-weight: 600;
+}
+
+@media (max-width: 900px) {
+  .form-grid--2 {
+    grid-template-columns: 1fr;
+  }
+
+  .form-section {
+    padding: 24px;
+  }
+
+  .edital-intro-card {
+    padding: 20px;
+  }
+}
+
+@media (max-width: 640px) {
+  .edital-hero {
+    padding-top: 42px;
+    padding-bottom: 42px;
+  }
+
+  .form-section {
+    padding: 18px;
+    border-radius: 18px;
+  }
+
+  .edital-form input:not([type="checkbox"]):not([type="radio"]),
+  .edital-form textarea,
+  .edital-form select {
+    padding: 13px 14px;
+    border-radius: 12px;
+  }
+
+  .edital-form textarea {
+    min-height: 150px;
+  }
+
+  .checkbox-group--vertical label {
+    padding: 10px 12px;
+  }
+
+  .form-submit button {
+    width: 100%;
+    min-width: 0;
+  }
+}
