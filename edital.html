@@ -132,9 +132,7 @@
 
             <select name="edital_name" required>
               <option value="">Selecionar</option>
-              <option value="Edital 2026 - Povos Tradicionais">Edital N 001_2023 – Maranhão</option>
-              <option value="Edital 2026 - Educação Ambiental">Edital Nº 001_2024 – Sul TO</option>
-              <option value="Edital 2026 - Cultura">Edital Nº 002_2024 – Centro TO</option>
+              <option value="Edital 2026 - Povos Tradicionais">Edital N 001_2026 – Rondônia</option>
             </select>
           </div>
 
@@ -258,6 +256,26 @@
                 <a href="https://servicos.receitafederal.gov.br/servico/certidoes/#/home" target="_blank" rel="noopener noreferrer">Consulte aqui</a>
                 <input type="file" name="cnd_receita_federal" required>
               </div>
+
+              <div class="attachment-item">
+                <p>Anexe o Comprovante de Endereço da Associação:</p>
+                <input type="file" name="comprovante_endereco_associacao" required>
+              </div>
+
+              <div class="attachment-item">
+                <p>Anexe a Cópia da Identidade (frente e verso no mesmo arquivo):</p>
+                <input type="file" name="identidade_representante" accept=".pdf,.jpg,.jpeg,.png" required>
+              </div>
+
+              <div class="attachment-item">
+                <p>Anexe a Cópia do CPF (frente e verso no mesmo arquivo):</p>
+                <input type="file" name="cpf_representante" accept=".pdf,.jpg,.jpeg,.png" required>
+              </div>
+
+              <div class="attachment-item">
+                <p>Anexe o Comprovante de Endereço do representante legal:</p>
+                <input type="file" name="comprovante_endereco_representante" required>
+              </div>
             </div>
           </div>
 
@@ -357,7 +375,7 @@
                 required
               ><br>
 
-              <p>Quantas famílias vivem na comunidade:</p><br>
+              <p>Quantas pessoas vivem na comunidade:</p><br>
               <input
                 type="number"
                 name="people_count"

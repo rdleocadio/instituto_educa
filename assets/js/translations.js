@@ -27,7 +27,8 @@ const translations = {
       seeMore: "Ver más",
       learnMore: "Conocer más",
       readArticle: "Leer artículo",
-      download: "Descargar"
+      download: "Descargar",
+      subscribe: "Inscripción"
     },
 
     footer: {
@@ -291,6 +292,10 @@ const translations = {
         card5: {
           title: "Convocatoria Nº 001_25 – TO",
           text: "Convocatoria referente al proceso de selección realizado en Tocantins en 2025."
+        },
+        card6: {
+          title: "Convocatoria N 001_2026 – Rondônia",
+          text: "Convocatoria de selección referente al proceso realizado en Rondônia."
         }
       },
 
@@ -937,7 +942,8 @@ const translations = {
       seeMore: "See more",
       learnMore: "Learn more",
       readArticle: "Read article",
-      download: "Download"
+      download: "Download",
+      subscribe: "Apply"
     },
 
     footer: {
@@ -1201,6 +1207,10 @@ const translations = {
         card5: {
           title: "Public Call Nº 001_25 – TO",
           text: "Notice referring to the selection process carried out in Tocantins in 2025."
+        },
+        card6: {
+          title: "Public Call N 001_2026 – Rondônia",
+          text: "Selection notice related to the process carried out in Rondônia."
         }
       },
 

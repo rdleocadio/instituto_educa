@@ -100,7 +100,7 @@ function renderTable(applications) {
   if (!applications.length) {
     tableBody.innerHTML = `
       <tr>
-        <td colspan="11">Nenhuma inscrição encontrada.</td>
+        <td colspan="12">Nenhuma inscrição encontrada.</td>
       </tr>
     `;
     return;
@@ -110,8 +110,8 @@ function renderTable(applications) {
     const tr = document.createElement("tr");
 
     tr.innerHTML = `
-      <td>${formatDate(application.created_at)}</td>
       <td>${escapeHTML(application.edital_name || "")}</td>
+      <td>${formatDate(application.created_at)}</td>
       <td>${escapeHTML(application.institution_name || "")}</td>
       <td>${escapeHTML(application.cnpj || "")}</td>
       <td>${escapeHTML(application.project_name || "")}</td>
@@ -149,6 +149,23 @@ function renderDocuments(files) {
       `).join("")}
     </div>
   `;
+}
+
+function formatFileType(type) {
+  const labels = {
+    cartao_cnpj: "Cartão CNPJ",
+    estatuto: "Estatuto",
+    ata_eleicao: "Ata da eleição",
+    cnd_fgts: "CND FGTS",
+    cnd_trabalhista: "CND Trabalhista",
+    cnd_receita_federal: "CND Receita Federal",
+    comprovante_endereco_associacao: "Comprovante de Endereço da Associação",
+    identidade_representante: "Identidade do Representante Legal",
+    cpf_representante: "CPF do Representante Legal",
+    comprovante_endereco_representante: "Comprovante de Endereço do Representante Legal",
+  };
+
+  return labels[type] || type;
 }
 
 function exportToCSV(applications) {
@@ -244,7 +261,7 @@ function exportToCSV(applications) {
   const link = document.createElement("a");
 
   link.href = url;
-  link.download = `inscricoes-edital-instituto-educa-${new Date().toISOString().slice(0, 10)}.csv`;
+  link.download = `inscricoes-edital-${new Date().toISOString().slice(0, 10)}.csv`;
   link.click();
 
   URL.revokeObjectURL(url);
@@ -267,19 +284,6 @@ function formatODS(ods) {
   }
 
   return String(ods);
-}
-
-function formatFileType(type) {
-  const labels = {
-    cartao_cnpj: "Cartão CNPJ",
-    estatuto: "Estatuto",
-    ata_eleicao: "Ata da eleição",
-    cnd_fgts: "CND FGTS",
-    cnd_trabalhista: "CND Trabalhista",
-    cnd_receita_federal: "CND Receita Federal",
-  };
-
-  return labels[type] || type;
 }
 
 function csvEscape(value) {
