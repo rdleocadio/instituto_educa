@@ -163,6 +163,7 @@ function formatFileType(type) {
     identidade_representante: "Identidade do Representante Legal",
     cpf_representante: "CPF do Representante Legal",
     comprovante_endereco_representante: "Comprovante de Endereço do Representante Legal",
+    orcamento_excel: "Planilha de Excel - Orçamento",
   };
 
   return labels[type] || type;
