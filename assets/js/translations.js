@@ -204,7 +204,43 @@ const translations = {
       card23: {
         title: "Raíces Javaé: Huertos Agroforestales Wari wari",
         text: "Aldea Wari Wari – Ilha do Bananal - TO"
-      }
+      },
+      card24: {
+        title: "Documentar para educar: memoria, tradición y saberes Apinajé",
+        text: "Capacitación de jóvenes Apinajé en producción audiovisual y comunicación digital para preservar la memoria colectiva y fortalecer la cultura indígena."
+      },
+      card25: {
+        title: "Estructuración de la Brigada de Incendios Krahô",
+        text: "Fortalecimiento de la infraestructura y del bienestar de los brigadistas Krahô para la protección de la Tierra Indígena Kraolândia."
+      },
+      card26: {
+        title: "Construcción de la Sede de la Asociación Indígena Karajá Ixy-Biowá – AIXY",
+        text: "Implantación de la sede de AIXY como espacio de referencia para el fortalecimiento de la gobernanza, la cultura y los derechos del pueblo Karajá Xambioá."
+      },
+      card27: {
+        title: "Mẽ Hempej Xá Jurkwa: la sede de Hempej xá",
+        text: "Construcción de la sede de la Asociación Mẽ Hempej Xá en la Aldea Macaúba, fortaleciendo la organización comunitaria y la participación social."
+      },
+      card28: {
+        title: "Gallinero Hanié",
+        text: "Proyecto de cría sostenible de aves para fortalecer la seguridad alimentaria, la generación de ingresos y la valorización de los modos de vida del pueblo Karajá Xambioá."
+      },
+      card29: {
+        title: "Ampliación de la Sede de la Asociación Wari-Lyty",
+        text: "Ampliación de la sede de la Asociación Indígena Wari-Lyty para fortalecer la gestión, la organización social y el desarrollo sostenible de la comunidad Karajá Xambioá."
+      },
+      card30: {
+        title: "Construcción de la sede de la Asociación Pyka Mex",
+        text: "Implantación de la sede de la Asociación Pyka Mex para fortalecer la organización, la atención comunitaria y las actividades desarrolladas en la Aldea Prata."
+      },
+      card31: {
+        title: "Mêncatë Jõ Púr – Huerta Comunitaria Krahô",
+        text: "Implantación y fortalecimiento de la huerta comunitaria Krahô como espacio de preservación de semillas tradicionales, seguridad alimentaria y valorización de saberes ancestrales."
+      },
+      card32: {
+        title: "Plumería para la fiesta del MẽÕkrepôxrũnhti",
+        text: "Confección de piezas de plumería para fortalecer la transmisión de saberes tradicionales, la memoria colectiva y la identidad cultural del pueblo Apinajé."
+      },
     },
 
     about: {
@@ -912,6 +948,206 @@ const translations = {
         item3: "ODS 5 – Igualdad de Género"
       }
     },
+
+    project24: {
+      title: "Documentar para educar: memoria, tradición y saberes Apinajé",
+      subtitle: "Capacitar a jóvenes Apinajé en técnicas de producción audiovisual y comunicación digital, fortaleciendo su protagonismo en la preservación de la memoria colectiva, en la valorización de la cultura indígena y en la difusión de sus luchas, derechos y modos de vida a través de los medios digitales.",
+      meta: {
+        projectName: "Documentar para educar: memoria, tradición y saberes Apinajé",
+        proponent: "Asociación de la Comunidad Akrôhti Apinajé",
+        city: "Tocantinópolis - TO",
+        location: "Aldea Cipozal Apinajé, Territorio Indígena Apinajé",
+        executionYear: "2025",
+        executionPeriod: "Seis meses",
+        fundedAmount: "R$ 10.000,00",
+        directBeneficiaries: "25 personas",
+        segment: "Pueblos indígenas",
+        objective: "Capacitar a jóvenes Apinajé en técnicas de producción audiovisual y comunicación digital, fortaleciendo su protagonismo en la preservación de la memoria colectiva, en la valorización de la cultura indígena y en la difusión de sus luchas, derechos y modos de vida a través de los medios digitales."
+      },
+      ods: {
+        item1: "ODS 4 – Educación de Calidad",
+        item2: "ODS 5 – Igualdad de Género"
+      }
+    },
+
+    project25: {
+      title: "Estructuración de la Brigada de Incendios Krahô",
+      subtitle: "Mejorar las condiciones estructurales de la base de la brigada Krahô, garantizando acceso adecuado a baños, agua de calidad y espacios con condiciones de higiene y privacidad. Promover el bienestar y la valorización de los brigadistas, fortaleciendo su capacidad de actuación en la protección de la Tierra Indígena Kraolândia y en la preservación de los recursos naturales del territorio.",
+      meta: {
+        projectName: "Estructuración de la Brigada de Incendios Krahô",
+        proponent: "Asociación de los Brigadistas Krahô Kuwi Pi Kateje de Prevención y Control de Quemas y Combate a Incendios Forestales",
+        city: "Itacajá - TO",
+        location: "Territorio Indígena Kraolândia",
+        executionYear: "2025",
+        executionPeriod: "Seis meses",
+        fundedAmount: "R$ 10.000,00",
+        directBeneficiaries: "145 personas",
+        segment: "Pueblos indígenas",
+        objective: "Mejorar las condiciones estructurales de la base de la brigada Krahô, garantizando acceso adecuado a baños, agua de calidad y espacios con condiciones de higiene y privacidad. Promover el bienestar y la valorización de los brigadistas, fortaleciendo su capacidad de actuación en la protección de la Tierra Indígena Kraolândia y en la preservación de los recursos naturales del territorio."
+      },
+      ods: {
+        item1: "ODS 6 – Agua limpia y saneamiento",
+        item2: "ODS 13 – Acción por el Clima",
+        item3: "ODS 15 – Vida de Ecosistemas Terrestres"
+      }
+    },
+
+    project26: {
+      title: "Construcción de la Sede de la Asociación Indígena Karajá Ixy-Biowá – AIXY",
+      subtitle: "Implantar la sede de AIXY como un espacio de referencia para el pueblo Karajá Xambioá, destinado al fortalecimiento de la gobernanza comunitaria, la preservación de los saberes tradicionales, la promoción de actividades culturales y educativas y la articulación de acciones en defensa de los derechos, la cultura y el territorio indígena.",
+      meta: {
+        projectName: "Construcción de la Sede de la Asociación Indígena Karajá Ixy-Biowá – AIXY",
+        proponent: "Asociación Indígena Ixy-Biowá",
+        city: "Xambioá - TO",
+        location: "Aldea Xambioá",
+        executionYear: "2025 a 2026",
+        executionPeriod: "Seis meses",
+        fundedAmount: "R$ 10.000,00",
+        directBeneficiaries: "310 personas",
+        segment: "Pueblos indígenas",
+        objective: "Implantar la sede de AIXY como un espacio de referencia para el pueblo Karajá Xambioá, destinado al fortalecimiento de la gobernanza comunitaria, la preservación de los saberes tradicionales, la promoción de actividades culturales y educativas y la articulación de acciones en defensa de los derechos, la cultura y el territorio indígena."
+      },
+      ods: {
+        item1: "ODS 8 – Trabajo Decente y Crecimiento Económico",
+        item2: "ODS 10 – Reducción de las Desigualdades",
+        item3: "ODS 15 – Vida de Ecosistemas Terrestres",
+        item4: "ODS 16 – Paz, Justicia e Instituciones Sólidas"
+      }
+    },
+
+    project27: {
+      title: "Mẽ Hempej Xá Jurkwa: la sede de Hempej xá",
+      subtitle: "Construir la sede de la Asociación Mẽ Hempej Xá en la Aldea Macaúba, creando un espacio de referencia para la gestión, articulación y fortalecimiento de la organización comunitaria, contribuyendo a la ampliación de la participación social, la representatividad de la asociación y la promoción del bienestar de la comunidad.",
+      meta: {
+        projectName: "Mẽ Hempej Xá Jurkwa: la sede de Hempej xá",
+        proponent: "Asociación Mẽ Hempej Xá",
+        city: "Itacajá - TO",
+        location: "Aldea Macaúba",
+        executionYear: "2025/2026",
+        executionPeriod: "Seis meses",
+        fundedAmount: "R$ 10.000,00",
+        directBeneficiaries: "75 personas",
+        segment: "Pueblos indígenas",
+        objective: "Construir la sede de la Asociación Mẽ Hempej Xá en la Aldea Macaúba, creando un espacio de referencia para la gestión, articulación y fortalecimiento de la organización comunitaria, contribuyendo a la ampliación de la participación social, la representatividad de la asociación y la promoción del bienestar de la comunidad."
+      },
+      ods: {
+        item1: "ODS 9 – Industria, Innovación e Infraestructura",
+        item2: "ODS 16 – Paz, Justicia e Instituciones Sólidas"
+      }
+    },
+
+    project28: {
+      title: "Gallinero Hanié",
+      subtitle: "Fortalecer la seguridad alimentaria, la generación de ingresos y la valorización de los modos de vida del pueblo Karajá Xambioá mediante la implementación del Gallinero Hanié, promoviendo la cría sostenible de aves para la producción de carne y huevos e incentivando prácticas comunitarias de cooperación, solidaridad y trabajo familiar.",
+      meta: {
+        projectName: "Gallinero Hanié",
+        proponent: "Asociación Indígena Tahiru",
+        city: "Santa Fé do Araguaia - TO",
+        location: "Aldea Manoel Achurê",
+        executionYear: "2025/2026",
+        executionPeriod: "Seis meses",
+        fundedAmount: "R$ 10.000,00",
+        directBeneficiaries: "83 personas",
+        segment: "Pueblos indígenas",
+        objective: "Fortalecer la seguridad alimentaria, la generación de ingresos y la valorización de los modos de vida del pueblo Karajá Xambioá mediante la implementación del Gallinero Hanié, promoviendo la cría sostenible de aves para la producción de carne y huevos e incentivando prácticas comunitarias de cooperación, solidaridad y trabajo familiar."
+      },
+      ods: {
+        item1: "ODS 1 – Fin de la pobreza",
+        item2: "ODS 2 – Hambre cero y agricultura sostenible",
+        item3: "ODS 3 – Salud y bienestar"
+      }
+    },
+
+    project29: {
+      title: "Ampliación de la Sede de la Asociación Wari-Lyty",
+      subtitle: "Ampliar la sede de la Asociación Indígena Wari-Lyty para ofrecer mejores condiciones de gestión, atención y realización de actividades comunitarias, fortaleciendo la organización social, la valorización cultural y el desarrollo sostenible de la comunidad Karajá Xambioá.",
+      meta: {
+        projectName: "Ampliación de la Sede de la Asociación Wari-Lyty",
+        proponent: "Asociación Indígena Wari-Lyty",
+        city: "Santa Fé do Araguaia - TO",
+        location: "Aldea Wari-Lyty",
+        executionYear: "2025/2026",
+        executionPeriod: "Seis meses",
+        fundedAmount: "R$ 10.000,00",
+        directBeneficiaries: "125 personas",
+        segment: "Pueblos indígenas",
+        objective: "Ampliar la sede de la Asociación Indígena Wari-Lyty para ofrecer mejores condiciones de gestión, atención y realización de actividades comunitarias, fortaleciendo la organización social, la valorización cultural y el desarrollo sostenible de la comunidad Karajá Xambioá."
+      },
+      ods: {
+        item1: "ODS 16 – Paz, Justicia e Instituciones Sólidas",
+        item2: "ODS 10 – Reducción de las Desigualdades",
+        item3: "ODS 11 – Ciudades y Comunidades Sostenibles"
+      }
+    },
+
+    project30: {
+      title: "Construcción de la sede de la Asociación Pyka Mex",
+      subtitle: "Implantar la sede de la Asociación Pyka Mex para fortalecer su capacidad de organización y atención a la comunidad, ofreciendo infraestructura adecuada para actividades administrativas, reuniones, almacenamiento de materiales y recepción de visitantes y socios que participen en las acciones desarrolladas en la Aldea Prata.",
+      meta: {
+        projectName: "Construcción de la sede de la Asociación Pyka Mex",
+        proponent: "Asociación Pyka Mex",
+        city: "Tocantinópolis - TO",
+        location: "Aldea Prata",
+        executionYear: "2025/2026",
+        executionPeriod: "Seis meses",
+        fundedAmount: "R$ 10.000,00",
+        directBeneficiaries: "142 personas",
+        segment: "Pueblos indígenas",
+        objective: "Implantar la sede de la Asociación Pyka Mex para fortalecer su capacidad de organización y atención a la comunidad, ofreciendo infraestructura adecuada para actividades administrativas, reuniones, almacenamiento de materiales y recepción de visitantes y socios que participen en las acciones desarrolladas en la Aldea Prata."
+      },
+      ods: {
+        item1: "ODS 8 – Trabajo Decente y Crecimiento Económico",
+        item2: "ODS 9 – Industria, Innovación e Infraestructura",
+        item3: "ODS 16 – Paz, Justicia e Instituciones Sólidas",
+        item4: "ODS 17 – Alianzas para Lograr los Objetivos"
+      }
+    },
+
+    project31: {
+      title: "Mêncatë Jõ Púr – Huerta Comunitaria Krahô",
+      subtitle: "Implantar y fortalecer la Mêncatë Jõ Púr en la Tierra Indígena Kraolândia como espacio de preservación de las semillas tradicionales y de fortalecimiento de la agricultura Krahô, contribuyendo a la seguridad alimentaria, la autonomía productiva de las familias y la valorización de los saberes ancestrales del pueblo Krahô.",
+      meta: {
+        projectName: "Mêncatë Jõ Púr – Huerta Comunitaria Krahô",
+        proponent: "Asociación Indígena Mankrare",
+        city: "Itacajá - TO",
+        location: "Tierra Indígena Kraolândia",
+        executionYear: "2025/2026",
+        executionPeriod: "Seis meses",
+        fundedAmount: "R$ 10.000,00",
+        directBeneficiaries: "115 personas",
+        segment: "Pueblos indígenas",
+        objective: "Implantar y fortalecer la Mêncatë Jõ Púr en la Tierra Indígena Kraolândia como espacio de preservación de las semillas tradicionales y de fortalecimiento de la agricultura Krahô, contribuyendo a la seguridad alimentaria, la autonomía productiva de las familias y la valorización de los saberes ancestrales del pueblo Krahô."
+      },
+      ods: {
+        item1: "ODS 2 – Hambre Cero y Agricultura Sostenible",
+        item2: "ODS 5 – Igualdad de Género",
+        item3: "ODS 12 – Producción y Consumo Responsables",
+        item4: "ODS 15 – Vida de Ecosistemas Terrestres"
+      }
+    },
+
+    project32: {
+      title: "Plumería para la fiesta del MẽÕkrepôxrũnhti",
+      subtitle: "Fortalecer la preservación y la transmisión de los conocimientos tradicionales del pueblo Apinajé mediante la confección de piezas de plumería utilizadas en la fiesta del MẽÕkrepôxrũnhti, contribuyendo a la valorización de la identidad cultural, la memoria colectiva y las prácticas ancestrales de la comunidad.",
+      meta: {
+        projectName: "Plumería para la fiesta del MẽÕkrepôxrũnhti",
+        proponent: "Instituto de Desarrollo GWRÀ KO",
+        city: "Tocantinópolis, TO",
+        location: "Aldea Botica",
+        executionYear: "2025/2026",
+        executionPeriod: "Seis meses",
+        fundedAmount: "R$ 10.000,00",
+        directBeneficiaries: "76 personas",
+        segment: "Pueblos indígenas",
+        objective: "Fortalecer la preservación y la transmisión de los conocimientos tradicionales del pueblo Apinajé mediante la confección de piezas de plumería utilizadas en la fiesta del MẽÕkrepôxrũnhti, contribuyendo a la valorización de la identidad cultural, la memoria colectiva y las prácticas ancestrales de la comunidad."
+      },
+      ods: {
+        item1: "ODS 4 – Educación de Calidad",
+        item2: "ODS 8 – Trabajo Decente y Crecimiento Económico",
+        item3: "ODS 10 – Reducción de las Desigualdades",
+        item4: "ODS 15 – Vida de Ecosistemas Terrestres"
+      }
+    },
   },
 
   en: {
@@ -1119,7 +1355,43 @@ const translations = {
       card23: {
         title: "Javaé Roots: Wari wari Agroforestry Backyards",
         text: "Wari Wari Village – Ilha do Bananal - TO"
-      }
+      },
+      card24: {
+        title: "Documenting to Educate: Apinajé Memory, Tradition and Knowledge",
+        text: "Training Apinajé youth in audiovisual production and digital communication to preserve collective memory and strengthen Indigenous culture."
+      },
+      card25: {
+        title: "Krahô Fire Brigade Structuring",
+        text: "Strengthening infrastructure and well-being of Krahô brigade members to protect the Kraolândia Indigenous Territory."
+      },
+      card26: {
+        title: "Construction of the Headquarters of the Karajá Ixy-Biowá Indigenous Association – AIXY",
+        text: "Establishment of AIXY’s headquarters as a reference space for strengthening governance, culture, and the rights of the Karajá Xambioá people."
+      },
+      card27: {
+        title: "Mẽ Hempej Xá Jurkwa: the Hempej xá headquarters",
+        text: "Construction of the Mẽ Hempej Xá Association headquarters in Macaúba Village, strengthening community organization and social participation."
+      },
+      card28: {
+        title: "Hanié Chicken Coop",
+        text: "Sustainable poultry farming project to strengthen food security, income generation, and the traditional way of life of the Karajá Xambioá people."
+      },
+      card29: {
+        title: "Expansion of the Wari-Lyty Association Headquarters",
+        text: "Expansion of the Wari-Lyty Indigenous Association headquarters to strengthen management, social organization, and sustainable development of the Karajá Xambioá community."
+      },
+      card30: {
+        title: "Construction of the Pyka Mex Association Headquarters",
+        text: "Establishment of the Pyka Mex Association headquarters to strengthen organization, community support, and activities carried out in Prata Village."
+      },
+      card31: {
+        title: "Mêncatë Jõ Púr – Krahô Community Farm",
+        text: "Implementation and strengthening of the Krahô community farm as a space for preserving traditional seeds, food security, and valuing ancestral knowledge."
+      },
+      card32: {
+        title: "Featherwork for the MẽÕkrepôxrũnhti Festival",
+        text: "Production of featherwork pieces to strengthen the transmission of traditional knowledge, collective memory, and the cultural identity of the Apinajé people."
+      },
     },
 
     about: {
@@ -1827,5 +2099,205 @@ const translations = {
         item3: "SDG 5 – Gender Equality"
       }
     },
-  }
+
+    project24: {
+      title: "Documenting to Educate: Apinajé Memory, Tradition and Knowledge",
+      subtitle: "Train Apinajé youth in audiovisual production and digital communication techniques, strengthening their role in preserving collective memory, valuing Indigenous culture, and promoting their struggles, rights, and ways of life through digital media.",
+      meta: {
+        projectName: "Documenting to Educate: Apinajé Memory, Tradition and Knowledge",
+        proponent: "Akrôhti Apinajé Community Association",
+        city: "Tocantinópolis - TO",
+        location: "Cipozal Apinajé Village, Apinajé Indigenous Territory",
+        executionYear: "2025",
+        executionPeriod: "Six months",
+        fundedAmount: "R$ 10,000.00",
+        directBeneficiaries: "25 people",
+        segment: "Indigenous peoples",
+        objective: "Train Apinajé youth in audiovisual production and digital communication techniques, strengthening their role in preserving collective memory, valuing Indigenous culture, and promoting their struggles, rights, and ways of life through digital media."
+      },
+      ods: {
+        item1: "SDG 4 – Quality Education",
+        item2: "SDG 5 – Gender Equality"
+      }
+    },
+
+    project25: {
+      title: "Krahô Fire Brigade Structuring",
+      subtitle: "Improve the structural conditions of the Krahô brigade base, ensuring adequate access to bathrooms, quality water, and spaces with proper hygiene and privacy conditions. Promote the well-being and appreciation of brigade members, strengthening their capacity to protect the Kraolândia Indigenous Territory and preserve the territory's natural resources.",
+      meta: {
+        projectName: "Krahô Fire Brigade Structuring",
+        proponent: "Krahô Kuwi Pi Kateje Firefighters Association for Wildfire Prevention, Burn Control and Forest Fire Fighting",
+        city: "Itacajá - TO",
+        location: "Kraolândia Indigenous Territory",
+        executionYear: "2025",
+        executionPeriod: "Six months",
+        fundedAmount: "R$ 10,000.00",
+        directBeneficiaries: "145 people",
+        segment: "Indigenous peoples",
+        objective: "Improve the structural conditions of the Krahô brigade base, ensuring adequate access to bathrooms, quality water, and spaces with proper hygiene and privacy conditions. Promote the well-being and appreciation of brigade members, strengthening their capacity to protect the Kraolândia Indigenous Territory and preserve the territory's natural resources."
+      },
+      ods: {
+        item1: "SDG 6 – Clean Water and Sanitation",
+        item2: "SDG 13 – Climate Action",
+        item3: "SDG 15 – Life on Land"
+      }
+    },
+
+    project26: {
+      title: "Construction of the Headquarters of the Karajá Ixy-Biowá Indigenous Association – AIXY",
+      subtitle: "Establish AIXY’s headquarters as a reference space for the Karajá Xambioá people, dedicated to strengthening community governance, preserving traditional knowledge, promoting cultural and educational activities, and coordinating actions in defense of Indigenous rights, culture, and territory.",
+      meta: {
+        projectName: "Construction of the Headquarters of the Karajá Ixy-Biowá Indigenous Association – AIXY",
+        proponent: "Ixy-Biowá Indigenous Association",
+        city: "Xambioá - TO",
+        location: "Xambioá Village",
+        executionYear: "2025 to 2026",
+        executionPeriod: "Six months",
+        fundedAmount: "R$ 10,000.00",
+        directBeneficiaries: "310 people",
+        segment: "Indigenous peoples",
+        objective: "Establish AIXY’s headquarters as a reference space for the Karajá Xambioá people, dedicated to strengthening community governance, preserving traditional knowledge, promoting cultural and educational activities, and coordinating actions in defense of Indigenous rights, culture, and territory."
+      },
+      ods: {
+        item1: "SDG 8 – Decent Work and Economic Growth",
+        item2: "SDG 10 – Reduced Inequalities",
+        item3: "SDG 15 – Life on Land",
+        item4: "SDG 16 – Peace, Justice and Strong Institutions"
+      }
+    },
+
+    project27: {
+      title: "Mẽ Hempej Xá Jurkwa: the Hempej xá headquarters",
+      subtitle: "Build the headquarters of the Mẽ Hempej Xá Association in Macaúba Village, creating a reference space for management, coordination, and strengthening of community organization, contributing to greater social participation, association representation, and promotion of community well-being.",
+      meta: {
+        projectName: "Mẽ Hempej Xá Jurkwa: the Hempej xá headquarters",
+        proponent: "Mẽ Hempej Xá Association",
+        city: "Itacajá - TO",
+        location: "Macaúba Village",
+        executionYear: "2025/2026",
+        executionPeriod: "Six months",
+        fundedAmount: "R$ 10,000.00",
+        directBeneficiaries: "75 people",
+        segment: "Indigenous peoples",
+        objective: "Build the headquarters of the Mẽ Hempej Xá Association in Macaúba Village, creating a reference space for management, coordination, and strengthening of community organization, contributing to greater social participation, association representation, and promotion of community well-being."
+      },
+      ods: {
+        item1: "SDG 9 – Industry, Innovation and Infrastructure",
+        item2: "SDG 16 – Peace, Justice and Strong Institutions"
+      }
+    },
+
+    project28: {
+      title: "Hanié Chicken Coop",
+      subtitle: "Strengthen food security, income generation, and the appreciation of the Karajá Xambioá people's way of life through the implementation of the Hanié Chicken Coop, promoting sustainable poultry farming for meat and egg production while encouraging community cooperation, solidarity, and family work practices.",
+      meta: {
+        projectName: "Hanié Chicken Coop",
+        proponent: "Tahiru Indigenous Association",
+        city: "Santa Fé do Araguaia - TO",
+        location: "Manoel Achurê Village",
+        executionYear: "2025/2026",
+        executionPeriod: "Six months",
+        fundedAmount: "R$ 10,000.00",
+        directBeneficiaries: "83 people",
+        segment: "Indigenous peoples",
+        objective: "Strengthen food security, income generation, and the appreciation of the Karajá Xambioá people's way of life through the implementation of the Hanié Chicken Coop, promoting sustainable poultry farming for meat and egg production while encouraging community cooperation, solidarity, and family work practices."
+      },
+      ods: {
+        item1: "SDG 1 – No Poverty",
+        item2: "SDG 2 – Zero Hunger and Sustainable Agriculture",
+        item3: "SDG 3 – Good Health and Well-being"
+      }
+    },
+
+    project29: {
+      title: "Expansion of the Wari-Lyty Association Headquarters",
+      subtitle: "Expand the headquarters of the Wari-Lyty Indigenous Association to provide better conditions for management, assistance, and community activities, strengthening social organization, cultural appreciation, and the sustainable development of the Karajá Xambioá community.",
+      meta: {
+        projectName: "Expansion of the Wari-Lyty Association Headquarters",
+        proponent: "Wari-Lyty Indigenous Association",
+        city: "Santa Fé do Araguaia - TO",
+        location: "Wari-Lyty Village",
+        executionYear: "2025/2026",
+        executionPeriod: "Six months",
+        fundedAmount: "R$ 10,000.00",
+        directBeneficiaries: "125 people",
+        segment: "Indigenous peoples",
+        objective: "Expand the headquarters of the Wari-Lyty Indigenous Association to provide better conditions for management, assistance, and community activities, strengthening social organization, cultural appreciation, and the sustainable development of the Karajá Xambioá community."
+      },
+      ods: {
+        item1: "SDG 16 – Peace, Justice and Strong Institutions",
+        item2: "SDG 10 – Reduced Inequalities",
+        item3: "SDG 11 – Sustainable Cities and Communities"
+      }
+    },
+
+    project30: {
+      title: "Construction of the Pyka Mex Association Headquarters",
+      subtitle: "Establish the headquarters of the Pyka Mex Association to strengthen its capacity for organization and community support, offering adequate infrastructure for administrative activities, meetings, material storage, and welcoming visitors and partners who take part in the actions carried out in Prata Village.",
+      meta: {
+        projectName: "Construction of the Pyka Mex Association Headquarters",
+        proponent: "Pyka Mex Association",
+        city: "Tocantinópolis - TO",
+        location: "Prata Village",
+        executionYear: "2025/2026",
+        executionPeriod: "Six months",
+        fundedAmount: "R$ 10,000.00",
+        directBeneficiaries: "142 people",
+        segment: "Indigenous peoples",
+        objective: "Establish the headquarters of the Pyka Mex Association to strengthen its capacity for organization and community support, offering adequate infrastructure for administrative activities, meetings, material storage, and welcoming visitors and partners who take part in the actions carried out in Prata Village."
+      },
+      ods: {
+        item1: "SDG 8 – Decent Work and Economic Growth",
+        item2: "SDG 9 – Industry, Innovation and Infrastructure",
+        item3: "SDG 16 – Peace, Justice and Strong Institutions",
+        item4: "SDG 17 – Partnerships for the Goals"
+      }
+    },
+
+    project31: {
+      title: "Mêncatë Jõ Púr – Krahô Community Farm",
+      subtitle: "Implement and strengthen Mêncatë Jõ Púr in the Kraolândia Indigenous Territory as a space for preserving traditional seeds and strengthening Krahô agriculture, contributing to food security, families' productive autonomy, and the appreciation of the ancestral knowledge of the Krahô people.",
+      meta: {
+        projectName: "Mêncatë Jõ Púr – Krahô Community Farm",
+        proponent: "Mankrare Indigenous Association",
+        city: "Itacajá - TO",
+        location: "Kraolândia Indigenous Territory",
+        executionYear: "2025/2026",
+        executionPeriod: "Six months",
+        fundedAmount: "R$ 10,000.00",
+        directBeneficiaries: "115 people",
+        segment: "Indigenous peoples",
+        objective: "Implement and strengthen Mêncatë Jõ Púr in the Kraolândia Indigenous Territory as a space for preserving traditional seeds and strengthening Krahô agriculture, contributing to food security, families' productive autonomy, and the appreciation of the ancestral knowledge of the Krahô people."
+      },
+      ods: {
+        item1: "SDG 2 – Zero Hunger and Sustainable Agriculture",
+        item2: "SDG 5 – Gender Equality",
+        item3: "SDG 12 – Responsible Consumption and Production",
+        item4: "SDG 15 – Life on Land"
+      }
+    },
+
+    project32: {
+      title: "Featherwork for the MẽÕkrepôxrũnhti Festival",
+      subtitle: "Strengthen the preservation and transmission of the traditional knowledge of the Apinajé people through the production of featherwork pieces used in the MẽÕkrepôxrũnhti festival, contributing to the appreciation of cultural identity, collective memory, and the community's ancestral practices.",
+      meta: {
+        projectName: "Featherwork for the MẽÕkrepôxrũnhti Festival",
+        proponent: "GWRÀ KO Development Institute",
+        city: "Tocantinópolis, TO",
+        location: "Botica Village",
+        executionYear: "2025/2026",
+        executionPeriod: "Six months",
+        fundedAmount: "R$ 10,000.00",
+        directBeneficiaries: "76 people",
+        segment: "Indigenous peoples",
+        objective: "Strengthen the preservation and transmission of the traditional knowledge of the Apinajé people through the production of featherwork pieces used in the MẽÕkrepôxrũnhti festival, contributing to the appreciation of cultural identity, collective memory, and the community's ancestral practices."
+      },
+      ods: {
+        item1: "SDG 4 – Quality Education",
+        item2: "SDG 8 – Decent Work and Economic Growth",
+        item3: "SDG 10 – Reduced Inequalities",
+        item4: "SDG 15 – Life on Land"
+      }
+    },
+  },
 };
