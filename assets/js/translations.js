@@ -48,8 +48,8 @@ const translations = {
         eyebrow: "Proyectos y programas",
         description: "Conozca nuestros proyectos y programas y sus impactos en las comunidades",
         card1: {
-          title: "Elaboración de Proyectos Sociales",
-          text: "Formación para PCTs, promoviendo autonomía en la elaboración y gestión de proyectos sociales, con protagonismo, valorización de los saberes locales y fortalecimiento de los territorios."
+          title: "Territorios en acción:",
+          text: "Fortaleciendo la gestión de proyectos para Pueblos y Comunidades Tradicionales."
         },
         card2: {
           title: "Ogunhê: caminos para la institucionalización de las Casas de Axé",
@@ -1199,8 +1199,8 @@ const translations = {
         eyebrow: "Projects and programs",
         description: "Get to know our projects and programs and their impact on communities",
         card1: {
-          title: "Development of Social Projects",
-          text: "Training for Traditional Peoples and Communities, promoting autonomy in the development and management of social projects, with protagonism, appreciation of local knowledge, and strengthening of territories."
+          title: "Territories in Action:",
+          text: "Strengthening Project Management for Traditional Peoples and Communities."
         },
         card2: {
           title: "Ogunhê: paths to the institutionalization of the Houses of Axé",
