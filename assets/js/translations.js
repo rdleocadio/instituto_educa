@@ -241,6 +241,38 @@ const translations = {
         title: "Plumería para la fiesta del MẽÕkrepôxrũnhti",
         text: "Confección de piezas de plumería para fortalecer la transmisión de saberes tradicionales, la memoria colectiva y la identidad cultural del pueblo Apinajé."
       },
+      card33: {
+        title: "Innovación en Acción",
+        text: "Reforma del espacio comercial utilizado por las mujeres quebradoras de coco de babaçu para fortalecer la producción, la comercialización, la generación de ingresos y la autonomía económica."
+      },
+      card34: {
+        title: "Mujeres Quebradoras de Coco Babaçu por la Educación Popular",
+        text: "Fortalecimiento del MIQCB Regional Tocantins mediante la formación popular de liderazgos comunitarios y la defensa de los derechos, la ciudadanía y los bosques de babaçu."
+      },
+      card35: {
+        title: "Mujeres Generando Ingresos con la Producción Sostenible del Coco Babaçu",
+        text: "Acceso a tecnologías para fortalecer la producción de aceite de coco babaçu, la generación de ingresos y la calidad de vida de las mujeres quebradoras de coco."
+      },
+      card36: {
+        title: "Campestre Contribuyendo a la Reducción del Cambio Climático",
+        text: "Implementación de sistemas agroforestales en propiedades familiares para fortalecer la producción sostenible, la preservación ambiental y la calidad de vida de la Comunidad Campestre."
+      },
+      card37: {
+        title: "Babaçu que Transforma: Producción de Aceite y Fortalecimiento de las Quebradoras de Coco",
+        text: "Mejora de la estructura y de los equipos para fortalecer la producción artesanal de aceite de babaçu, la generación de ingresos y el acceso a mercados."
+      },
+      card38: {
+        title: "Sembrando el Futuro, Huerta y Avicultura Juvenil",
+        text: "Implantación de una huerta comunitaria y una estructura de avicultura juvenil para fortalecer la alimentación saludable, la formación técnica de jóvenes y la generación de ingresos."
+      },
+      card39: {
+        title: "Pindovas y el Arte del Babaçu",
+        text: "Fortalecimiento del grupo Pindova por medio de la producción de artesanías de babaçu, capacitación y adquisición de equipos para ampliar la comercialización y la generación de ingresos."
+      },
+      card40: {
+        title: "Cosiendo Sueños: Empoderamiento y Generación de Ingresos para Mujeres",
+        text: "Capacitación en corte y confección, adquisición de insumos y fortalecimiento de la autonomía económica de mujeres quebradoras de coco babaçu."
+      },
     },
 
     about: {
@@ -1148,6 +1180,196 @@ const translations = {
         item4: "ODS 15 – Vida de Ecosistemas Terrestres"
       }
     },
+
+    project33: {
+      title: "Innovación en Acción",
+      subtitle: "Realizar la reforma del espacio comercial utilizado por las mujeres quebradoras de coco para mejorar la funcionalidad, la estética, el confort y la eficiencia operativa del ambiente, fortaleciendo la producción y la comercialización de artesanías sostenibles de babaçu y contribuyendo a la generación de ingresos y a la autonomía económica de las participantes.",
+      meta: {
+        projectName: "Innovación en Acción",
+        proponent: "Asociación de Mujeres Trabajadoras Rurales de Buriti",
+        city: "Buriti do Tocantins - TO",
+        location: "AMB — Asociación de Mujeres Trabajadoras Rurales de Buriti",
+        executionYear: "2025",
+        executionPeriod: "Seis meses",
+        fundedAmount: "R$ 15.000,00",
+        directBeneficiaries: "25 mujeres",
+        segment: "Quebradoras de Coco de Babaçu",
+        objective: "Realizar la reforma del espacio comercial utilizado por las mujeres quebradoras de coco para mejorar la funcionalidad, la estética, el confort y la eficiencia operativa del ambiente, fortaleciendo la producción y la comercialización de artesanías sostenibles de babaçu y contribuyendo a la generación de ingresos y a la autonomía económica de las participantes."
+      },
+      ods: {
+        item1: "ODS 8 – Trabajo Decente y Crecimiento Económico",
+        item2: "ODS 9 – Industria, Innovación e Infraestructura"
+      }
+    },
+
+    project34: {
+      title: "Mujeres Quebradoras de Coco Babaçu por la Educación Popular",
+      subtitle: "Fortalecer el MIQCB Regional Tocantins mediante la estructuración del Centro de Formación Itinerante de las Quebradoras de Coco Babaçu y la realización de actividades educativas basadas en la educación popular, beneficiando a liderazgos comunitarios y organizaciones locales asociadas con temas relacionados con los derechos laborales, la ciudadanía y la defensa de los bosques de babaçu.",
+      meta: {
+        projectName: "Mujeres Quebradoras de Coco Babaçu por la Educación Popular",
+        proponent: "Asociación del Movimiento Interestatal de las Quebradoras de Coco Babaçu — MIQCB",
+        city: "São Miguel do Tocantins - TO",
+        location: "Sede del MIQCB — Regional Tocantins",
+        executionYear: "2025",
+        executionPeriod: "Seis meses",
+        fundedAmount: "R$ 15.000,00",
+        directBeneficiaries: "40 liderazgos comunitarios, incluyendo jóvenes",
+        segment: "Quebradoras de coco babaçu / Jóvenes agroextractivistas",
+        objective: "Fortalecer el MIQCB Regional Tocantins mediante la estructuración del Centro de Formación Itinerante de las Quebradoras de Coco Babaçu y la realización de actividades educativas basadas en la educación popular, beneficiando a liderazgos comunitarios y organizaciones locales asociadas con temas relacionados con los derechos laborales, la ciudadanía y la defensa de los bosques de babaçu."
+      },
+      ods: {
+        item1: "ODS 4 – Educación de Calidad",
+        item2: "ODS 8 – Trabajo Decente y Crecimiento Económico",
+        item3: "ODS 17 – Alianzas para Lograr los Objetivos"
+      }
+    },
+
+    project35: {
+      title: "Mujeres Generando Ingresos con la Producción Sostenible del Coco Babaçu",
+      subtitle: "Contribuir a la reducción de las desigualdades sociales de las mujeres quebradoras de coco babaçu del Asentamiento Ouro Verde, ampliando el acceso a tecnologías que hagan la actividad menos penosa, más organizada y productiva, especialmente en la extracción del aceite de coco babaçu, con enfoque en la generación de empleo e ingresos, la mejora de la calidad de vida de las mujeres y el fortalecimiento de la defensa de los bosques de babaçu.",
+      meta: {
+        projectName: "Mujeres Generando Ingresos con la Producción Sostenible del Coco Babaçu",
+        proponent: "Sindicato Regional de los Trabajadores y Trabajadoras Rurales de Buriti do Tocantins, São Sebastião do Tocantins y Esperantina — TO",
+        city: "Araguatins - TO",
+        location: "Asentamiento Ouro Verde",
+        executionYear: "2026",
+        executionPeriod: "Seis meses",
+        fundedAmount: "R$ 15.000,00",
+        directBeneficiaries: "50 mujeres quebradoras de coco babaçu y sus familias",
+        segment: "Quebradoras de coco babaçu / Trabajadoras rurales extractivistas",
+        objective: "Contribuir a la reducción de las desigualdades sociales de las mujeres quebradoras de coco babaçu del Asentamiento Ouro Verde, ampliando el acceso a tecnologías que hagan la actividad menos penosa, más organizada y productiva, especialmente en la extracción del aceite de coco babaçu, con enfoque en la generación de empleo e ingresos, la mejora de la calidad de vida de las mujeres y el fortalecimiento de la defensa de los bosques de babaçu."
+      },
+      ods: {
+        item1: "ODS 1 – Fin de la Pobreza",
+        item2: "ODS 2 – Hambre Cero y Agricultura Sostenible",
+        item3: "ODS 5 – Igualdad de Género",
+        item4: "ODS 8 – Trabajo Decente y Crecimiento Económico",
+        item5: "ODS 10 – Reducción de las Desigualdades",
+        item6: "ODS 13 – Acción por el Clima"
+      }
+    },
+
+    project36: {
+      title: "Campestre Contribuyendo a la Reducción del Cambio Climático",
+      subtitle: "Implementar 10 pequeños experimentos de Sistemas Agroforestales — SAF, con aproximadamente 0,5 hectáreas cada uno, en las propiedades de las familias beneficiadas, contribuyendo a la reducción de los efectos del cambio climático, al enriquecimiento de las áreas con especies frutales y maderas nobles, a la preservación ambiental, a la mejora de los ingresos y a la calidad de vida de las familias de la Comunidad Campestre.",
+      meta: {
+        projectName: "Campestre Contribuyendo a la Reducción del Cambio Climático",
+        proponent: "Asociación de Pequeños Agricultores del Valle del Araguaia — APAVRA",
+        city: "Araguatins - TO",
+        location: "P.A. Santa Cruz II, Comunidad Campestre",
+        executionYear: "2026",
+        executionPeriod: "Febrero a marzo de 2026",
+        fundedAmount: "R$ 15.000,00",
+        directBeneficiaries: "10 familias",
+        segment: "Agricultores familiares / comunidad de asentamiento rural",
+        objective: "Implementar 10 pequeños experimentos de Sistemas Agroforestales — SAF, con aproximadamente 0,5 hectáreas cada uno, en las propiedades de las familias beneficiadas, contribuyendo a la reducción de los efectos del cambio climático, al enriquecimiento de las áreas con especies frutales y maderas nobles, a la preservación ambiental, a la mejora de los ingresos y a la calidad de vida de las familias de la Comunidad Campestre."
+      },
+      ods: {
+        item1: "ODS 1 – Fin de la Pobreza",
+        item2: "ODS 2 – Hambre Cero y Agricultura Sostenible",
+        item3: "ODS 3 – Salud y Bienestar",
+        item4: "ODS 5 – Igualdad de Género",
+        item5: "ODS 8 – Trabajo Decente y Crecimiento Económico",
+        item6: "ODS 10 – Reducción de las Desigualdades",
+        item7: "ODS 11 – Ciudades y Comunidades Sostenibles",
+        item8: "ODS 12 – Producción y Consumo Responsables",
+        item9: "ODS 13 – Acción por el Clima",
+        item10: "ODS 17 – Alianzas para Lograr los Objetivos"
+      }
+    },
+
+    project37: {
+      title: "Babaçu que Transforma: Producción de Aceite y Fortalecimiento de las Quebradoras de Coco",
+      subtitle: "Mejorar las condiciones de producción del aceite artesanal de babaçu mediante la adecuación de la casa de extracción de aceite y la adquisición de equipos, buscando perfeccionar la calidad de los productos, ampliar el acceso a los mercados y fortalecer la generación de ingresos y la calidad de vida de las quebradoras de coco.",
+      meta: {
+        projectName: "Babaçu que Transforma: Producción de Aceite y Fortalecimiento de las Quebradoras de Coco",
+        proponent: "Asociación de Pequeños Agricultores del Asentamiento Ouro Verde, Sector Barro Branco — ASBB",
+        city: "Araguatins - TO",
+        location: "PA Ouro Verde — Sector Barro Branco",
+        executionYear: "2025",
+        executionPeriod: "Seis meses",
+        fundedAmount: "R$ 15.000,00",
+        directBeneficiaries: "10 familias de quebradoras de coco babaçu",
+        segment: "Quebradoras de coco babaçu",
+        objective: "Mejorar las condiciones de producción del aceite artesanal de babaçu mediante la adecuación de la casa de extracción de aceite y la adquisición de equipos, buscando perfeccionar la calidad de los productos, ampliar el acceso a los mercados y fortalecer la generación de ingresos y la calidad de vida de las quebradoras de coco."
+      },
+      ods: {
+        item1: "ODS 1 – Fin de la Pobreza",
+        item2: "ODS 2 – Hambre Cero y Agricultura Sostenible",
+        item3: "ODS 5 – Igualdad de Género",
+        item4: "ODS 12 – Producción y Consumo Responsables",
+        item5: "ODS 13 – Acción por el Clima"
+      }
+    },
+
+    project38: {
+      title: "Sembrando el Futuro, Huerta y Avicultura Juvenil",
+      subtitle: "Implementar una huerta comunitaria de 144 m² y una estructura básica de avicultura juvenil, destinadas a la producción de alimentos saludables, la formación técnica de jóvenes, el fortalecimiento de la seguridad alimentaria, la generación de ingresos y el desarrollo sostenible de las familias vinculadas a COOAF en el Campamento Novo Recomeço.",
+      meta: {
+        projectName: "Sembrando el Futuro, Huerta y Avicultura Juvenil",
+        proponent: "Cooperativa COOAF Bico",
+        city: "Esperantina - TO",
+        location: "Campamento Novo Recomeço",
+        executionYear: "2025",
+        executionPeriod: "Seis meses",
+        fundedAmount: "R$ 15.000,00",
+        directBeneficiaries: "60 personas",
+        segment: "Agricultores familiares / comunidad de campamento rural",
+        objective: "Implementar una huerta comunitaria de 144 m² y una estructura básica de avicultura juvenil, destinadas a la producción de alimentos saludables, la formación técnica de jóvenes, el fortalecimiento de la seguridad alimentaria, la generación de ingresos y el desarrollo sostenible de las familias vinculadas a COOAF en el Campamento Novo Recomeço."
+      },
+      ods: {
+        item1: "ODS 2 – Hambre Cero y Agricultura Sostenible",
+        item2: "ODS 4 – Educación de Calidad",
+        item3: "ODS 8 – Trabajo Decente y Crecimiento Económico",
+        item4: "ODS 11 – Ciudades y Comunidades Sostenibles",
+        item5: "ODS 12 – Producción y Consumo Responsables",
+        item6: "ODS 15 – Vida de Ecosistemas Terrestres"
+      }
+    },
+
+    project39: {
+      title: "Pindovas y el Arte del Babaçu",
+      subtitle: "Fortalecer el grupo Pindova, formado por jóvenes quebradoras y quebradores de coco babaçu, mediante la producción de artesanías de babaçu, la adquisición de máquinas, herramientas, equipos e insumos, además de la realización de capacitaciones para perfeccionar las piezas, buscando mejorar la calidad de los productos, ampliar la comercialización y fortalecer la generación de ingresos.",
+      meta: {
+        projectName: "Pindovas y el Arte del Babaçu",
+        proponent: "Cooperativa Interestatal de Mujeres Quebradoras de Coco — CIMQCB Filial Tocantins",
+        city: "Sítio Novo do Tocantins - TO",
+        location: "Comunidad Juverlândia",
+        executionYear: "2025",
+        executionPeriod: "Seis meses",
+        fundedAmount: "R$ 15.000,00",
+        directBeneficiaries: "25 jóvenes",
+        segment: "Quebradoras de coco babaçu / Juventud rural tradicional",
+        objective: "Fortalecer el grupo Pindova, formado por jóvenes quebradoras y quebradores de coco babaçu, mediante la producción de artesanías de babaçu, la adquisición de máquinas, herramientas, equipos e insumos, además de la realización de capacitaciones para perfeccionar las piezas, buscando mejorar la calidad de los productos, ampliar la comercialización y fortalecer la generación de ingresos."
+      },
+      ods: {
+        item1: "ODS 2 – Hambre Cero y Agricultura Sostenible",
+        item2: "ODS 8 – Trabajo Decente y Crecimiento Económico"
+      }
+    },
+
+    project40: {
+      title: "Cosiendo Sueños: Empoderamiento y Generación de Ingresos para Mujeres de la Asociación de Madres Carentes de Buriti do Tocantins",
+      subtitle: "Fortalecer la Asociación de Madres Carentes de Buriti do Tocantins promoviendo la autonomía económica y social de sus asociadas mediante capacitación en corte y confección, adquisición de insumos y estímulo a la generación de ingresos sostenibles, contribuyendo a mejorar la calidad de vida de las mujeres y de sus familias.",
+      meta: {
+        projectName: "Cosiendo Sueños: Empoderamiento y Generación de Ingresos para Mujeres de la Asociación de Madres Carentes de Buriti do Tocantins",
+        proponent: "Asociación de Madres Carentes de Buriti do Tocantins — TO",
+        city: "Buriti do Tocantins - TO",
+        location: "Sede de la Asociación de Madres Carentes de Buriti do Tocantins",
+        executionYear: "2025",
+        executionPeriod: "4 meses",
+        fundedAmount: "R$ 15.000,00",
+        directBeneficiaries: "15 mujeres asociadas y sus familias",
+        segment: "Quebradoras de coco babaçu",
+        objective: "Fortalecer la Asociación de Madres Carentes de Buriti do Tocantins promoviendo la autonomía económica y social de sus asociadas mediante capacitación en corte y confección, adquisición de insumos y estímulo a la generación de ingresos sostenibles, contribuyendo a mejorar la calidad de vida de las mujeres y de sus familias."
+      },
+      ods: {
+        item1: "ODS 5 – Igualdad de Género",
+        item2: "ODS 8 – Trabajo Decente y Crecimiento Económico",
+        item3: "ODS 10 – Reducción de las Desigualdades",
+        item4: "ODS 17 – Alianzas para Lograr los Objetivos"
+      }
+    },
   },
 
   en: {
@@ -1391,6 +1613,38 @@ const translations = {
       card32: {
         title: "Featherwork for the MẽÕkrepôxrũnhti Festival",
         text: "Production of featherwork pieces to strengthen the transmission of traditional knowledge, collective memory, and the cultural identity of the Apinajé people."
+      },
+      card33: {
+        title: "Innovation in Action",
+        text: "Renovation of the commercial space used by babaçu coconut breaker women to strengthen production, commercialization, income generation, and economic autonomy."
+      },
+      card34: {
+        title: "Babaçu Coconut Breaker Women for Popular Education",
+        text: "Strengthening MIQCB Tocantins through popular education for community leaders and the defense of labor rights, citizenship, and babaçu forests."
+      },
+      card35: {
+        title: "Women Generating Income through Sustainable Babaçu Coconut Production",
+        text: "Access to technology to strengthen babaçu coconut oil production, income generation, and the quality of life of women coconut breakers."
+      },
+      card36: {
+        title: "Campestre Contributing to Climate Change Mitigation",
+        text: "Implementation of agroforestry systems on family properties to strengthen sustainable production, environmental preservation, and quality of life in the Campestre Community."
+      },
+      card37: {
+        title: "Babaçu that Transforms: Oil Production and Strengthening Coconut Breaker Women",
+        text: "Improvement of facilities and equipment to strengthen artisanal babaçu oil production, income generation, and market access."
+      },
+      card38: {
+        title: "Sowing the Future: Community Garden and Youth Poultry Farming",
+        text: "Implementation of a community garden and youth poultry farming structure to strengthen healthy food production, technical training for young people, and income generation."
+      },
+      card39: {
+        title: "Pindovas and the Art of Babaçu",
+        text: "Strengthening the Pindova group through babaçu handicraft production, training, and the acquisition of equipment to expand commercialization and income generation."
+      },
+      card40: {
+        title: "Sewing Dreams: Women's Empowerment and Income Generation",
+        text: "Training in sewing and tailoring, acquisition of supplies, and strengthening the economic autonomy of babaçu coconut breaker women."
       },
     },
 
@@ -2297,6 +2551,196 @@ const translations = {
         item2: "SDG 8 – Decent Work and Economic Growth",
         item3: "SDG 10 – Reduced Inequalities",
         item4: "SDG 15 – Life on Land"
+      }
+    },
+
+    project33: {
+      title: "Innovation in Action",
+      subtitle: "Renovate the commercial space used by women babaçu coconut breakers to improve the functionality, appearance, comfort, and operational efficiency of the environment, strengthening the production and commercialization of sustainable babaçu handicrafts and contributing to income generation and the participants’ economic autonomy.",
+      meta: {
+        projectName: "Innovation in Action",
+        proponent: "Association of Rural Women Workers of Buriti",
+        city: "Buriti do Tocantins - TO",
+        location: "AMB — Association of Rural Women Workers of Buriti",
+        executionYear: "2025",
+        executionPeriod: "Six months",
+        fundedAmount: "R$ 15,000.00",
+        directBeneficiaries: "25 women",
+        segment: "Babaçu Coconut Breaker Women",
+        objective: "Renovate the commercial space used by women babaçu coconut breakers to improve the functionality, appearance, comfort, and operational efficiency of the environment, strengthening the production and commercialization of sustainable babaçu handicrafts and contributing to income generation and the participants’ economic autonomy."
+      },
+      ods: {
+        item1: "SDG 8 – Decent Work and Economic Growth",
+        item2: "SDG 9 – Industry, Innovation and Infrastructure"
+      }
+    },
+
+    project34: {
+      title: "Babaçu Coconut Breaker Women for Popular Education",
+      subtitle: "Strengthen MIQCB Tocantins through the establishment of the Traveling Babaçu Coconut Breaker Women’s Training Center and the delivery of educational activities based on popular education, benefiting community leaders and local partner organizations with topics related to labor rights, citizenship, and the protection of babaçu forests.",
+      meta: {
+        projectName: "Babaçu Coconut Breaker Women for Popular Education",
+        proponent: "Association of the Interstate Movement of Babaçu Coconut Breaker Women — MIQCB",
+        city: "São Miguel do Tocantins - TO",
+        location: "MIQCB Headquarters — Tocantins Regional Office",
+        executionYear: "2025",
+        executionPeriod: "Six months",
+        fundedAmount: "R$ 15,000.00",
+        directBeneficiaries: "40 community leaders, including youth",
+        segment: "Babaçu coconut breaker women / Agroextractivist youth",
+        objective: "Strengthen MIQCB Tocantins through the establishment of the Traveling Babaçu Coconut Breaker Women’s Training Center and the delivery of educational activities based on popular education, benefiting community leaders and local partner organizations with topics related to labor rights, citizenship, and the protection of babaçu forests."
+      },
+      ods: {
+        item1: "SDG 4 – Quality Education",
+        item2: "SDG 8 – Decent Work and Economic Growth",
+        item3: "SDG 17 – Partnerships for the Goals"
+      }
+    },
+
+    project35: {
+      title: "Women Generating Income through Sustainable Babaçu Coconut Production",
+      subtitle: "Contribute to reducing the social inequalities faced by women babaçu coconut breakers in the Ouro Verde Settlement by expanding access to technologies that make the activity less physically demanding, more organized, and more productive, especially in the extraction of babaçu coconut oil, with a focus on generating employment and income, improving women’s quality of life, and strengthening the protection of babaçu forests.",
+      meta: {
+        projectName: "Women Generating Income through Sustainable Babaçu Coconut Production",
+        proponent: "Regional Union of Rural Men and Women Workers of Buriti do Tocantins, São Sebastião do Tocantins and Esperantina — TO",
+        city: "Araguatins - TO",
+        location: "Ouro Verde Settlement",
+        executionYear: "2026",
+        executionPeriod: "Six months",
+        fundedAmount: "R$ 15,000.00",
+        directBeneficiaries: "50 women babaçu coconut breakers and their families",
+        segment: "Babaçu coconut breaker women / Rural extractivist workers",
+        objective: "Contribute to reducing the social inequalities faced by women babaçu coconut breakers in the Ouro Verde Settlement by expanding access to technologies that make the activity less physically demanding, more organized, and more productive, especially in the extraction of babaçu coconut oil, with a focus on generating employment and income, improving women’s quality of life, and strengthening the protection of babaçu forests."
+      },
+      ods: {
+        item1: "SDG 1 – No Poverty",
+        item2: "SDG 2 – Zero Hunger and Sustainable Agriculture",
+        item3: "SDG 5 – Gender Equality",
+        item4: "SDG 8 – Decent Work and Economic Growth",
+        item5: "SDG 10 – Reduced Inequalities",
+        item6: "SDG 13 – Climate Action"
+      }
+    },
+
+    project36: {
+      title: "Campestre Contributing to Climate Change Mitigation",
+      subtitle: "Implement 10 small Agroforestry System experiments, approximately 0.5 hectares each, on the properties of the beneficiary families, contributing to reducing the effects of climate change, enriching the areas with fruit-bearing species and valuable timber trees, preserving the environment, improving income, and enhancing the quality of life of families in the Campestre Community.",
+      meta: {
+        projectName: "Campestre Contributing to Climate Change Mitigation",
+        proponent: "Association of Small Farmers of the Araguaia Valley — APAVRA",
+        city: "Araguatins - TO",
+        location: "Santa Cruz II Rural Settlement, Campestre Community",
+        executionYear: "2026",
+        executionPeriod: "February to March 2026",
+        fundedAmount: "R$ 15,000.00",
+        directBeneficiaries: "10 families",
+        segment: "Family farmers / rural settlement community",
+        objective: "Implement 10 small Agroforestry System experiments, approximately 0.5 hectares each, on the properties of the beneficiary families, contributing to reducing the effects of climate change, enriching the areas with fruit-bearing species and valuable timber trees, preserving the environment, improving income, and enhancing the quality of life of families in the Campestre Community."
+      },
+      ods: {
+        item1: "SDG 1 – No Poverty",
+        item2: "SDG 2 – Zero Hunger and Sustainable Agriculture",
+        item3: "SDG 3 – Good Health and Well-being",
+        item4: "SDG 5 – Gender Equality",
+        item5: "SDG 8 – Decent Work and Economic Growth",
+        item6: "SDG 10 – Reduced Inequalities",
+        item7: "SDG 11 – Sustainable Cities and Communities",
+        item8: "SDG 12 – Responsible Consumption and Production",
+        item9: "SDG 13 – Climate Action",
+        item10: "SDG 17 – Partnerships for the Goals"
+      }
+    },
+
+    project37: {
+      title: "Babaçu that Transforms: Oil Production and Strengthening Coconut Breaker Women",
+      subtitle: "Improve the conditions for artisanal babaçu oil production by upgrading the oil extraction facility and acquiring equipment, aiming to improve product quality, expand market access, and strengthen income generation and the quality of life of women coconut breakers.",
+      meta: {
+        projectName: "Babaçu that Transforms: Oil Production and Strengthening Coconut Breaker Women",
+        proponent: "Association of Small Farmers of the Ouro Verde Settlement, Barro Branco Sector — ASBB",
+        city: "Araguatins - TO",
+        location: "Ouro Verde Rural Settlement — Barro Branco Sector",
+        executionYear: "2025",
+        executionPeriod: "Six months",
+        fundedAmount: "R$ 15,000.00",
+        directBeneficiaries: "10 families of women babaçu coconut breakers",
+        segment: "Babaçu coconut breaker women",
+        objective: "Improve the conditions for artisanal babaçu oil production by upgrading the oil extraction facility and acquiring equipment, aiming to improve product quality, expand market access, and strengthen income generation and the quality of life of women coconut breakers."
+      },
+      ods: {
+        item1: "SDG 1 – No Poverty",
+        item2: "SDG 2 – Zero Hunger and Sustainable Agriculture",
+        item3: "SDG 5 – Gender Equality",
+        item4: "SDG 12 – Responsible Consumption and Production",
+        item5: "SDG 13 – Climate Action"
+      }
+    },
+
+    project38: {
+      title: "Sowing the Future: Community Garden and Youth Poultry Farming",
+      subtitle: "Implement a 144 m² community garden and a basic youth poultry farming structure focused on producing healthy food, providing technical training for young people, strengthening food security, generating income, and promoting the sustainable development of families associated with COOAF in the Novo Recomeço Camp.",
+      meta: {
+        projectName: "Sowing the Future: Community Garden and Youth Poultry Farming",
+        proponent: "COOAF Bico Cooperative",
+        city: "Esperantina - TO",
+        location: "Novo Recomeço Camp",
+        executionYear: "2025",
+        executionPeriod: "Six months",
+        fundedAmount: "R$ 15,000.00",
+        directBeneficiaries: "60 people",
+        segment: "Family farmers / rural camp community",
+        objective: "Implement a 144 m² community garden and a basic youth poultry farming structure focused on producing healthy food, providing technical training for young people, strengthening food security, generating income, and promoting the sustainable development of families associated with COOAF in the Novo Recomeço Camp."
+      },
+      ods: {
+        item1: "SDG 2 – Zero Hunger and Sustainable Agriculture",
+        item2: "SDG 4 – Quality Education",
+        item3: "SDG 8 – Decent Work and Economic Growth",
+        item4: "SDG 11 – Sustainable Cities and Communities",
+        item5: "SDG 12 – Responsible Consumption and Production",
+        item6: "SDG 15 – Life on Land"
+      }
+    },
+
+    project39: {
+      title: "Pindovas and the Art of Babaçu",
+      subtitle: "Strengthen the Pindova group, formed by young women and men babaçu coconut breakers, through the production of babaçu handicrafts, the acquisition of machinery, tools, equipment, and supplies, as well as training to improve the pieces, aiming to enhance product quality, expand commercialization, and strengthen income generation.",
+      meta: {
+        projectName: "Pindovas and the Art of Babaçu",
+        proponent: "Interstate Cooperative of Women Coconut Breakers — CIMQCB Tocantins Branch",
+        city: "Sítio Novo do Tocantins - TO",
+        location: "Juverlândia Community",
+        executionYear: "2025",
+        executionPeriod: "Six months",
+        fundedAmount: "R$ 15,000.00",
+        directBeneficiaries: "25 young people",
+        segment: "Babaçu coconut breaker women / Traditional rural youth",
+        objective: "Strengthen the Pindova group, formed by young women and men babaçu coconut breakers, through the production of babaçu handicrafts, the acquisition of machinery, tools, equipment, and supplies, as well as training to improve the pieces, aiming to enhance product quality, expand commercialization, and strengthen income generation."
+      },
+      ods: {
+        item1: "SDG 2 – Zero Hunger and Sustainable Agriculture",
+        item2: "SDG 8 – Decent Work and Economic Growth"
+      }
+    },
+
+    project40: {
+      title: "Sewing Dreams: Empowerment and Income Generation for Women of the Buriti do Tocantins Association of Needy Mothers",
+      subtitle: "Strengthen the Buriti do Tocantins Association of Needy Mothers by promoting the economic and social autonomy of its members through sewing and tailoring training, acquisition of supplies, and support for sustainable income generation, contributing to improving the quality of life of women and their families.",
+      meta: {
+        projectName: "Sewing Dreams: Empowerment and Income Generation for Women of the Buriti do Tocantins Association of Needy Mothers",
+        proponent: "Association of Needy Mothers of Buriti do Tocantins — TO",
+        city: "Buriti do Tocantins - TO",
+        location: "Headquarters of the Buriti do Tocantins Association of Needy Mothers",
+        executionYear: "2025",
+        executionPeriod: "4 months",
+        fundedAmount: "R$ 15,000.00",
+        directBeneficiaries: "15 women members and their families",
+        segment: "Babaçu coconut breaker women",
+        objective: "Strengthen the Buriti do Tocantins Association of Needy Mothers by promoting the economic and social autonomy of its members through sewing and tailoring training, acquisition of supplies, and support for sustainable income generation, contributing to improving the quality of life of women and their families."
+      },
+      ods: {
+        item1: "SDG 5 – Gender Equality",
+        item2: "SDG 8 – Decent Work and Economic Growth",
+        item3: "SDG 10 – Reduced Inequalities",
+        item4: "SDG 17 – Partnerships for the Goals"
       }
     },
   },
