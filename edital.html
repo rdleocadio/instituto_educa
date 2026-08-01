@@ -420,6 +420,51 @@
             <textarea name="justification" placeholder="" required></textarea>
           </div>
 
+          <div class="form-section videoask-section">
+            <h2>Vídeo de Justificativa</h2>
+
+            <p>
+              Agora queremos conhecer um pouco mais sobre você e sua comunidade.
+              Assista ao vídeo abaixo e, em seguida, clique em <strong>"Gravar minha resposta"</strong> para responder às orientações da Raquel.
+            </p>
+
+            <div class="videoask-wrapper">
+              <iframe
+                src="https://www.videoask.com/fug6v0cua"
+                title="Vídeo de justificativa da inscrição"
+                allow="camera *; microphone *; autoplay *; encrypted-media *; fullscreen *; display-capture *;"
+                width="100%"
+                height="420"
+                style="border: none; border-radius: 24px;">
+              </iframe>
+            </div>
+
+            <p class="videoask-note">
+              <strong>Importante:</strong> antes de enviar sua inscrição, certifique-se de concluir a gravação do vídeo.
+            </p>
+
+            <div class="videoask-confirmation">
+              <label class="form-check">
+                <input
+                type="checkbox"
+                id="video_confirmation"
+                name="video_confirmation"
+                required
+                >
+
+                <span>
+                  Confirmo que concluí a gravação do vídeo solicitado para esta inscrição e enviei por este canal.
+                </span>
+              </label>
+
+              <span
+              id="video-error-message"
+              class="video-error-message"
+              ></span>
+            </div>
+
+          </div>
+
           <!-- 9. METODOLOGIA -->
           <div class="form-section">
             <h2>9. Metodologia</h2>

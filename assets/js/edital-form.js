@@ -86,11 +86,18 @@ if (form) {
   });
 
   form.addEventListener("change", (event) => {
-    const field = event.target;
 
-    if (field.classList.contains("field-error")) {
-      validateField(field);
-    }
+      const field = event.target;
+
+      if (
+          field.classList.contains("field-error") ||
+          field.id === "video_confirmation"
+      ) {
+
+          validateField(field);
+
+      }
+
   });
 }
 
@@ -136,16 +143,52 @@ function validateField(field) {
   }
 
   if (field.type === "checkbox") {
-    const checkboxGroupName = field.name;
-    const group = form.querySelectorAll(`input[type="checkbox"][name="${checkboxGroupName}"]`);
-    const oneChecked = Array.from(group).some((checkbox) => checkbox.checked);
 
-    if (checkboxGroupName === "ods") {
-      const odsErrorMessage = document.getElementById("ods-error-message");
+  // Validação do VideoAsk
+  if (field.id === "video_confirmation") {
+
+    const videoError = document.getElementById("video-error-message");
+
+    if (!field.checked) {
+
+      if (videoError) {
+        videoError.textContent =
+          "Confirme que concluiu a gravação do vídeo antes de enviar a inscrição.";
+        videoError.classList.add("is-visible");
+      }
+
+      return false;
+    }
+
+    if (videoError) {
+      videoError.textContent = "";
+      videoError.classList.remove("is-visible");
+    }
+
+    return true;
+  }
+
+  // Validação da ODS
+  const checkboxGroupName = field.name;
+  const group = form.querySelectorAll(
+    `input[type="checkbox"][name="${checkboxGroupName}"]`
+  );
+
+  const oneChecked = Array.from(group).some(
+    (checkbox) => checkbox.checked
+  );
+
+  if (checkboxGroupName === "ods") {
+
+      const odsErrorMessage =
+        document.getElementById("ods-error-message");
 
       if (!oneChecked) {
+
         if (odsErrorMessage) {
-          odsErrorMessage.textContent = "Selecione pelo menos uma ODS.";
+          odsErrorMessage.textContent =
+            "Selecione pelo menos uma ODS.";
+
           odsErrorMessage.classList.add("is-visible");
         }
 
@@ -233,4 +276,11 @@ function clearAllFieldErrors() {
     odsErrorMessage.textContent = "";
     odsErrorMessage.classList.remove("is-visible");
   }
+
+  const videoError = document.getElementById("video-error-message");
+
+    if (videoError) {
+      videoError.textContent = "";
+      videoError.classList.remove("is-visible");
+    }
 }
