@@ -364,6 +364,10 @@ const translations = {
         card6: {
           title: "Convocatoria N 001_2026 – Rondônia",
           text: "Convocatoria de selección referente al proceso realizado en Rondônia."
+        },
+        card7: {
+          title: "Convocatoria N 001_2026 – Rondônia",
+          text: "Convocatoria de selección referente al proceso realizado en Rondônia."
         }
       },
 
@@ -1736,6 +1740,10 @@ const translations = {
         },
         card6: {
           title: "Public Call N 001_2026 – Rondônia",
+          text: "Selection notice related to the process carried out in Rondônia."
+        },
+        card7: {
+          title: "Public Call N 002_2026 – Rondônia",
           text: "Selection notice related to the process carried out in Rondônia."
         }
       },
